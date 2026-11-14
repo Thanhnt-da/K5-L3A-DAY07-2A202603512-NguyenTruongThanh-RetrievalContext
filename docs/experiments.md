@@ -88,6 +88,14 @@ does not fit), then abstains; its one answer (t02) was given **without** both ev
 every answerable test question after one search and abstained on u03 (4 searches) and u04 (1 search) through the
 `abstain` tool. Whether the answers are correct and whether each citation supports its sentence is graded manually.
 
+## Code change after the test run (does not affect reported results)
+
+Offline tests (`tests/test_day7_agent.py`, added after the test run) found that the search limit was enforced only
+by removing the `search` tool from the model's options: if a model still called `search` after the limit, the code
+would have executed it. `src/agent.py` now also stops in code (`search_limit` event). No recorded run was affected:
+in every dev and test trace `searches <= max_searches`, because the real model was never offered `search` once the
+limit was reached. No benchmark run was repeated.
+
 ## Selection rule (fixed before the runs)
 
 1. **Hard constraint:** no system errors and unanswerable abstention 2/2 on dev; a config that answers an

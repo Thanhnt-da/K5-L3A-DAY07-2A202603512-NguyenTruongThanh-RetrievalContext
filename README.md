@@ -63,7 +63,7 @@ Cần: repo Day 6 với Docker database đã ingest ([LAB06](https://github.com/
    ```
 3. **Kiểm tra code và benchmark:**
    ```bash
-   python -m unittest discover -s tests -v
+   python -m unittest discover -s tests -v     # 31 offline tests: 15 starter + 16 for src/ (agent, context, evidence rules)
    python src/export_day6.py --strategies B Z
    python starter/convert_day6.py --chunks starter/data/day6/chunks_B.json --questions starter/data/day6/questions.json --output starter/data/converted_B
    python src/align_evidence.py --dir starter/data/converted_B

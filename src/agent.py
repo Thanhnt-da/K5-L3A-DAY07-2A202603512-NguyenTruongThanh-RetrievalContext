@@ -163,6 +163,9 @@ class Agent:
             left = self.cfg.max_searches - len(queries)
             action, args = self._decide(question, queries, context, left, usage)
             if action == "search":
+                if left <= 0:  # enforce the limit in code, not only by hiding the tool
+                    events.append({"event": "search_limit"})
+                    break
                 query = (args.get("query") or "").strip()
                 if not query:
                     raise ValueError("model produced an empty search query")
