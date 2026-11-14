@@ -1,0 +1,69 @@
+# Báo cáo Day 7
+
+- **Họ và tên:** Nguyễn Trường Thành
+- **MSSV:** 2A202603512
+- **Repo:** https://github.com/Thanhnt-da/K5-L3A-DAY07-2A202603512-NguyenTruongThanh-RetrievalContext
+
+> **Sử dụng AI:** Bài làm có sự hỗ trợ của Claude (Anthropic, Claude Code) để viết code, chạy thí nghiệm và soạn báo cáo. Tôi viết bộ câu hỏi mới (5 câu test có đáp án, 4 câu thiếu bằng chứng), chọn quyết định thiết kế và **tự chấm toàn bộ nhãn test** (câu trả lời, citation, abstention, context). 6 ô trống được điền 0 theo đúng quy tắc của rubric và 4 nhãn được tôi sửa sau khi xem xét lại; mọi thay đổi ghi trong cột `reason` của workbook chấm.
+
+## Dữ liệu và benchmark
+
+- **Nguồn, quyền sử dụng, số trang và số chunk:** *Introductory Sociology 3e* (OpenStax, qua LibreTexts, https://commons.libretexts.org/book/socialsci-164413), **CC BY 4.0**. Dùng lại corpus Day 6: chương 9–12, **85 trang nội dung** (trang PDF 269–410; quy tắc tính trang và trang bị loại trong manifest Day 6). Index Day 7 = chiến lược Day 6 **B**: **427 chunk** theo đoạn/heading (tối đa 1000 ký tự), mỗi chunk đúng **một trang**. Day 6 đã chọn Z (chunk nối qua trang), nhưng Day 7 yêu cầu evidence nằm trong một chunk của một trang để tính hit/citation; với Z, 13/46 chunk hai trang có khoảng trang rộng hơn văn bản và evidence của q18 nằm trong chunk gắn p341 nên không hợp lệ. Chunk được xuất trực tiếp từ bảng pgvector Day 6 (`src/export_day6.py`, không embed lại).
+- **Vector store, embedding model, phiên bản và số chiều:** PostgreSQL 16.16 + pgvector 0.8.7 (Docker, từ repo Day 6), bảng `chunks` (strategy `B`), cosine `<=>`, tìm kiếm **exact**. Embedding OpenAI `text-embedding-3-small`, **1536 chiều**, query và document mã hóa giống nhau; vector query được cache trong `embedding_cache` của Day 6 (Day 7 chỉ tạo thêm 1.031 token embedding mới cho các query).
+- **Agent model, cách chạy và phân chia dev/test:** `gpt-4.1-mini-2025-04-14` (OpenAI, SDK `openai 3.50.0`), temperature 0, tool calling (`search`, `answer`, `abstain`). Benchmark trong `benchmark/`: **dev** = 20 câu có đáp án (20 câu Day 6; q16–q20 là test Day 6 nên chuyển sang dev) + 2 câu thiếu bằng chứng (u01, u02); **test** = 5 câu **mới viết cho Day 7** (t01–t05) + 2 câu thiếu bằng chứng (u03, u04). Benchmark được commit (`d63d8aa`) trước mọi lần chạy Day 7; cấu hình được chốt và commit (`6883da3`) trước khi chạy test.
+- **Cách xác định câu có/thiếu evidence và tiêu chí chấm:** câu có đáp án ghi `gold` (nguồn, trang, evidence) và được `src/check_benchmark.py` kiểm tra: evidence phải là chuỗi con chính xác của một chunk đúng trang (chỉ sửa khác biệt khoảng trắng, có log - q05). **t02** có evidence nằm ở hai chunk liền nhau (p307 `para:000` + `para:001`), đánh dấu `evidence_rule: "all"`: chỉ tính hit/context khi có **cả hai** mảnh. Câu thiếu evidence ghi `absence_reason` và `absence_check_terms`; checker liệt kê mọi chunk chứa các từ đó (`benchmark/absence_check.json`) để tôi đọc và xác nhận không chunk nào trả lời được. Các câu này gần chủ đề và có đoạn "gây nhiễu" (vd u04: sách nói 41/500 công ty do nữ lãnh đạo nhưng không nêu tên; u02: có ngưỡng nghèo cho 1, 2, 4 người nhưng không có 6 người). Chấm: câu trả lời 0/1/2, citation đúng/sai, abstention đúng/sai, context 0/1/2 theo BENCHMARK.md.
+
+## Retrieval và thử nghiệm
+
+Hit dùng query gốc (câu hỏi), top-3, evidence phải nằm trong chunk đúng trang. Context Evidence Rate của retrieval = evidence nằm trong context sau khi đóng gói top-3 vào ngân sách ký tự (quy tắc `pack_context` của starter, tính cả header). Với agent, Context Evidence Rate = evidence nằm trong **context cuối** gửi cho model. Thời gian = trung vị mỗi câu; chi phí LLM theo giá giả định $0.40 / $1.60 cho 1M token vào/ra (cần đối chiếu bảng giá OpenAI).
+
+| Cấu hình | Phương pháp, top-k, filter, rerank, context budget | Giả thuyết / thay đổi | Split | Hit@1 | Evidence Hit@3 | Context Evidence Rate | Thời gian / chi phí |
+|---|---|---|---|---|---|---|---|
+| Baseline (R1 / A0) | dense pgvector, top-3, không filter, 800 ký tự, ≤4 lượt search | mặc định của starter | dev | 13/20 (65%) | 19/20 (95%) | retrieval 3/20 @800, 19/20 @2400; agent A0 **4/20** | 113 ms retrieval; agent 5,25 s, $0.0221 |
+| Phương pháp 2 (R3) | lexical: full-text PostgreSQL (stemming tiếng Anh, từ OR), top-3 | bắt từ khóa chính xác, có thể trượt câu diễn đạt lại | dev | 15/20 (75%) | 17/20 (85%) | 5/20 @800, 16/20 @2400 | 53 ms, $0 |
+| Phương pháp 3 (R4) | hybrid RRF dense + lexical, trọng số dense 0,5, 50 candidate mỗi bên | kết hợp ưu điểm hai cách | dev | 16/20 (80%) | 18/20 (90%) | 4/20 @800, 18/20 @2400 | 106 ms, $0 |
+| Cấu hình filter (R2) | dense + filter `chapter` do câu hỏi cung cấp | sửa lỗi lấy nhầm chương | dev | 15/20 (75%) | 19/20 (95%) | 4/20 @800, 19/20 @2400 | 60 ms, $0 |
+| Cải thiện 1 (A1) | A0 + context budget 800 → **2400** | evidence đến được model → bớt từ chối nhầm | dev | 13/20 | 19/20 | agent **18/20** | 2,51 s, $0.0161 |
+| Cải thiện 2 (A2) | A1 + filter `chapter` | sửa nhầm chương (q10, q20) | dev | 15/20 | 19/20 | agent 19/20 | 2,42 s, $0.0163 |
+| Thử thêm (A3) | A2 với hybrid RRF (dense 0,75) | tốt hơn với thuật ngữ chính xác | dev | - | - | agent 18/20 | 2,49 s, $0.0175 |
+| Thử thêm (A4) | A2 + quy tắc query lượt sau phải khác từ khóa | bớt lặp query | dev | 15/20 | 19/20 | agent 19/20 | 2,87 s, $0.0171 |
+| Cải thiện 3 (A5) | A2 + abstain nghiêm ngặt + citation inline bắt buộc | sửa 2 lỗi dev (xem dưới) | dev | 15/20 | 19/20 | agent 19/20 | 2,59 s, $0.0207 |
+| **Cấu hình đã chọn (A6)** | A5 + cờ bắt buộc `context_has_exact_item`; `false` → code ghi abstention | chặn câu trả lời "không nêu, tuy nhiên…" | dev | 15/20 | 19/20 | agent 19/20 | 2,65 s, $0.0227 |
+| Cấu hình đã chọn (A6) | như trên (retrieval = R2) | đánh giá độc lập | **test** | 4/5 (80%) | 5/5 (100%) | retrieval 5/5 @2400; agent **5/5** | 67 ms retrieval; 2,84 s, $0.0081 |
+| Baseline (A0) | như trên (retrieval = R1) | | **test** | 4/5 (80%) | 5/5 (100%) | retrieval 0/5 @800; agent **0/5** | 331 ms retrieval; 6,26 s, $0.0078 |
+
+Ba phương pháp khác nhau: **dense** (vector store Day 6), **lexical** (full-text), **hybrid** (RRF). Filter là một cấu hình của dense, không tính là phương pháp mới. Hit@1/Hit@3 của các cấu hình agent là của retrieval tương ứng với query gốc; A3 dùng hybrid trọng số 0,75 + filter nên không có số query gốc riêng (R4 là 0,5 không filter). Hai số Hit@3 dense trên dev đều 19/20: câu trượt duy nhất là **q08** (mọi phương pháp đều lấy đúng trang p306 nhưng sai đoạn). Tổng chi phí LLM của toàn bộ thí nghiệm ≈ **$0.153**.
+
+**Hai lỗi dev, nguyên nhân, cách thử và lý do chọn** (chi tiết trong `docs/experiments.md`, viết trước từng lần chạy):
+1. **Trả lời "nửa vời" thay vì từ chối (A1–A4, u01/u02).** Model viết "…không được nêu trong context. Tuy nhiên, …" rồi gọi `answer` với thông tin liên quan (Walmart/The Children's Place; ngưỡng nghèo 1, 2, 4 người). Nguyên nhân: prompt yêu cầu từ chối nhưng tool `answer` vẫn nhận câu trả lời rào đón. A5 thêm quy tắc abstain nghiêm ngặt → sửa u01 (1/2); A6 thêm cờ bắt buộc `context_has_exact_item`, `false` thì **code** ghi abstention → 2/2.
+2. **Thiếu citation inline → từ chối nhầm (A2: q01, q08, q09, q10, q17, q18).** Evidence có trong context, câu trả lời đúng nhưng ID chỉ nằm trong mảng `citations`, không có `[id]` trong văn bản, nên safeguard loại bỏ. A5 đưa định dạng citation vào cả prompt và mô tả tool → số lần bị loại 6 → 1 (q04), câu trả lời hợp lệ 14/20 → 19/20. **Không nới lỏng safeguard.**
+
+Ngoài ra: A0 lặp **cùng một query** 3–4 lần vì chunk đầu dài hơn 800 ký tự không vừa context nên context không bao giờ thay đổi. Hybrid (A3) và quy tắc query khác (A4) không cải thiện: với 2.400 ký tự agent gần như luôn dừng sau một lượt tìm. **Tiêu chí chọn (ghi trước khi chạy):** ràng buộc cứng không lỗi và từ chối đúng 2/2 câu thiếu evidence trên dev → Context Evidence Rate cao nhất → nhiều câu trả lời hợp lệ nhất → chi phí, thời gian thấp hơn. Chỉ A0 và A6 qua ràng buộc cứng; A6 hơn hẳn (19/20 so với 4/20) → **chọn A6**.
+
+## Agent và đánh giá
+
+- **Tool, số lượt gọi, điều kiện dừng, cách chọn context và xử lý lỗi:** tool `search(query)` (retrieval của cấu hình, top-3, kèm filter chương nếu người dùng cung cấp), `answer(answer, citations[, context_has_exact_item])`, `abstain(reason)`; model bắt buộc gọi đúng một tool mỗi lượt (`tool_choice=required`). Mỗi lượt model chỉ thấy câu hỏi, các query đã dùng và **context tích lũy đã đóng gói** (giữ thứ tự, bỏ trùng, bỏ chunk không vừa ngân sách) - không gửi lại toàn bộ lịch sử nên ngân sách thực sự giới hạn context. Dừng khi model gọi `answer`/`abstain` hoặc hết **4 lượt search** (khi đó tool `search` bị gỡ). Câu trả lời chỉ được chấp nhận nếu mọi citation nằm trong context cuối **và** xuất hiện inline `[id]`; nếu không → abstain (`invalid_or_missing_citations`). Lỗi model/vector store được ghi `status: error` và không thay bằng kết quả giả (0 lỗi trong mọi lần chạy). Nội dung tài liệu được prompt coi là dữ liệu, không phải chỉ dẫn. Gold không bao giờ được đưa vào agent.
+
+| Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
+|---|---|---|---|---|---|---|---|
+| A0 baseline / test | 7/7 | search: 3 lượt ×2 câu, 4 lượt ×5 câu | 4 / 1 / 0 — **0,20**/2 | 0/1 | 1/1 | 2/2 | 4/5 |
+| **A6 chọn / test** | 7/7 | search: 1 lượt ×6 câu, 4 lượt ×1 câu (u03) | 0 / 0 / 5 — **2,00**/2 | **7/7** | 5/5 | **2/2** | **0/5** |
+
+Context (chấm thủ công, 5 câu test có đáp án): A0 0/1/2 = 3/2/0 (TB 0,40); A6 = 0/0/5 (TB 2,00).
+
+| Query ID | Loại câu | Tool call và kết quả | Câu trả lời và citation | Nhãn, lý do |
+|---|---|---|---|---|
+| t04 (A6) | có đáp án | 1 search "sexual double standard premarital sex definition" → p394 `para:006` ở top-1 | "The sexual double standard was originally defined by Ira Reiss as prohibiting premarital sexual intercourse for women but allowing it for men… [openstax-sociology-3e:p0394:para:006]" | 2/2; citation hỗ trợ; context đủ |
+| u04 (A6) | thiếu evidence | 1 search "female chief executives among the world's 500 largest companies at the start of 2021" → p388 (41/500 công ty) | `abstain`: "…41 of the world's largest 500 companies were run by women, but it does not specify which specific corporations" | abstention đúng: không nêu tên công ty nào |
+| t01 (A0) | có đáp án (lỗi) | 4 search **cùng một query**; context 800 ký tự rỗng vì chunk đúng (dài) không vừa | từ chối | 0/2: từ chối câu có đáp án; context 0 |
+| t02 (A0) | 2 mảnh evidence (lỗi) | 4 search; context chỉ có `para:000` (định nghĩa capital flight) | giải thích cả capital flight lẫn deindustrialization, cite `para:000` | 1/2: phần deindustrialization không có trong context; citation không hỗ trợ đủ |
+
+- **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:** retrieval `starter/results/retrieval/{dev,test}_*`; agent `starter/results/agent/{dev,test}_<config>_{traces,summary}.json` (mọi tool call, tham số, kết quả, context sau từng lượt, context cuối, câu trả lời, citation, token, thời gian); nhãn `starter/results/grading/grading_test.xlsx`, `<config>/{cases,traces,reviews}.json`, tổng hợp bằng `starter/agent_metrics.py` → `grading_summary.json`; thí nghiệm, giả thuyết và quyết định `docs/experiments.md`. Lệnh chạy trong `README.md`. Chi phí LLM: dev 7 cấu hình ≈ $0.137 (+ $0.005 thử nghiệm nhanh), test $0.0159; embedding mới 1.031 token (≈ $0.00002).
+- **Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn:**
+  - Trước/sau trên test: A0 → A6 Context Evidence Rate 0/5 → 5/5, câu trả lời 0,20 → 2,00/2, từ chối nhầm 4/5 → 0/5, abstention giữ 2/2, nhanh hơn ~2 lần (6,26 s → 2,84 s) với chi phí gần bằng ($0.0078 → $0.0081). Yếu tố quyết định là **ngân sách context**, không phải phương pháp retrieval: dense đã có evidence trong top-3 ở 19/20 câu dev, nhưng 800 ký tự chỉ chứa được ~1 chunk.
+  - Đánh đổi: ngân sách 2.400 ký tự tốn ~2.000 ký tự context mỗi lượt; luật abstain nghiêm ngặt có thể làm tăng từ chối nhầm (dev: 1/20, q04 do citation inline sai); filter phụ thuộc người dùng cung cấp chương.
+  - Giới hạn: test rất nhỏ (5 + 2 câu), không đủ để khẳng định A6 tốt tổng quát; A5/A6 được thiết kế sau khi đọc lỗi dev và chỉ có 2 câu thiếu evidence trên dev - u03/u04 trên test là kiểm tra độc lập duy nhất của bản sửa abstention. Người chấm là tác giả hệ thống (nguy cơ thiên lệch); 4 nhãn đã được sửa sau khi xem lại mâu thuẫn giữa các nhãn. t02 cần hai chunk; starter `baseline.py` coi các `gold` là lựa chọn thay thế nên không dùng cho t02. Một chương (chương 12) chỉ có 1 câu dev ở Day 6; test Day 7 trải đều hơn. Giá token là giả định.
+
+## Thử thách nâng cao (nếu thực hiện)
+
+Không thực hiện.

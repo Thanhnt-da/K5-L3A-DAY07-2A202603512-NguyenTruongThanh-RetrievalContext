@@ -1,0 +1,3182 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "answerable": true,
+  "question": "How likely are students whose parents never went to college to drop out or not finish their bachelor's degree?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college drop out or not finish bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.5978871522959596,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.36233073281699646,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.3563311939978162,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college likelihood to drop out or not finish bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.6275943467108274,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.39044150983162995,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.3902796236560291,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college likelihood to drop out or not finish bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.6275943467108274,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.39044150983162995,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.3902796236560291,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college likelihood to drop out or not finish bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.6275943467108274,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.39044150983162995,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.3902796236560291,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about the likelihood of students whose parents never went to college dropping out or not finishing their bachelor's degree."
+   }
+  ],
+  "queries": [
+   "students whose parents never went to college drop out or not finish bachelor's degree",
+   "students whose parents never went to college likelihood to drop out or not finish bachelor's degree",
+   "students whose parents never went to college likelihood to drop out or not finish bachelor's degree",
+   "students whose parents never went to college likelihood to drop out or not finish bachelor's degree"
+  ],
+  "final_context": "[openstax-sociology-3e:p0282:para:003 | data/Introductory Sociology 3e.pdf | page 282]\nSystemic barriers like unequal education, discrimination, and lack of opportunity can slow or diminish one's ability to move up. Still, people who earn a college degree, get a job promotion, or marry someone with a good income may move up socially.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0282:para:003"
+  ],
+  "final_context_chars": 335,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2403,
+  "output_tokens": 151,
+  "llm_cost_usd": 0.001203,
+  "elapsed_s": 7.11,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "answerable": true,
+  "question": "In medieval Britain's nobility, who inherited a family's estate, and what was the rule if there were no sons in the family?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "medieval Britain nobility inheritance estate sons",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0276:para:003",
+      "rank": 1,
+      "score": 0.6015056968966113,
+      "page": 276
+     },
+     {
+      "id": "openstax-sociology-3e:p0276:para:004",
+      "rank": 2,
+      "score": 0.45333792561732833,
+      "page": 276
+     },
+     {
+      "id": "openstax-sociology-3e:p0276:para:002",
+      "rank": 3,
+      "score": 0.3286470530242227,
+      "page": 276
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0276:para:003"
+    ],
+    "context_chars": 614
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "model_answer": "In medieval Britain's nobility, the family's estate was inherited by the firstborn son according to the law of primogeniture. If there were no sons in the family, the estate went to the next closest male relation. Women could not inherit property, and their social standing was determined through marriage.",
+    "model_citations": [
+     "openstax-sociology-3e:p0276:para:003"
+    ]
+   }
+  ],
+  "queries": [
+   "medieval Britain nobility inheritance estate sons"
+  ],
+  "final_context": "[openstax-sociology-3e:p0276:para:003 | data/Introductory Sociology 3e.pdf | page 276]\nBritain’s monarchy arose during the Middle Ages. Its social hierarchy placed royalty at the top and commoners on the bottom. This was generally a closed system, with people born into positions of nobility. Wealth was passed from generation to generation through primogeniture, a law stating that all property would be inherited by the firstborn son. If the family had no son, the land went to the next closest male relation. Women could not inherit property, and their social standing was primarily determined through marriage.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0276:para:003"
+  ],
+  "final_context_chars": 614,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 935,
+  "output_tokens": 111,
+  "llm_cost_usd": 0.000552,
+  "elapsed_s": 2.86,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "answerable": true,
+  "question": "How are the lower, middle, and upper classes defined by household income in the United States?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "lower middle upper class household income United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0278:para:002",
+      "rank": 1,
+      "score": 0.6245755394773514,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0278:para:003",
+      "rank": 2,
+      "score": 0.592901461321312,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:001",
+      "rank": 3,
+      "score": 0.5789036776442193,
+      "page": 283
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "lower middle upper class household income United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0278:para:002",
+      "rank": 1,
+      "score": 0.6245755394773514,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0278:para:003",
+      "rank": 2,
+      "score": 0.592901461321312,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:001",
+      "rank": 3,
+      "score": 0.5789036776442193,
+      "page": 283
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "lower middle upper class household income United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0278:para:002",
+      "rank": 1,
+      "score": 0.6245755394773514,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0278:para:003",
+      "rank": 2,
+      "score": 0.592901461321312,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:001",
+      "rank": 3,
+      "score": 0.5789036776442193,
+      "page": 283
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "lower middle upper class household income United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0278:para:002",
+      "rank": 1,
+      "score": 0.6245755394773514,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0278:para:003",
+      "rank": 2,
+      "score": 0.592901461321312,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:001",
+      "rank": 3,
+      "score": 0.5789036776442193,
+      "page": 283
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "abstain",
+    "reason": "The textbook passages do not contain information on how the lower, middle, and upper classes are defined by household income in the United States."
+   }
+  ],
+  "queries": [
+   "lower middle upper class household income United States",
+   "lower middle upper class household income United States",
+   "lower middle upper class household income United States",
+   "lower middle upper class household income United States"
+  ],
+  "final_context": "",
+  "final_context_ids": [],
+  "final_context_chars": 0,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2022,
+  "output_tokens": 121,
+  "llm_cost_usd": 0.001002,
+  "elapsed_s": 5.31,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "answerable": true,
+  "question": "Who qualifies for cash assistance under the TANF program, and how long can a family receive those benefits?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "TANF program cash assistance eligibility and duration",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:005",
+      "rank": 1,
+      "score": 0.6741725472108707,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:006",
+      "rank": 2,
+      "score": 0.41378374652262795,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0313:para:000",
+      "rank": 3,
+      "score": 0.2529001771891918,
+      "page": 313
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:006"
+    ],
+    "context_chars": 736
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "TANF program eligibility and duration",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:005",
+      "rank": 1,
+      "score": 0.6071575691620578,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:006",
+      "rank": 2,
+      "score": 0.3709559637163369,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0347:para:002",
+      "rank": 3,
+      "score": 0.2505808400022628,
+      "page": 347
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:006"
+    ],
+    "context_chars": 736
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "TANF program eligibility and duration",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:005",
+      "rank": 1,
+      "score": 0.6071575691620578,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:006",
+      "rank": 2,
+      "score": 0.3709559637163369,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0347:para:002",
+      "rank": 3,
+      "score": 0.2505808400022628,
+      "page": 347
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:006"
+    ],
+    "context_chars": 736
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "TANF program eligibility and duration",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:005",
+      "rank": 1,
+      "score": 0.6071575691620578,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:006",
+      "rank": 2,
+      "score": 0.3709559637163369,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0347:para:002",
+      "rank": 3,
+      "score": 0.2505808400022628,
+      "page": 347
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:006"
+    ],
+    "context_chars": 736
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about who qualifies for cash assistance under the TANF program or the duration for which a family can receive those benefits."
+   }
+  ],
+  "queries": [
+   "TANF program cash assistance eligibility and duration",
+   "TANF program eligibility and duration",
+   "TANF program eligibility and duration",
+   "TANF program eligibility and duration"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:006 | data/Introductory Sociology 3e.pdf | page 283]\nOne of the best-known programs is the Supplemental Nutrition Assistance Program (SNAP), administered by the United States Department of Agriculture and formerly known as the Food Stamp Program. This program began in the Great Depression, when unmarketable or surplus food was distributed to the hungry. It was not formalized until 1961, when President John F. Kennedy initiated a food stamp pilot program. His successor Lyndon B. Johnson was instrumental in the passage of the Food Stamp Act in 1964. In 1965, more than 500,000 individuals received food assistance. During the height of the pandemic in 2020, participation reached 43 million people.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:006"
+  ],
+  "final_context_chars": 736,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2670,
+  "output_tokens": 122,
+  "llm_cost_usd": 0.001263,
+  "elapsed_s": 5.85,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 9) How does symbolic interactionism explain the way social status affects people's everyday interactions?",
+  "filter_given": {
+   "chapter": 9
+  },
+  "status": "answered",
+  "answer": "Symbolic interactionism explains that social status affects people's everyday interactions through visible class traits such as housing, clothing, transportation, hairstyles, accessories, and personal style, which reflect their perceived social standing. Individuals interpret themselves and others based on these class traits, influencing their interactions accordingly [openstax-sociology-3e:p0288:para:004].",
+  "citations": [
+   "openstax-sociology-3e:p0288:para:004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "symbolic interactionism social status everyday interactions",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:003",
+      "rank": 1,
+      "score": 0.7094512173079716,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:004",
+      "rank": 2,
+      "score": 0.7006167699753724,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0335:para:005",
+      "rank": 3,
+      "score": 0.5742956540265225,
+      "page": 335
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:004"
+    ],
+    "context_chars": 498
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "symbolic interactionism social status everyday interactions",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:003",
+      "rank": 1,
+      "score": 0.7094512173079716,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:004",
+      "rank": 2,
+      "score": 0.7006167699753724,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0335:para:005",
+      "rank": 3,
+      "score": 0.5742956540265225,
+      "page": 335
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:004"
+    ],
+    "context_chars": 498
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "symbolic interactionism social status everyday interactions explanation",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:003",
+      "rank": 1,
+      "score": 0.7060111703571798,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:004",
+      "rank": 2,
+      "score": 0.6911667990661721,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0335:para:005",
+      "rank": 3,
+      "score": 0.5805780736480479,
+      "page": 335
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:004"
+    ],
+    "context_chars": 498
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "symbolic interactionism social status everyday interactions explanation",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:003",
+      "rank": 1,
+      "score": 0.7060111703571798,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:004",
+      "rank": 2,
+      "score": 0.6911667990661721,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0335:para:005",
+      "rank": 3,
+      "score": 0.5805780736480479,
+      "page": 335
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:004"
+    ],
+    "context_chars": 498
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "symbolic interactionism social status everyday interactions",
+   "symbolic interactionism social status everyday interactions",
+   "symbolic interactionism social status everyday interactions explanation",
+   "symbolic interactionism social status everyday interactions explanation"
+  ],
+  "final_context": "[openstax-sociology-3e:p0288:para:004 | data/Introductory Sociology 3e.pdf | page 288]\nSymbolic interactionists also note that people’s appearance reflects their perceived social standing. As discussed above, class traits seen through housing, clothing, and transportation indicate social status, as do hairstyles, taste in accessories, and personal style. Symbolic interactionists also analyze how individuals think of themselves or others interpretation of themselves based on these class traits.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0288:para:004"
+  ],
+  "final_context_chars": 498,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2420,
+  "output_tokens": 187,
+  "llm_cost_usd": 0.001267,
+  "elapsed_s": 5.55,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "answerable": true,
+  "question": "What were the working hours and wages of the garment workers at the Rana Plaza factory in Bangladesh?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "working hours and wages of garment workers at Rana Plaza factory Bangladesh",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:002",
+      "rank": 1,
+      "score": 0.6349205464228227,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 2,
+      "score": 0.5639223230667274,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 3,
+      "score": 0.5597961638350952,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "working hours of garment workers Rana Plaza Bangladesh",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:002",
+      "rank": 1,
+      "score": 0.582364256300107,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.5803344268438729,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 3,
+      "score": 0.5553698634338858,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "working hours and wages of garment workers Rana Plaza factory Bangladesh",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:002",
+      "rank": 1,
+      "score": 0.6413111825222807,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.5780639045766514,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 3,
+      "score": 0.5712403992115974,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "working hours and wages of garment workers Rana Plaza Bangladesh",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:002",
+      "rank": 1,
+      "score": 0.6325677331155454,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.569379345932497,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 3,
+      "score": 0.5653537920096758,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about the working hours and wages of the garment workers at the Rana Plaza factory in Bangladesh."
+   }
+  ],
+  "queries": [
+   "working hours and wages of garment workers at Rana Plaza factory Bangladesh",
+   "working hours of garment workers Rana Plaza Bangladesh",
+   "working hours and wages of garment workers Rana Plaza factory Bangladesh",
+   "working hours and wages of garment workers Rana Plaza Bangladesh"
+  ],
+  "final_context": "[openstax-sociology-3e:p0302:para:001 | data/Introductory Sociology 3e.pdf | page 302]\nChapter Outline\n\n10.1 Global Stratification and Classification 10.2 Global Wealth and Poverty 10.3 Theoretical Perspectives on Global Stratification\n\nThe April 24, 2013 collapse of the Rana Plaza in Dhaka, Bangladesh that killed over 1,100 people, was the deadliest garment factory accident in history, and it was preventable (International Labour Organization, Department of Communication 2014).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0302:para:001"
+  ],
+  "final_context_chars": 483,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2494,
+  "output_tokens": 128,
+  "llm_cost_usd": 0.001202,
+  "elapsed_s": 6.53,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "answerable": true,
+  "question": "When measuring national inequality with the Gini coefficient, what do the extreme scores of 0 and 1 represent?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Gini coefficient extreme scores 0 and 1",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0303:para:003",
+      "rank": 1,
+      "score": 0.5921170020925992,
+      "page": 303
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 2,
+      "score": 0.36740336279352004,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0303:para:001",
+      "rank": 3,
+      "score": 0.3656685412198769,
+      "page": 303
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 330
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Gini coefficient extreme scores 0 and 1",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0303:para:003",
+      "rank": 1,
+      "score": 0.5921170020925992,
+      "page": 303
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 2,
+      "score": 0.36740336279352004,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0303:para:001",
+      "rank": 3,
+      "score": 0.3656685412198769,
+      "page": 303
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 330
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Gini coefficient extreme scores 0 and 1",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0303:para:003",
+      "rank": 1,
+      "score": 0.5921170020925992,
+      "page": 303
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 2,
+      "score": 0.36740336279352004,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0303:para:001",
+      "rank": 3,
+      "score": 0.3656685412198769,
+      "page": 303
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 330
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Gini coefficient extreme scores 0 and 1",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0303:para:003",
+      "rank": 1,
+      "score": 0.5921170020925992,
+      "page": 303
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 2,
+      "score": 0.36740336279352004,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0303:para:001",
+      "rank": 3,
+      "score": 0.3656685412198769,
+      "page": 303
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 330
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about the Gini coefficient or what the extreme scores of 0 and 1 represent."
+   }
+  ],
+  "queries": [
+   "Gini coefficient extreme scores 0 and 1",
+   "Gini coefficient extreme scores 0 and 1",
+   "Gini coefficient extreme scores 0 and 1",
+   "Gini coefficient extreme scores 0 and 1"
+  ],
+  "final_context": "[openstax-sociology-3e:p0304:para:006 | data/Introductory Sociology 3e.pdf | page 304]\nTable 10.1: The differences among countries is clear when considering their extreme poverty rates. For the most part, the selected countries show disparities even within countries from the same regions. All data is from 2018. (World Bank 2020)",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0304:para:006"
+  ],
+  "final_context_chars": 330,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2378,
+  "output_tokens": 127,
+  "llm_cost_usd": 0.001154,
+  "elapsed_s": 5.29,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "answerable": true,
+  "question": "In the world systems model of global inequality, how do middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with dominant and poorest countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.6004052762726578,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5958296452905671,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:003",
+      "rank": 3,
+      "score": 0.5648386546953764,
+      "page": 317
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with dominant countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:001",
+      "rank": 1,
+      "score": 0.5912087890366754,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 2,
+      "score": 0.5880817053020196,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 3,
+      "score": 0.5764742419243678,
+      "page": 317
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with poorest countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.5825148603918722,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5766866237881173,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0285:para:000",
+      "rank": 3,
+      "score": 0.5537681665262775,
+      "page": 285
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about how middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries in the world systems model."
+   }
+  ],
+  "queries": [
+   "world systems model middle-tier nations economic interaction with dominant and poorest countries",
+   "world systems model middle-tier nations economic interaction with dominant countries",
+   "world systems model middle-tier nations economic interaction with poorest countries"
+  ],
+  "final_context": "[openstax-sociology-3e:p0306:para:000 | data/Introductory Sociology 3e.pdf | page 306]\nImmanuel Wallerstein: World Systems Approach\n\nImmanuel Wallerstein’s (1979) world systems approach uses an economic basis to understand global inequality. Wallerstein conceived of the global economy as a complex system that supports an economic hierarchy that placed some nations in positions of power with numerous resources and other nations in a state of economic subordination. Those that were in a state of subordination faced significant obstacles to mobilization.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0306:para:000"
+  ],
+  "final_context_chars": 557,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 2027,
+  "output_tokens": 116,
+  "llm_cost_usd": 0.000996,
+  "elapsed_s": 4.29,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does the World Bank separate middle-income countries into lower-middle and upper-middle categories?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The World Bank separates middle-income countries into lower-middle and upper-middle categories based on their GNI per capita. Lower middle income countries have a GNI per capita of more than $1,036 but less than $4,045, while upper middle income countries have a GNI per capita between $4,046 and $12,535 [openstax-sociology-3e:p0308:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0308:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "World Bank middle-income countries lower-middle upper-middle categories",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0308:para:001",
+      "rank": 1,
+      "score": 0.7195160111998511,
+      "page": 308
+     },
+     {
+      "id": "openstax-sociology-3e:p0306:para:004",
+      "rank": 2,
+      "score": 0.6537790385608468,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0308:para:003",
+      "rank": 3,
+      "score": 0.555631748565375,
+      "page": 308
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0308:para:001"
+    ],
+    "context_chars": 608
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "World Bank middle-income countries lower-middle upper-middle categories"
+  ],
+  "final_context": "[openstax-sociology-3e:p0308:para:001 | data/Introductory Sociology 3e.pdf | page 308]\nMiddle-Income Nations\n\nThe World Bank divides middle-income economies into two categories. Lower middle income areas are those with a GNI per capita of more than $1,036 but less than $4,045. Upper middle income areas are those with A GNI per capita between $4,046 and $12,535. Democratic Republic of Congo, Tunisia, Philippines, El Salvador, and Nepal are are examples of lower-middle-income countries. And Argentina, Mexico, China, Iran, Turkey, and Namibia are examples of upper-middle-income nations (World Bank 2021).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0308:para:001"
+  ],
+  "final_context_chars": 608,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 934,
+  "output_tokens": 141,
+  "llm_cost_usd": 0.000599,
+  "elapsed_s": 2.75,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 10) How is relative poverty defined?",
+  "filter_given": {
+   "chapter": 10
+  },
+  "status": "answered",
+  "answer": "Relative poverty is defined as an economic condition in which a family or individuals have 50% income less than the average median income, sometimes called the poverty level or the poverty line [openstax-sociology-3e:p0283:para:004].",
+  "citations": [
+   "openstax-sociology-3e:p0283:para:004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "relative poverty definition",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.6418721978186508,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:001",
+      "rank": 2,
+      "score": 0.6068713507303952,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0310:para:002",
+      "rank": 3,
+      "score": 0.6053463285353983,
+      "page": 310
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "relative poverty definition"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:004 | data/Introductory Sociology 3e.pdf | page 283]\nIn the United States, poverty is most often referred to as a relative rather than absolute measurement. Absolute poverty is an economic condition in which a family or individual cannot afford basic necessities, such as food and shelter, so that day-to-day survival is in jeopardy. Relative poverty is an economic condition in which a family or individuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:004"
+  ],
+  "final_context_chars": 731,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 943,
+  "output_tokens": 101,
+  "llm_cost_usd": 0.000539,
+  "elapsed_s": 2.2,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "answerable": true,
+  "question": "What are the five characteristics that distinguish a minority group in sociology?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "five characteristics that distinguish a minority group in sociology",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0333:para:006",
+      "rank": 1,
+      "score": 0.6661112862514977,
+      "page": 333
+     },
+     {
+      "id": "openstax-sociology-3e:p0332:para:001",
+      "rank": 2,
+      "score": 0.6307746733532379,
+      "page": 332
+     },
+     {
+      "id": "openstax-sociology-3e:p0333:para:005",
+      "rank": 3,
+      "score": 0.6094034504709905,
+      "page": 333
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "five characteristics that distinguish a minority group in sociology",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0333:para:006",
+      "rank": 1,
+      "score": 0.6661112862514977,
+      "page": 333
+     },
+     {
+      "id": "openstax-sociology-3e:p0332:para:001",
+      "rank": 2,
+      "score": 0.6307746733532379,
+      "page": 332
+     },
+     {
+      "id": "openstax-sociology-3e:p0333:para:005",
+      "rank": 3,
+      "score": 0.6094034504709905,
+      "page": 333
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "five characteristics that distinguish a minority group in sociology",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0333:para:006",
+      "rank": 1,
+      "score": 0.6661112862514977,
+      "page": 333
+     },
+     {
+      "id": "openstax-sociology-3e:p0332:para:001",
+      "rank": 2,
+      "score": 0.6307746733532379,
+      "page": 332
+     },
+     {
+      "id": "openstax-sociology-3e:p0333:para:005",
+      "rank": 3,
+      "score": 0.6094034504709905,
+      "page": 333
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "five characteristics that distinguish a minority group in sociology",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0333:para:006",
+      "rank": 1,
+      "score": 0.6661112862514977,
+      "page": 333
+     },
+     {
+      "id": "openstax-sociology-3e:p0332:para:001",
+      "rank": 2,
+      "score": 0.6307746733532379,
+      "page": 332
+     },
+     {
+      "id": "openstax-sociology-3e:p0333:para:005",
+      "rank": 3,
+      "score": 0.6094034504709905,
+      "page": 333
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain any information about the five characteristics that distinguish a minority group in sociology."
+   }
+  ],
+  "queries": [
+   "five characteristics that distinguish a minority group in sociology",
+   "five characteristics that distinguish a minority group in sociology",
+   "five characteristics that distinguish a minority group in sociology",
+   "five characteristics that distinguish a minority group in sociology"
+  ],
+  "final_context": "",
+  "final_context_ids": [],
+  "final_context_chars": 0,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2002,
+  "output_tokens": 118,
+  "llm_cost_usd": 0.00099,
+  "elapsed_s": 5.21,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "answerable": true,
+  "question": "Why do people in a dominant racial group often hesitate to admit that they receive unearned advantages from their race?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "dominant racial group hesitation to admit unearned advantages",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0339:para:003",
+      "rank": 1,
+      "score": 0.5900785789743479,
+      "page": 339
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:004",
+      "rank": 2,
+      "score": 0.5166548539689356,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:007",
+      "rank": 3,
+      "score": 0.5010794900141934,
+      "page": 340
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "dominant racial group hesitation to admit unearned advantages",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0339:para:003",
+      "rank": 1,
+      "score": 0.5900785789743479,
+      "page": 339
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:004",
+      "rank": 2,
+      "score": 0.5166548539689356,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:007",
+      "rank": 3,
+      "score": 0.5010794900141934,
+      "page": 340
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "dominant racial group hesitation to admit unearned advantages",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0339:para:003",
+      "rank": 1,
+      "score": 0.5900785789743479,
+      "page": 339
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:004",
+      "rank": 2,
+      "score": 0.5166548539689356,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:007",
+      "rank": 3,
+      "score": 0.5010794900141934,
+      "page": 340
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "dominant racial group hesitation to admit unearned advantages",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0339:para:003",
+      "rank": 1,
+      "score": 0.5900785789743479,
+      "page": 339
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:004",
+      "rank": 2,
+      "score": 0.5166548539689356,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:007",
+      "rank": 3,
+      "score": 0.5010794900141934,
+      "page": 340
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain any information about why people in a dominant racial group often hesitate to admit that they receive unearned advantages from their race."
+   }
+  ],
+  "queries": [
+   "dominant racial group hesitation to admit unearned advantages",
+   "dominant racial group hesitation to admit unearned advantages",
+   "dominant racial group hesitation to admit unearned advantages",
+   "dominant racial group hesitation to admit unearned advantages"
+  ],
+  "final_context": "",
+  "final_context_ids": [],
+  "final_context_chars": 0,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2057,
+  "output_tokens": 132,
+  "llm_cost_usd": 0.001034,
+  "elapsed_s": 5.45,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "answerable": true,
+  "question": "How do researchers evaluate how much an immigrant group has integrated into a host society's culture?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Researchers evaluate how much an immigrant group has integrated into a host society's culture by measuring four benchmarks: socioeconomic status, spatial concentration, language assimilation, and intermarriage. These benchmarks help assess the degree of assimilation, with language assimilation being particularly significant as it affects employment and educational opportunities [openstax-sociology-3e:p0344:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0344:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "how researchers evaluate immigrant group integration into host society culture",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0344:para:001",
+      "rank": 1,
+      "score": 0.5671493828314659,
+      "page": 344
+     },
+     {
+      "id": "openstax-sociology-3e:p0354:para:004",
+      "rank": 2,
+      "score": 0.4758887940965426,
+      "page": 354
+     },
+     {
+      "id": "openstax-sociology-3e:p0343:para:002",
+      "rank": 3,
+      "score": 0.44049730506573015,
+      "page": 343
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0344:para:001"
+    ],
+    "context_chars": 779
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "how researchers evaluate immigrant group integration into host society culture"
+  ],
+  "final_context": "[openstax-sociology-3e:p0344:para:001 | data/Introductory Sociology 3e.pdf | page 344]\nAssimilation is antithetical to the “salad bowl” created by pluralism; rather than maintaining their own cultural flavor, subordinate cultures give up their own traditions in order to conform to their new environment. Sociologists measure the degree to which immigrants have assimilated to a new culture with four benchmarks: socioeconomic status, spatial concentration, language assimilation, and intermarriage. When faced with racial and ethnic discrimination, it can be difficult for new immigrants to fully assimilate. Language assimilation, in particular, can be a formidable barrier, limiting employment and educational options and therefore constraining growth in socioeconomic status.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0344:para:001"
+  ],
+  "final_context_chars": 779,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 941,
+  "output_tokens": 129,
+  "llm_cost_usd": 0.000583,
+  "elapsed_s": 2.74,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "answerable": true,
+  "question": "When Cuban migrants attempt to reach the United States by boat, what determines whether the U.S. government sends them back to Cuba or allows them to stay?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Cuban migrants boat United States government policy",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0356:para:007",
+      "rank": 1,
+      "score": 0.7161093104291499,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0356:para:004",
+      "rank": 2,
+      "score": 0.574164846539576,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0357:para:001",
+      "rank": 3,
+      "score": 0.5325995196030823,
+      "page": 357
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0356:para:004"
+    ],
+    "context_chars": 592
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Cuban migrants boat United States government policy return or stay",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0356:para:007",
+      "rank": 1,
+      "score": 0.6973279606339013,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0356:para:004",
+      "rank": 2,
+      "score": 0.5366574747231176,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0357:para:001",
+      "rank": 3,
+      "score": 0.49851659511988455,
+      "page": 357
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0356:para:004"
+    ],
+    "context_chars": 592
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Cuban migrants boat United States government policy return or stay",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0356:para:007",
+      "rank": 1,
+      "score": 0.6973279606339013,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0356:para:004",
+      "rank": 2,
+      "score": 0.5366574747231176,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0357:para:001",
+      "rank": 3,
+      "score": 0.49851659511988455,
+      "page": 357
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0356:para:004"
+    ],
+    "context_chars": 592
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about the U.S. government policy on whether Cuban migrants arriving by boat are sent back to Cuba or allowed to stay."
+   }
+  ],
+  "queries": [
+   "Cuban migrants boat United States government policy",
+   "Cuban migrants boat United States government policy return or stay",
+   "Cuban migrants boat United States government policy return or stay"
+  ],
+  "final_context": "[openstax-sociology-3e:p0356:para:004 | data/Introductory Sociology 3e.pdf | page 356]\nCuban Americans are the second-largest Hispanic subgroup, and their history is quite different from that of Mexican Americans. The main wave of Cuban immigration to the United States started after Fidel Castro came to power in 1959 and reached its crest with the Mariel boatlift in 1980. Castro’s Cuban Revolution ushered in an era of communism that continues to this day. To avoid having their assets seized by the government, many wealthy and educated Cubans migrated north, generally to the Miami area.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0356:para:004"
+  ],
+  "final_context_chars": 592,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 2066,
+  "output_tokens": 111,
+  "llm_cost_usd": 0.001004,
+  "elapsed_s": 4.74,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does Samoan culture recognize and describe a third gender?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Samoan culture third gender",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0375:para:003",
+      "rank": 1,
+      "score": 0.598507205633128,
+      "page": 375
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:003",
+      "rank": 2,
+      "score": 0.4189142666204819,
+      "page": 391
+     },
+     {
+      "id": "openstax-sociology-3e:p0379:para:001",
+      "rank": 3,
+      "score": 0.3747459505009958,
+      "page": 379
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0391:para:003"
+    ],
+    "context_chars": 530
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Samoan culture third gender",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0375:para:003",
+      "rank": 1,
+      "score": 0.598507205633128,
+      "page": 375
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:003",
+      "rank": 2,
+      "score": 0.4189142666204819,
+      "page": 391
+     },
+     {
+      "id": "openstax-sociology-3e:p0379:para:001",
+      "rank": 3,
+      "score": 0.3747459505009958,
+      "page": 379
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0391:para:003"
+    ],
+    "context_chars": 530
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Samoan culture third gender",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0375:para:003",
+      "rank": 1,
+      "score": 0.598507205633128,
+      "page": 375
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:003",
+      "rank": 2,
+      "score": 0.4189142666204819,
+      "page": 391
+     },
+     {
+      "id": "openstax-sociology-3e:p0379:para:001",
+      "rank": 3,
+      "score": 0.3747459505009958,
+      "page": 379
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0391:para:003"
+    ],
+    "context_chars": 530
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about how Samoan culture recognizes and describes a third gender."
+   }
+  ],
+  "queries": [
+   "Samoan culture third gender",
+   "Samoan culture third gender",
+   "Samoan culture third gender"
+  ],
+  "final_context": "[openstax-sociology-3e:p0391:para:003 | data/Introductory Sociology 3e.pdf | page 391]\nSanday’s study of the Indonesian Minangkabau (2004) revealed that in societies some consider to be matriarchies (where women comprise the dominant group), women and men tend to work cooperatively rather than competitively regardless of whether a job is considered feminine by U.S. standards. The men, however, do not experience the sense of bifurcated consciousness under this social structure that modern U.S. females encounter (Sanday 2004).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0391:para:003"
+  ],
+  "final_context_chars": 530,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 1951,
+  "output_tokens": 87,
+  "llm_cost_usd": 0.00092,
+  "elapsed_s": 4.86,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q16",
+  "split": "dev",
+  "answerable": true,
+  "question": "What does the Davis-Moore thesis argue about why some jobs and social roles receive much higher rewards than others?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Davis-Moore thesis rewards social roles",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0287:para:004",
+      "rank": 1,
+      "score": 0.5659950313958793,
+      "page": 287
+     },
+     {
+      "id": "openstax-sociology-3e:p0287:para:002",
+      "rank": 2,
+      "score": 0.5252446319790813,
+      "page": 287
+     },
+     {
+      "id": "openstax-sociology-3e:p0378:para:005",
+      "rank": 3,
+      "score": 0.4606340653033716,
+      "page": 378
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0287:para:002"
+    ],
+    "context_chars": 792
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "model_answer": "The Davis-Moore thesis argues that the greater the functional importance of a social role, the greater must be the reward. It posits that social stratification reflects the inherently unequal value of different work, with more valuable tasks receiving higher rewards, such as doctors or lawyers being rewarded more than others.",
+    "model_citations": [
+     "openstax-sociology-3e:p0287:para:002"
+    ]
+   }
+  ],
+  "queries": [
+   "Davis-Moore thesis rewards social roles"
+  ],
+  "final_context": "[openstax-sociology-3e:p0287:para:002 | data/Introductory Sociology 3e.pdf | page 287]\nFunctionalism\n\nIn sociology, the functionalist perspective examines how society’s parts operate. According to functionalism, different aspects of society exist because they serve a vital purpose. What is the function of social stratification?\n\nIn 1945, sociologists Kingsley Davis and Wilbert Moore published the Davis-Moore thesis, which argued that the greater the functional importance of a social role, the greater must be the reward. The theory posits that social stratification represents the inherently unequal value of different work. Certain tasks in society are more valuable than others (for example, doctors or lawyers). Qualified people who fill those positions are rewarded more than others.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0287:para:002"
+  ],
+  "final_context_chars": 792,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 960,
+  "output_tokens": 113,
+  "llm_cost_usd": 0.000565,
+  "elapsed_s": 2.63,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q17",
+  "split": "dev",
+  "answerable": true,
+  "question": "How large a share of non-farming jobs in Latin America, Asia, and Africa consists of untaxed, unregulated work outside government oversight?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0311:para:002",
+      "rank": 1,
+      "score": 0.6376607626745747,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0312:para:001",
+      "rank": 2,
+      "score": 0.5376695717708962,
+      "page": 312
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:003",
+      "rank": 3,
+      "score": 0.4940260752819544,
+      "page": 311
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0311:para:002",
+      "rank": 1,
+      "score": 0.6376607626745747,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0312:para:001",
+      "rank": 2,
+      "score": 0.5376695717708962,
+      "page": 312
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:003",
+      "rank": 3,
+      "score": 0.4940260752819544,
+      "page": 311
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0311:para:002",
+      "rank": 1,
+      "score": 0.6376607626745747,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0312:para:001",
+      "rank": 2,
+      "score": 0.5376695717708962,
+      "page": 312
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:003",
+      "rank": 3,
+      "score": 0.4940260752819544,
+      "page": 311
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0311:para:002",
+      "rank": 1,
+      "score": 0.6376607626745747,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0312:para:001",
+      "rank": 2,
+      "score": 0.5376695717708962,
+      "page": 312
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:003",
+      "rank": 3,
+      "score": 0.4940260752819544,
+      "page": 311
+     }
+    ],
+    "context_ids": [],
+    "context_chars": 0
+   },
+   {
+    "event": "abstain",
+    "reason": "The textbook passages do not contain information about the share of non-farming jobs in Latin America, Asia, and Africa that consist of untaxed, unregulated work outside government oversight."
+   }
+  ],
+  "queries": [
+   "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+   "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+   "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+   "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight"
+  ],
+  "final_context": "",
+  "final_context_ids": [],
+  "final_context_chars": 0,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2182,
+  "output_tokens": 174,
+  "llm_cost_usd": 0.001151,
+  "elapsed_s": 6.29,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q18",
+  "split": "dev",
+  "answerable": true,
+  "question": "What is meant by the sedimentation of racial inequality, and how does redlining relate to it?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "sedimentation of racial inequality redlining",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0342:para:001",
+      "rank": 1,
+      "score": 0.6595500201905511,
+      "page": 342
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:005",
+      "rank": 2,
+      "score": 0.47203377692339377,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0345:para:004",
+      "rank": 3,
+      "score": 0.465481714300956,
+      "page": 345
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0340:para:005"
+    ],
+    "context_chars": 212
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "sedimentation of racial inequality",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0342:para:001",
+      "rank": 1,
+      "score": 0.540326173259292,
+      "page": 342
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:005",
+      "rank": 2,
+      "score": 0.5146306305265244,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0345:para:004",
+      "rank": 3,
+      "score": 0.4833746968227056,
+      "page": 345
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0340:para:005"
+    ],
+    "context_chars": 212
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "sedimentation of racial inequality",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0342:para:001",
+      "rank": 1,
+      "score": 0.540326173259292,
+      "page": 342
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:005",
+      "rank": 2,
+      "score": 0.5146306305265244,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0345:para:004",
+      "rank": 3,
+      "score": 0.4833746968227056,
+      "page": 345
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0340:para:005"
+    ],
+    "context_chars": 212
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "sedimentation of racial inequality",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0342:para:001",
+      "rank": 1,
+      "score": 0.540326173259292,
+      "page": 342
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:005",
+      "rank": 2,
+      "score": 0.5146306305265244,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0345:para:004",
+      "rank": 3,
+      "score": 0.4833746968227056,
+      "page": 345
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0340:para:005"
+    ],
+    "context_chars": 212
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about the sedimentation of racial inequality or redlining."
+   }
+  ],
+  "queries": [
+   "sedimentation of racial inequality redlining",
+   "sedimentation of racial inequality",
+   "sedimentation of racial inequality",
+   "sedimentation of racial inequality"
+  ],
+  "final_context": "[openstax-sociology-3e:p0340:para:005 | data/Introductory Sociology 3e.pdf | page 340]\nIt has arisen since the post-Civil Rights era and supports racism while avoiding any reference to race (Bonilla-Silva (2015).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0340:para:005"
+  ],
+  "final_context_chars": 212,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2229,
+  "output_tokens": 102,
+  "llm_cost_usd": 0.001055,
+  "elapsed_s": 5.65,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q19",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does having children affect the gender pay gap between women and men in the United States?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "gender pay gap and having children United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0387:para:002",
+      "rank": 1,
+      "score": 0.6423088777170236,
+      "page": 387
+     },
+     {
+      "id": "openstax-sociology-3e:p0386:para:005",
+      "rank": 2,
+      "score": 0.590469353198334,
+      "page": 386
+     },
+     {
+      "id": "openstax-sociology-3e:p0379:para:000",
+      "rank": 3,
+      "score": 0.5613210298796225,
+      "page": 379
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0386:para:005"
+    ],
+    "context_chars": 789
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "gender pay gap and children impact United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0387:para:002",
+      "rank": 1,
+      "score": 0.5938578177758007,
+      "page": 387
+     },
+     {
+      "id": "openstax-sociology-3e:p0386:para:005",
+      "rank": 2,
+      "score": 0.5522284983663067,
+      "page": 386
+     },
+     {
+      "id": "openstax-sociology-3e:p0388:para:000",
+      "rank": 3,
+      "score": 0.5096418242561989,
+      "page": 388
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0386:para:005"
+    ],
+    "context_chars": 789
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "gender pay gap and children impact United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0387:para:002",
+      "rank": 1,
+      "score": 0.5938578177758007,
+      "page": 387
+     },
+     {
+      "id": "openstax-sociology-3e:p0386:para:005",
+      "rank": 2,
+      "score": 0.5522284983663067,
+      "page": 386
+     },
+     {
+      "id": "openstax-sociology-3e:p0388:para:000",
+      "rank": 3,
+      "score": 0.5096418242561989,
+      "page": 388
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0386:para:005"
+    ],
+    "context_chars": 789
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "gender pay gap and children impact United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0387:para:002",
+      "rank": 1,
+      "score": 0.5938578177758007,
+      "page": 387
+     },
+     {
+      "id": "openstax-sociology-3e:p0386:para:005",
+      "rank": 2,
+      "score": 0.5522284983663067,
+      "page": 386
+     },
+     {
+      "id": "openstax-sociology-3e:p0388:para:000",
+      "rank": 3,
+      "score": 0.5096418242561989,
+      "page": 388
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0386:para:005"
+    ],
+    "context_chars": 789
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about how having children affects the gender pay gap between women and men in the United States."
+   }
+  ],
+  "queries": [
+   "gender pay gap and having children United States",
+   "gender pay gap and children impact United States",
+   "gender pay gap and children impact United States",
+   "gender pay gap and children impact United States"
+  ],
+  "final_context": "[openstax-sociology-3e:p0386:para:005 | data/Introductory Sociology 3e.pdf | page 386]\nThe Pay Gap\n\nDespite making up nearly half (49.8 percent) of payroll employment, men vastly outnumber women in authoritative, powerful, and, therefore, high-earning jobs (U.S. Census Bureau 2010). Even when a woman’s employment status is equal to a man’s, she will generally make only 81 cents for every dollar made by her male counterpart (Payscale 2020). Women in the paid labor force also still do the majority of the unpaid work at home. On an average day, 84 percent of women (compared to 67 percent of men) spend time doing household management activities (U.S. Census Bureau 2011). This double duty keeps working women in a subordinate role in the family structure (Hochschild and Machung 1989).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0386:para:005"
+  ],
+  "final_context_chars": 789,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2777,
+  "output_tokens": 119,
+  "llm_cost_usd": 0.001301,
+  "elapsed_s": 5.82,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q20",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 12) From a conflict theory perspective, who takes on the role of the proletariat in the owner-worker relationship, and why?",
+  "filter_given": {
+   "chapter": 12
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "conflict theory proletariat owner-worker relationship",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:002",
+      "rank": 1,
+      "score": 0.6575334523878474,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:001",
+      "rank": 2,
+      "score": 0.6263385950368772,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:001",
+      "rank": 3,
+      "score": 0.5710288769543622,
+      "page": 391
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:002"
+    ],
+    "context_chars": 449
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "conflict theory proletariat owner-worker relationship",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:002",
+      "rank": 1,
+      "score": 0.6575334523878474,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:001",
+      "rank": 2,
+      "score": 0.6263385950368772,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:001",
+      "rank": 3,
+      "score": 0.5710288769543622,
+      "page": 391
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:002"
+    ],
+    "context_chars": 449
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "conflict theory proletariat owner-worker relationship",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:002",
+      "rank": 1,
+      "score": 0.6575334523878474,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:001",
+      "rank": 2,
+      "score": 0.6263385950368772,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:001",
+      "rank": 3,
+      "score": 0.5710288769543622,
+      "page": 391
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:002"
+    ],
+    "context_chars": 449
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "conflict theory proletariat owner-worker relationship",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:002",
+      "rank": 1,
+      "score": 0.6575334523878474,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:001",
+      "rank": 2,
+      "score": 0.6263385950368772,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:001",
+      "rank": 3,
+      "score": 0.5710288769543622,
+      "page": 391
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:002"
+    ],
+    "context_chars": 449
+   },
+   {
+    "event": "abstain",
+    "reason": "The context does not specify who takes on the role of the proletariat in the owner-worker relationship from a conflict theory perspective."
+   }
+  ],
+  "queries": [
+   "conflict theory proletariat owner-worker relationship",
+   "conflict theory proletariat owner-worker relationship",
+   "conflict theory proletariat owner-worker relationship",
+   "conflict theory proletariat owner-worker relationship"
+  ],
+  "final_context": "[openstax-sociology-3e:p0288:para:002 | data/Introductory Sociology 3e.pdf | page 288]\nToday, while working conditions have improved, conflict theorists believe that the strained working relationship between employers and employees still exists. Capitalists own the means of production, and a system is in place to make business owners rich and keep workers poor. According to conflict theorists, the resulting stratification creates class conflict.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0288:para:002"
+  ],
+  "final_context_chars": 449,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2438,
+  "output_tokens": 119,
+  "llm_cost_usd": 0.001166,
+  "elapsed_s": 5.34,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5733964613281888,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.44786795456321815,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.4233684958491488,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5733964613281888,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.44786795456321815,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.4233684958491488,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5733964613281888,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.44786795456321815,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.4233684958491488,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5733964613281888,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.44786795456321815,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.4233684958491488,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about which specific retail companies refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse."
+   }
+  ],
+  "queries": [
+   "Rana Plaza Trust Fund retail companies refusal",
+   "Rana Plaza Trust Fund retail companies refusal",
+   "Rana Plaza Trust Fund retail companies refusal",
+   "Rana Plaza Trust Fund retail companies refusal"
+  ],
+  "final_context": "[openstax-sociology-3e:p0302:para:001 | data/Introductory Sociology 3e.pdf | page 302]\nChapter Outline\n\n10.1 Global Stratification and Classification 10.2 Global Wealth and Poverty 10.3 Theoretical Perspectives on Global Stratification\n\nThe April 24, 2013 collapse of the Rana Plaza in Dhaka, Bangladesh that killed over 1,100 people, was the deadliest garment factory accident in history, and it was preventable (International Labour Organization, Department of Communication 2014).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0302:para:001"
+  ],
+  "final_context_chars": 483,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2510,
+  "output_tokens": 123,
+  "llm_cost_usd": 0.001201,
+  "elapsed_s": 4.98,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  }
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "abstain",
+    "reason": "The context provides the 2021 U.S. poverty line thresholds for a single individual, a couple, and a family of four, but does not include the threshold for a household of six people."
+   }
+  ],
+  "queries": [
+   "2021 U.S. poverty line threshold household of six people",
+   "2021 U.S. poverty line threshold household of six people",
+   "2021 U.S. poverty line threshold household of six people",
+   "2021 U.S. poverty line threshold household of six people"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:004 | data/Introductory Sociology 3e.pdf | page 283]\nIn the United States, poverty is most often referred to as a relative rather than absolute measurement. Absolute poverty is an economic condition in which a family or individual cannot afford basic necessities, such as food and shelter, so that day-to-day survival is in jeopardy. Relative poverty is an economic condition in which a family or individuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:004"
+  ],
+  "final_context_chars": 731,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2745,
+  "output_tokens": 150,
+  "llm_cost_usd": 0.001338,
+  "elapsed_s": 4.94,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  }
+ }
+]

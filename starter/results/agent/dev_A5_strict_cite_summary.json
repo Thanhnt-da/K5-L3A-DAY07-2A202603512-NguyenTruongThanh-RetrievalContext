@@ -1,0 +1,44 @@
+{
+  "config": "A5_strict_cite",
+  "split": "dev",
+  "questions": 22,
+  "errors": 0,
+  "status": {
+    "answered": 20,
+    "abstain": 2
+  },
+  "tool_use": "22/22",
+  "searches_distribution": {
+    "1": 20,
+    "2": 1,
+    "3": 1
+  },
+  "context_evidence_rate": "19/20",
+  "answered_answerable": "19/20",
+  "abstained_unanswerable": "1/2",
+  "false_abstention": "1/20",
+  "invalid_citation_events": 1,
+  "input_tokens": 38753,
+  "output_tokens": 3219,
+  "llm_cost_usd": 0.02065,
+  "median_elapsed_s": 2.585,
+  "mean_context_chars": 2006.5,
+  "new_embedding_tokens": 35,
+  "config_detail": {
+    "name": "A5_strict_cite",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 4,
+    "use_filter": true,
+    "dense_weight": 0.5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "temperature": 0.0,
+    "notes": "A2 + strict abstention rule + mandatory inline citation format",
+    "extra": {
+      "strict": true
+    }
+  },
+  "run_at": "2026-11-14T08:46:45+00:00",
+  "subset": "all"
+}

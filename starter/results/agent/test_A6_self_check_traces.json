@@ -1,0 +1,686 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "How has the size of the American middle class and its share of national wealth changed since the 1970s and 1980s?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Since the 1970s and 1980s, the size of the American middle class has shrunk from 69 percent in 1971 to 51 percent in 2020. Additionally, the middle class's share of national wealth has declined from 32 percent in 1983 to 16 percent in 2016 [openstax-sociology-3e:p0283:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0283:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "size of American middle class since 1970s and 1980s",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:001",
+      "rank": 1,
+      "score": 0.6719984469876907,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0280:para:000",
+      "rank": 2,
+      "score": 0.5179119821488353,
+      "page": 280
+     },
+     {
+      "id": "openstax-sociology-3e:p0278:para:002",
+      "rank": 3,
+      "score": 0.5042198511217556,
+      "page": 278
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:001",
+     "openstax-sociology-3e:p0280:para:000"
+    ],
+    "context_chars": 1774
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "size of American middle class since 1970s and 1980s"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:001 | data/Introductory Sociology 3e.pdf | page 283]\nMany people think of the United States as a “middle-class society.” They think a few people are rich, a few are poor, and most are fairly well off, existing in the middle of the social strata. Rising from lower classes into the middle-class is to achieve the American Dream. For this reason, scholars are particularly worried by the shrinking of the middle class. Although the middle class is still significantly larger than the lower and upper classes, it shrank from 69 percent in 1971 to 51 percent in 2020. Arguably the most significant threat to the U.S.’s relatively high standard of living is the decline of the middle class. The wealth of the middle class has also been declining in recent decades. Its share of the wealth fell from 32 percent in 1983 to 16 percent in 2016 (Horowitz, Igielnik, & Kochhar 2020).\n\n[openstax-sociology-3e:p0280:para:000 | data/Introductory Sociology 3e.pdf | page 280]\nThe Middle Class\n\nFigure 9.9: These members of a club likely consider themselves middle class, as do many Americans. (Credit: United Way Canada-Centraide\n\nCanada/flickr)\n\nMany people consider themselves middle class, but there are differing ideas about what that means. People with annual incomes of $150,000 call themselves middle class, as do people who annually earn $30,000. That helps explain why, in the United States, the middle class is broken into upper and lower subcategories.\n\nLower-middle class members tend to complete a two-year associate’s degrees from community or technical colleges or a four- year bachelor’s degree. Upper-middle class people tend to continue on to postgraduate degrees. They’ve studied subjects such as business, management, law, or medicine.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:001",
+   "openstax-sociology-3e:p0280:para:000"
+  ],
+  "final_context_chars": 1774,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1682,
+  "output_tokens": 152,
+  "llm_cost_usd": 0.000916,
+  "elapsed_s": 2.84,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "What are capital flight and deindustrialization, and how does one lead to the other in high-income countries?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Capital flight refers to the movement of capital from one nation to another, such as when companies close factories in high-income countries and open them in lower-cost countries. Deindustrialization occurs as a consequence of capital flight when no new companies open to replace the jobs lost to foreign nations, leading to factory closures and job losses in the middle class of core nations. Essentially, capital flight leads to deindustrialization because global companies relocate their industrial processes to places with lower costs, causing factories and jobs to disappear in high-income countries [openstax-sociology-3e:p0307:para:000][openstax-sociology-3e:p0307:para:001][openstax-sociology-3e:p0307:para:002].",
+  "citations": [
+   "openstax-sociology-3e:p0307:para:000",
+   "openstax-sociology-3e:p0307:para:001",
+   "openstax-sociology-3e:p0307:para:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "capital flight and deindustrialization in high-income countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0307:para:000",
+      "rank": 1,
+      "score": 0.7476169332696292,
+      "page": 307
+     },
+     {
+      "id": "openstax-sociology-3e:p0307:para:001",
+      "rank": 2,
+      "score": 0.6523866883210693,
+      "page": 307
+     },
+     {
+      "id": "openstax-sociology-3e:p0307:para:002",
+      "rank": 3,
+      "score": 0.5869414485809907,
+      "page": 307
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0307:para:000",
+     "openstax-sociology-3e:p0307:para:001",
+     "openstax-sociology-3e:p0307:para:002"
+    ],
+    "context_chars": 2285
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "capital flight and deindustrialization in high-income countries"
+  ],
+  "final_context": "[openstax-sociology-3e:p0307:para:000 | data/Introductory Sociology 3e.pdf | page 307]\nHigh-income countries face two major issues: capital flight and deindustrialization. Capital flight refers to the movement (flight) of capital from one nation to another, as when General Motors automotive company closed U.S. factories in Michigan and opened factories in Mexico.\n\n[openstax-sociology-3e:p0307:para:001 | data/Introductory Sociology 3e.pdf | page 307]\nDeindustrialization, a related issue, occurs as a consequence of capital flight, as no new companies open to replace jobs lost to foreign nations. As expected, global companies move their industrial processes to the places where they can get the most production with the least cost, including the building of infrastructure, training of workers, shipping of goods, and, of course, paying employee wages. This means that as emerging economies create their own industrial zones, global companies see the opportunity for existing infrastructure and much lower costs. Those opportunities lead to businesses closing the factories that provide jobs to the middle class within core nations and moving their industrial production to peripheral and semi-peripheral nations.\n\nFigure 10.4: Factories and stores in places like the Detroit metro area have been closed and abandoned as companies go out of business.\n\n(Credit: Joe Nuxoll/flickr)\n\n[openstax-sociology-3e:p0307:para:002 | data/Introductory Sociology 3e.pdf | page 307]\nCapital flight describes jobs and infrastructure moving from one nation to another. Look at the U.S. automobile industry. In the early twentieth century, the cars driven in the United States were made here, employing thousands of workers in Detroit and in the companies that produced everything that made building cars possible. However, once the fuel crisis of the 1970s hit and people in the United States increasingly looked to imported cars with better gas mileage, U.S. auto manufacturing began to decline. During the 2007–2009 recession, the U.S. government provided emergency funding (usually called a \"bail out\") for the three main auto companies, which is evidence of those companies' vulnerability. At the same time, Japanese- owned Toyota and Honda and South Korean Kia maintained stable sales levels.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0307:para:000",
+   "openstax-sociology-3e:p0307:para:001",
+   "openstax-sociology-3e:p0307:para:002"
+  ],
+  "final_context_chars": 2285,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1735,
+  "output_tokens": 251,
+  "llm_cost_usd": 0.001096,
+  "elapsed_s": 2.97,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "all"
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "Why can being labeled a 'model minority' actually harm members of that minority group?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Being labeled as a 'model minority' can harm members of that minority group because it creates unrealistic expectations and stigmatizes those who do not meet these expectations. It can also lead to a lack of necessary government assistance and result in educational and professional discrimination against the group. This stereotype, often applied to Asian Americans, overlooks the diversity within the group and the challenges they face [openstax-sociology-3e:p0353:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0353:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "model minority harm",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0353:para:001",
+      "rank": 1,
+      "score": 0.5067577808493123,
+      "page": 353
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:003",
+      "rank": 2,
+      "score": 0.44194966185175233,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:004",
+      "rank": 3,
+      "score": 0.43312748018445446,
+      "page": 340
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0353:para:001",
+     "openstax-sociology-3e:p0340:para:003"
+    ],
+    "context_chars": 2166
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "model minority harm"
+  ],
+  "final_context": "[openstax-sociology-3e:p0353:para:001 | data/Introductory Sociology 3e.pdf | page 353]\nCurrent Status\n\nAsian Americans certainly have been subject to their share of racial prejudice, despite the seemingly positive stereotype as the model minority. The model minority stereotype is applied to a minority group that is seen as reaching significant educational, professional, and socioeconomic levels without challenging the existing establishment.\n\nThis stereotype is typically applied to Asian groups in the United States, and it can result in unrealistic expectations by putting a stigma on members of this group that do not meet the expectations. Stereotyping all Asians as smart and capable can also lead to a lack of much-needed government assistance and to educational and professional discrimination.\n\nFigure 11.11: In response to widespread attacks against Asian people, partly linked to incorrect associations regarding Asian people and\n\nthe COVID-19 pandemic, groups around the country and world held Stop Asian Hate rallies like this one in Canada. (Credit: GoToVan/\n\nflickr)\n\n[openstax-sociology-3e:p0340:para:003 | data/Introductory Sociology 3e.pdf | page 340]\nThe disparate treatment of racial minorities by law enforcement officials is a common example of racial profiling in the United States. For example, a study on the Driver's License Privilege to All Minnesota Residents from 2008 to 2010 found that the percentage of Latinos arrested was disproportionally high (Feist 2013). Similarly, the disproportionate number of Black men arrested, charged, and convicted of crimes reflect racial profiling. • Historical Racism is economic inequality or social disparity caused by past racism. For example, African-Americans have had their opportunities in wealth, education and employment adversely affected due to the mistreatment of their ancestors during the slavery and post-slavery period (Wilson 2012). • Cultural Racism occurs when the assumption of inferiority of one or more races is built into the culture of a society. For example, the European culture is considered supposedly more mature, evolved and rational than other cultures (Blaut 1992).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0353:para:001",
+   "openstax-sociology-3e:p0340:para:003"
+  ],
+  "final_context_chars": 2166,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1670,
+  "output_tokens": 147,
+  "llm_cost_usd": 0.000903,
+  "elapsed_s": 2.43,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "How was the sexual double standard regarding premarital sex originally defined, and under what condition does the evolved standard allow premarital sex for women compared to men?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The sexual double standard was originally defined by Ira Reiss as prohibiting premarital sexual intercourse for women but allowing it for men. The evolved standard allows women to engage in premarital sex only within committed love relationships, whereas men are allowed to have sexual relationships with as many partners as they wish without condition [openstax-sociology-3e:p0394:para:006].",
+  "citations": [
+   "openstax-sociology-3e:p0394:para:006"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "sexual double standard premarital sex definition",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0394:para:006",
+      "rank": 1,
+      "score": 0.6065493740664359,
+      "page": 394
+     },
+     {
+      "id": "openstax-sociology-3e:p0393:para:003",
+      "rank": 2,
+      "score": 0.47835650853731737,
+      "page": 393
+     },
+     {
+      "id": "openstax-sociology-3e:p0394:para:004",
+      "rank": 3,
+      "score": 0.4732826648933174,
+      "page": 394
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0394:para:006",
+     "openstax-sociology-3e:p0393:para:003",
+     "openstax-sociology-3e:p0394:para:004"
+    ],
+    "context_chars": 2372
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "sexual double standard premarital sex definition"
+  ],
+  "final_context": "[openstax-sociology-3e:p0394:para:006 | data/Introductory Sociology 3e.pdf | page 394]\nBelief that men have—or have the right to—more sexual urges than women creates a double standard. Ira Reiss, a pioneer researcher in the field of sexual studies, defined the double standard as prohibiting premarital sexual intercourse for women but allowing it for men (Reiss 1960). This standard has evolved into allowing women to engage in premarital sex only within committed love relationships, but allowing men to engage in sexual relationships with as many partners as they wish without condition (Milhausen and Herold 1999). Due to this double standard, a woman is likely to have fewer sexual partners in her life time than a man. According to a Centers for Disease Control and Prevention (CDC) survey, the average thirty-five-year-old woman has had three opposite-sex sexual partners while the average thirty-five-year-old man has had twice as many (Centers for Disease Control 2011).\n\n[openstax-sociology-3e:p0393:para:003 | data/Introductory Sociology 3e.pdf | page 393]\nSexuality around the World\n\nCross-national research on sexual attitudes in industrialized nations reveals that normative standards differ across the world. For example, several studies have shown that Scandinavian students are more tolerant of premarital sex than are U.S. students\n\n[openstax-sociology-3e:p0394:para:004 | data/Introductory Sociology 3e.pdf | page 394]\nSexuality in the United States\n\nThe United States prides itself on being the land of the “free,” but it is rather restrictive when it comes to its citizens’ general attitudes about sex compared to other industrialized nations. In an international survey, 25 percent of U.S. respondents stated that premarital sex is always wrong, while the average among the 24 countries surveyed was 17 percent, with less than ten percent of respondents from France, Germany, and Spain saying premarital sex was unacceptable (Chamie 2018). Similar discrepancies were found in questions about the condemnation of sex before the age of 16, extramarital sex, and homosexuality, with total disapproval of these acts being 12, 13, and 11 percent higher, respectively, in the United States, than the study’s average (Widmer, Treas, and Newcomb 1998). U.S. culture is particularly restrictive in its attitudes about sex when it comes to women and sexuality.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0394:para:006",
+   "openstax-sociology-3e:p0393:para:003",
+   "openstax-sociology-3e:p0394:para:004"
+  ],
+  "final_context_chars": 2372,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1808,
+  "output_tokens": 140,
+  "llm_cost_usd": 0.000947,
+  "elapsed_s": 2.28,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "(Context: chapter 11) From a functionalist perspective, how can excluding out-group members strengthen in-group solidarity, and what dysfunctions does this create for society?",
+  "filter_given": {
+   "chapter": 11
+  },
+  "status": "answered",
+  "answer": "From a functionalist perspective, excluding out-group members can strengthen in-group solidarity by increasing bonds among in-group members through ostracism of outsiders. However, this creates dysfunctions for society such as the failure to utilize talent in the subjugated group and the diversion of time, money, and effort to maintain artificially constructed racial boundaries, which detracts from other societal purposes [openstax-sociology-3e:p0335:para:003].",
+  "citations": [
+   "openstax-sociology-3e:p0335:para:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "functionalist perspective excluding out-group members in-group solidarity dysfunctions society",
+    "filter": {
+     "chapter": 11
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0335:para:003",
+      "rank": 1,
+      "score": 0.621269523406616,
+      "page": 335
+     },
+     {
+      "id": "openstax-sociology-3e:p0335:para:002",
+      "rank": 2,
+      "score": 0.5473033523482105,
+      "page": 335
+     },
+     {
+      "id": "openstax-sociology-3e:p0335:para:004",
+      "rank": 3,
+      "score": 0.4588535184568806,
+      "page": 335
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0335:para:003",
+     "openstax-sociology-3e:p0335:para:002"
+    ],
+    "context_chars": 1773
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "functionalist perspective excluding out-group members in-group solidarity dysfunctions society"
+  ],
+  "final_context": "[openstax-sociology-3e:p0335:para:003 | data/Introductory Sociology 3e.pdf | page 335]\nAnother way to apply the functionalist perspective to race and ethnicity is to discuss the way racism can contribute positively to the functioning of society by strengthening bonds between in-group members through the ostracism of out-group members. Consider how a community might increase solidarity by refusing to allow outsiders access. On the other hand, Rose (1951) suggested that dysfunctions associated with racism include the failure to take advantage of talent in the subjugated group, and that society must divert from other purposes the time and effort needed to maintain artificially constructed racial boundaries. Consider how much money, time, and effort went toward maintaining separate and unequal educational systems prior to the civil rights movement.\n\n[openstax-sociology-3e:p0335:para:002 | data/Introductory Sociology 3e.pdf | page 335]\nFunctionalism\n\nFunctionalism emphasizes that all the elements of society have functions that promote solidarity and maintain order and stability in society. Hence, we can observe people from various racial and ethnic backgrounds interacting harmoniously in a state of social balance. Problems arise when one or more racial or ethnic groups experience inequalities and discriminations. This creates tension and conflict resulting in temporary dysfunction of the social system. For example, the killing of a Black man George Floyd by a White police officer in 2020 stirred up protests demanding racial justice and changes in policing in the United States. To restore the society’s pre-disturbed state or to seek a new equilibrium, the police department and various parts of the system require changes and compensatory adjustments.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0335:para:003",
+   "openstax-sociology-3e:p0335:para:002"
+  ],
+  "final_context_chars": 1773,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1625,
+  "output_tokens": 157,
+  "llm_cost_usd": 0.000901,
+  "elapsed_s": 3.24,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "According to the 2018 World Bank extreme poverty table in Chapter 10, what percentage of Mexico's population lived on less than $1.90 per day?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 1,
+      "score": 0.6323607195333059,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.6014568740631088,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 3,
+      "score": 0.5591522473658305,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:005",
+     "openstax-sociology-3e:p0311:para:000",
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 2285
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 1,
+      "score": 0.6323607195333059,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.6014568740631088,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 3,
+      "score": 0.5591522473658305,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:005",
+     "openstax-sociology-3e:p0311:para:000",
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 2285
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 1,
+      "score": 0.6323607195333059,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.6014568740631088,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 3,
+      "score": 0.5591522473658305,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:005",
+     "openstax-sociology-3e:p0311:para:000",
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 2285
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 1,
+      "score": 0.6323607195333059,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.6014568740631088,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 3,
+      "score": 0.5591522473658305,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0304:para:005",
+     "openstax-sociology-3e:p0311:para:000",
+     "openstax-sociology-3e:p0304:para:006"
+    ],
+    "context_chars": 2285
+   },
+   {
+    "event": "abstain",
+    "reason": "The context mentions the 2018 World Bank extreme poverty data and discusses global and regional poverty rates, but does not provide the specific percentage of Mexico's population living on less than $1.90 per day."
+   }
+  ],
+  "queries": [
+   "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+   "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+   "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+   "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day"
+  ],
+  "final_context": "[openstax-sociology-3e:p0304:para:005 | data/Introductory Sociology 3e.pdf | page 304]\nAs mentioned earlier, one way to evaluate stratification is to consider how many people are living in poverty, and particularly extreme poverty, which is often defined as needing to survive on less than $1.90 per day. Fortunately, until the COVID-19 pandemic impacted economies in 2020, the extreme poverty rate had been on a 20-year decline. In 2015, 10.1 percent of the world's population was living in extreme poverty; in 2017, that number had dropped an entire percentage point to 9.2 percent. While a positive, that 9.2 percent is equivalent to 689 million people living on less than $1.90 a day. The same year, 24.1 percent of the world lived on less than $3.20 per day and 43.6 percent on less than $5.50 per day in 2017 (World Bank 2020). The table below makes the differences in poverty very clear.\n\n[openstax-sociology-3e:p0311:para:000 | data/Introductory Sociology 3e.pdf | page 311]\nthat extreme poverty level of $1.90 per day. (The previous term was \"absolute poverty.\") In 2018, the World Bank added two more measures to consider: people living on less than $3.20 and people living on less than $5.50. As the number of people in that extreme category continues to decline, these two new categories will be important to recognize the population that lives above the $1.90 line, but still remains vulnerable to extreme poverty. Someone who begins to earn enough to live on more than $1.90 is still in severe poverty and should be considered as such (Schoch 2020).\n\nIf you were forced to live on $1.90 a day, or even $5.50, how would you do it? What would you deem worthy of spending money on, and what could you do without? How would you manage the necessities—and how would you make up the gap between what you need to live and what you can afford?\n\nFigure 10.7: Slums in many countries illustrate absolute poverty all too well. (Credit: Ninara/flickr)\n\n[openstax-sociology-3e:p0304:para:006 | data/Introductory Sociology 3e.pdf | page 304]\nTable 10.1: The differences among countries is clear when considering their extreme poverty rates. For the most part, the selected countries show disparities even within countries from the same regions. All data is from 2018. (World Bank 2020)",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0304:para:005",
+   "openstax-sociology-3e:p0311:para:000",
+   "openstax-sociology-3e:p0304:para:006"
+  ],
+  "final_context_chars": 2285,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 5620,
+  "output_tokens": 172,
+  "llm_cost_usd": 0.002523,
+  "elapsed_s": 5.82,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  }
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Which specific corporations among the world's 500 largest companies were led by female chief executives at the start of 2021?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "female chief executives among the world's 500 largest companies at the start of 2021",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0388:para:001",
+      "rank": 1,
+      "score": 0.5579387835130264,
+      "page": 388
+     },
+     {
+      "id": "openstax-sociology-3e:p0388:para:002",
+      "rank": 2,
+      "score": 0.3618942644377716,
+      "page": 388
+     },
+     {
+      "id": "openstax-sociology-3e:p0388:para:003",
+      "rank": 3,
+      "score": 0.3564672361653183,
+      "page": 388
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0388:para:001",
+     "openstax-sociology-3e:p0388:para:002",
+     "openstax-sociology-3e:p0388:para:003"
+    ],
+    "context_chars": 2329
+   },
+   {
+    "event": "abstain",
+    "reason": "The context states that at the beginning of 2021, 41 of the world's largest 500 companies were run by women, but it does not specify which specific corporations these were."
+   }
+  ],
+  "queries": [
+   "female chief executives among the world's 500 largest companies at the start of 2021"
+  ],
+  "final_context": "[openstax-sociology-3e:p0388:para:001 | data/Introductory Sociology 3e.pdf | page 388]\nThe Glass Ceiling\n\nThe idea that women are unable to reach the executive suite is known as the glass ceiling. It is an invisible barrier that women encounter when trying to win jobs in the highest level of business. At the beginning of 2021, for example, a record 41 of the world’s largest 500 companies were run by women. While a vast improvement over the number twenty years earlier – where only two of the companies were run by women – these 41 chief executives still only represent eight percent of those large companies (Newcomb 2020).\n\nWhy do women have a more difficult time reaching the top of a company? One idea is that there is still a stereotype in the United States that women aren’t aggressive enough to handle the boardroom or that they tend to seek jobs and work with other women (Reiners 2019). Other issues stem from the gender biases based on gender roles and motherhood discussed above.\n\n[openstax-sociology-3e:p0388:para:002 | data/Introductory Sociology 3e.pdf | page 388]\nAnother idea is that women lack mentors, executives who take an interest and get them into the right meetings and introduce them to the right people to succeed (Murrell & Blake-Beard 2017).\n\n[openstax-sociology-3e:p0388:para:003 | data/Introductory Sociology 3e.pdf | page 388]\nWomen in Politics\n\nOne of the most important places for women to help other women is in politics. Historically in the United States, like many other institutions, political representation has been mostly made up of White men. By not having women in government, their issues are being decided by people who don’t share their perspective. The number of women elected to serve in Congress has increased over the years, but does not yet accurately reflect the general population. For example, in 2018, the population of the United States was 49 percent male and 51 percent female, but the population of Congress was 78.8 percent male and 21.2 percent female (Manning 2018). Over the years, the number of women in the federal government has increased, but until it accurately reflects the population, there will be inequalities in our laws.\n\nFigure 12.12: Breakdown of Congressional Membership by Gender. 2021 saw a record number of women in Congress, with 120 women serving",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0388:para:001",
+   "openstax-sociology-3e:p0388:para:002",
+   "openstax-sociology-3e:p0388:para:003"
+  ],
+  "final_context_chars": 2329,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1792,
+  "output_tokens": 80,
+  "llm_cost_usd": 0.000845,
+  "elapsed_s": 2.2,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  }
+ }
+]

@@ -1,0 +1,415 @@
+[
+  {
+    "query_id": "t01",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "size of American middle class since 1970s and 1980s",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0283:para:001",
+            "rank": 1,
+            "score": 0.6719984469876907,
+            "page": 283
+          },
+          {
+            "id": "openstax-sociology-3e:p0280:para:000",
+            "rank": 2,
+            "score": 0.5179119821488353,
+            "page": 280
+          },
+          {
+            "id": "openstax-sociology-3e:p0278:para:002",
+            "rank": 3,
+            "score": 0.5042198511217556,
+            "page": 278
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0283:para:001",
+          "openstax-sociology-3e:p0280:para:000"
+        ],
+        "context_chars": 1774
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax-sociology-3e:p0283:para:001"
+    ]
+  },
+  {
+    "query_id": "t02",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "capital flight and deindustrialization in high-income countries",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0307:para:000",
+            "rank": 1,
+            "score": 0.7476169332696292,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:001",
+            "rank": 2,
+            "score": 0.6523866883210693,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:002",
+            "rank": 3,
+            "score": 0.5869414485809907,
+            "page": 307
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0307:para:000",
+          "openstax-sociology-3e:p0307:para:001",
+          "openstax-sociology-3e:p0307:para:002"
+        ],
+        "context_chars": 2285
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax-sociology-3e:p0307:para:000",
+      "openstax-sociology-3e:p0307:para:001",
+      "openstax-sociology-3e:p0307:para:002"
+    ]
+  },
+  {
+    "query_id": "t03",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "model minority harm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0353:para:001",
+            "rank": 1,
+            "score": 0.5067577808493123,
+            "page": 353
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:003",
+            "rank": 2,
+            "score": 0.44194966185175233,
+            "page": 340
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:004",
+            "rank": 3,
+            "score": 0.43312748018445446,
+            "page": 340
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0353:para:001",
+          "openstax-sociology-3e:p0340:para:003"
+        ],
+        "context_chars": 2166
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax-sociology-3e:p0353:para:001"
+    ]
+  },
+  {
+    "query_id": "t04",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "sexual double standard premarital sex definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0394:para:006",
+            "rank": 1,
+            "score": 0.6065493740664359,
+            "page": 394
+          },
+          {
+            "id": "openstax-sociology-3e:p0393:para:003",
+            "rank": 2,
+            "score": 0.47835650853731737,
+            "page": 393
+          },
+          {
+            "id": "openstax-sociology-3e:p0394:para:004",
+            "rank": 3,
+            "score": 0.4732826648933174,
+            "page": 394
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0394:para:006",
+          "openstax-sociology-3e:p0393:para:003",
+          "openstax-sociology-3e:p0394:para:004"
+        ],
+        "context_chars": 2372
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax-sociology-3e:p0394:para:006"
+    ]
+  },
+  {
+    "query_id": "t05",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "functionalist perspective excluding out-group members in-group solidarity dysfunctions society",
+        "filter": {
+          "chapter": 11
+        },
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0335:para:003",
+            "rank": 1,
+            "score": 0.621269523406616,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0335:para:002",
+            "rank": 2,
+            "score": 0.5473033523482105,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0335:para:004",
+            "rank": 3,
+            "score": 0.4588535184568806,
+            "page": 335
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0335:para:003",
+          "openstax-sociology-3e:p0335:para:002"
+        ],
+        "context_chars": 1773
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax-sociology-3e:p0335:para:003"
+    ]
+  },
+  {
+    "query_id": "u03",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6323607195333059,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6014568740631088,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5591522473658305,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:005",
+          "openstax-sociology-3e:p0311:para:000",
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 2285
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6323607195333059,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6014568740631088,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5591522473658305,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:005",
+          "openstax-sociology-3e:p0311:para:000",
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 2285
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6323607195333059,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6014568740631088,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5591522473658305,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:005",
+          "openstax-sociology-3e:p0311:para:000",
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 2285
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty table Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6323607195333059,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6014568740631088,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5591522473658305,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:005",
+          "openstax-sociology-3e:p0311:para:000",
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 2285
+      },
+      {
+        "event": "abstain",
+        "reason": "The context mentions the 2018 World Bank extreme poverty data and discusses global and regional poverty rates, but does not provide the specific percentage of Mexico's population living on less than $1.90 per day."
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "female chief executives among the world's 500 largest companies at the start of 2021",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0388:para:001",
+            "rank": 1,
+            "score": 0.5579387835130264,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:002",
+            "rank": 2,
+            "score": 0.3618942644377716,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:003",
+            "rank": 3,
+            "score": 0.3564672361653183,
+            "page": 388
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0388:para:001",
+          "openstax-sociology-3e:p0388:para:002",
+          "openstax-sociology-3e:p0388:para:003"
+        ],
+        "context_chars": 2329
+      },
+      {
+        "event": "abstain",
+        "reason": "The context states that at the beginning of 2021, 41 of the world's largest 500 companies were run by women, but it does not specify which specific corporations these were."
+      }
+    ],
+    "citations": []
+  }
+]

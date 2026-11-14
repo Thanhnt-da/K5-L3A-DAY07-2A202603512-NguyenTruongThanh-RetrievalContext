@@ -1,0 +1,50 @@
+q01  answered  searches=1 ctx_ev=True cites=1 "Students whose parents never went to college are much more likely to drop out or not finish their bachelor's d"
+q02  answered  searches=1 ctx_ev=True cites=1 "In medieval Britain's nobility, the family's estate was inherited by the firstborn son according to the law of"
+q03  answered  searches=1 ctx_ev=True cites=1 'In the United States, the lower class is defined as those whose household income is less than two-thirds of th'
+q04  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q05  answered  searches=1 ctx_ev=True cites=3 "Symbolic interactionism explains that social status affects people's everyday interactions by influencing who "
+q06  answered  searches=1 ctx_ev=True cites=1 'The garment workers at the Rana Plaza factory in Bangladesh typically worked over thirteen hours a day, with o'
+q07  answered  searches=1 ctx_ev=True cites=1 'The Gini coefficient measures income inequality, where a score of 0 represents a country in which every reside'
+q08  answered  searches=1 ctx_ev=False cites=2 'In the world systems model, middle-tier nations, often referred to as semi-peripheral nations, interact econom'
+q09  answered  searches=1 ctx_ev=True cites=1 'The World Bank separates middle-income countries into lower-middle and upper-middle categories based on their '
+q10  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q11  answered  searches=1 ctx_ev=True cites=1 'The five characteristics that distinguish a minority group in sociology, according to Charles Wagley and Marvi'
+q12  answered  searches=1 ctx_ev=True cites=1 'People in a dominant racial group often hesitate to admit that they receive unearned advantages from their rac'
+q13  answered  searches=1 ctx_ev=True cites=1 "Researchers evaluate how much an immigrant group has integrated into a host society's culture by measuring fou"
+q14  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q15  answered  searches=1 ctx_ev=True cites=1 'Samoan culture recognizes a third gender known as fa’afafine, which translates as "the way of the woman." Fa’a'
+q16  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q17  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q18  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q19  answered  searches=1 ctx_ev=True cites=1 'Having children affects the gender pay gap in the United States by contributing to lower pay for mothers compa'
+q20  answered  searches=1 ctx_ev=True cites=1 'From a conflict theory perspective, women take on the role of the proletariat in the owner-worker relationship'
+u01  answered  searches=1 ctx_ev=- cites=1 'The specific retail companies among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund'
+u02  answered  searches=2 ctx_ev=- cites=1 'The official 2021 U.S. poverty line threshold for a household of six people is not explicitly stated in the pr'
+{
+ "config": "A4_diverse_queries",
+ "split": "dev",
+ "questions": 22,
+ "errors": 0,
+ "status": {
+  "answered": 16,
+  "abstain": 6
+ },
+ "tool_use": "22/22",
+ "searches_distribution": {
+  "1": 21,
+  "2": 1
+ },
+ "context_evidence_rate": "19/20",
+ "answered_answerable": "14/20",
+ "abstained_unanswerable": "0/2",
+ "false_abstention": "6/20",
+ "invalid_citation_events": 6,
+ "input_tokens": 29851,
+ "output_tokens": 3247,
+ "llm_cost_usd": 0.01714,
+ "median_elapsed_s": 2.865,
+ "mean_context_chars": 1991.8,
+ "new_embedding_tokens": 82,
+ "run_at": "2026-11-14T08:44:49+00:00",
+ "subset": "all"
+}

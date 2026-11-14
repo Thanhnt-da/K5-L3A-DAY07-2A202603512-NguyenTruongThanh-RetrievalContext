@@ -1,0 +1,276 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "How likely are students whose parents never went to college to drop out or not finish their bachelor's degree?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 271,
+        "evidence": "According to the Center for Student Opportunity, a national nonprofit, 89% of first-generation students will not earn an undergraduate degree within six years of starting their studies. In fact, these students “drop out of college at four times the rate of peers whose parents have postsecondary degrees”"
+      }
+    ],
+    "expected_answer": "89% of first-generation students do not earn an undergraduate degree within six years, and they drop out at four times the rate of peers whose parents have postsecondary degrees."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "In medieval Britain's nobility, who inherited a family's estate, and what was the rule if there were no sons in the family?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 276,
+        "evidence": "Wealth was passed from generation to generation through primogeniture, a law stating that all property would be inherited by the firstborn son. If the family had no son, the land went to the next closest male relation."
+      }
+    ],
+    "expected_answer": "Under the law of primogeniture, all property was inherited by the firstborn son; if the family had no son, the land went to the next closest male relation (women could not inherit property)."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "How are the lower, middle, and upper classes defined by household income in the United States?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 278,
+        "evidence": "The lower class includes those whose income is two-thirds of the national median, the middle class includes those whose income falls between two-thirds and twice the median, and the upper class includes those whose income is above twice the national median (Kochhar 2015)."
+      }
+    ],
+    "expected_answer": "Economists define them either by income percentiles (top 20% upper, middle 60% middle, bottom 20% lower) or relative to the national median household income (lower class at two-thirds of the median, middle class between two-thirds and twice the median, and upper class above twice the median)."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Who qualifies for cash assistance under the TANF program, and how long can a family receive those benefits?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 283,
+        "evidence": "Adults who receive assistance must fall under a specific income level, usually half the poverty level, set by the state. TANF funding goes to childcare, support for parents who are working or training a required number of hours a week, and other services. TANF is time-limited. Most states only provide assistance for a maximum of 5 years (CBPP)."
+      }
+    ],
+    "expected_answer": "To qualify, adults in families with children must fall below a state-set income threshold (usually half the poverty level) and work or train a required number of hours per week; benefits are time-limited to a maximum of 5 years in most states."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "(Context: chapter 9) How does symbolic interactionism explain the way social status affects people's everyday interactions?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 288,
+        "evidence": "Symbolic interactionism examines stratification from a micro-level perspective. This analysis strives to explain how people’s social standing affects their everyday interactions.\n\nIn most communities, people interact primarily with others who share the same social standing."
+      }
+    ],
+    "expected_answer": "Symbolic interactionism examines stratification at a micro-level, noting that people in most communities live, work, and interact primarily with others who share the same social standing, income, education, class traits, and tastes.",
+    "filter": {
+      "chapter": 9
+    }
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "What were the working hours and wages of the garment workers at the Rana Plaza factory in Bangladesh?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 302,
+        "evidence": "They typically worked over thirteen hours a day, with two days off each month. For this work, they took home between twelve and twenty-two cents an hour, or $10.56 to $12.48 a week."
+      }
+    ],
+    "expected_answer": "They typically worked over 13 hours a day with only two days off per month, earning between 12 and 22 cents an hour ($10.56 to $12.48 a week)."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "When measuring national inequality with the Gini coefficient, what do the extreme scores of 0 and 1 represent?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 303,
+        "evidence": "A country in which every resident has the same income would have a Gini coefficient of 0 (or 0 percent). A country in which one resident earned all the income, while everyone else earned nothing, would have an income Gini coefficient of 1 (or 100 percent)."
+      }
+    ],
+    "expected_answer": "A Gini coefficient of 0 (0%) means every resident has the exact same income, whereas a score of 1 (100%) means one resident earns all the income while everyone else earns nothing."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "In the world systems model of global inequality, how do middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 306,
+        "evidence": "Semi-peripheral nations are in-between nations, not powerful enough to dictate policy but nevertheless acting as a major source for raw material and an expanding middle-class marketplace for core nations, while also exploiting peripheral nations."
+      }
+    ],
+    "expected_answer": "Semi-peripheral (in-between) nations lack the power to dictate policy, but serve as a major source of raw materials and an expanding middle-class market for core nations while also exploiting peripheral nations."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "How does the World Bank separate middle-income countries into lower-middle and upper-middle categories?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 308,
+        "evidence": "Lower middle income areas are those with a GNI per capita of more than $1,036 but less than $4,045. Upper middle income areas are those with A GNI per capita between $4,046 and $12,535."
+      }
+    ],
+    "expected_answer": "It uses gross national income (GNI) per capita: lower-middle-income economies have a GNI per capita of more than $1,036 but less than $4,045, while upper-middle-income economies have a GNI per capita between $4,046 and $12,535."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "(Context: chapter 10) How is relative poverty defined?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 310,
+        "evidence": "Relative poverty is a state of living where people can afford necessities but are unable to meet their society’s average standard of living."
+      },
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 304,
+        "evidence": "relative poverty, defined as being unable to live the lifestyle of the average person in your country"
+      }
+    ],
+    "expected_answer": "Relative poverty is a state of living where people can afford basic necessities, but are unable to meet their society's average standard of living.",
+    "filter": {
+      "chapter": 10
+    }
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What are the five characteristics that distinguish a minority group in sociology?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 333,
+        "evidence": "According to Charles Wagley and Marvin Harris (1958), a minority group is distinguished by five characteristics: (1) unequal treatment and less power over their lives, (2) distinguishing physical or cultural traits like skin color or language, (3) involuntary membership in the group, (4) awareness of subordination, and (5) high rate of in-group marriage."
+      }
+    ],
+    "expected_answer": "(1) Unequal treatment and less power over their lives, (2) distinguishing physical or cultural traits like skin color or language, (3) involuntary membership in the group, (4) awareness of subordination, and (5) a high rate of in-group marriage."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Why do people in a dominant racial group often hesitate to admit that they receive unearned advantages from their race?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 339,
+        "evidence": "Some may feel it lessens their accomplishments, others may feel a degree of guilt, and still others may feel that admitting to privilege makes them seem like a bad or mean person."
+      }
+    ],
+    "expected_answer": "Some feel it diminishes their personal accomplishments, others feel guilt, and others worry that admitting to privilege makes them appear to be a bad or mean person."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "How do researchers evaluate how much an immigrant group has integrated into a host society's culture?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 344,
+        "evidence": "Sociologists measure the degree to which immigrants have assimilated to a new culture with four benchmarks: socioeconomic status, spatial concentration, language assimilation, and intermarriage."
+      }
+    ],
+    "expected_answer": "Sociologists measure immigrant assimilation using four benchmarks: socioeconomic status, spatial concentration, language assimilation, and intermarriage."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "When Cuban migrants attempt to reach the United States by boat, what determines whether the U.S. government sends them back to Cuba or allows them to stay?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 356,
+        "evidence": "According to a 2009 report from the Congressional Research Service, the U.S. government applies a “wet foot/dry foot” policy toward Cuban immigrants; Cubans who are intercepted while still at sea will be returned to Cuba, while those who reach the shore will be permitted to stay in the United States."
+      }
+    ],
+    "expected_answer": "Under the 'wet foot/dry foot' policy, Cubans intercepted while still at sea are returned to Cuba, whereas those who reach the shore are permitted to stay in the United States."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "How does Samoan culture recognize and describe a third gender?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 375,
+        "evidence": "Samoan culture accepts what Samoans refer to as a “third gender.” Fa’afafine, which translates as “the way of the woman,” is a term used to describe individuals who are born biologically male but embody both masculine and feminine traits."
+      }
+    ],
+    "expected_answer": "Samoan culture recognizes a third gender called 'fa'afafine' (meaning 'the way of the woman'), which describes individuals born biologically male who embody both masculine and feminine traits."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "What does the Davis-Moore thesis argue about why some jobs and social roles receive much higher rewards than others?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 287,
+        "evidence": "In 1945, sociologists Kingsley Davis and Wilbert Moore published the Davis-Moore thesis, which argued that the greater the functional importance of a social role, the greater must be the reward. The theory posits that social stratification represents the inherently unequal value of different work."
+      }
+    ],
+    "expected_answer": "It argues that the greater the functional importance of a social role, the greater the reward must be, because social stratification reflects the inherently unequal value and skill requirements of different work and incentivizes qualified people to fill vital roles."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "How large a share of non-farming jobs in Latin America, Asia, and Africa consists of untaxed, unregulated work outside government oversight?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 311,
+        "evidence": "Official statistics before the worldwide recession posit that the underground economy accounted for over 50 percent of nonagricultural work in Latin America; the figure went as high as 80 percent in parts of Asia and Africa (Chen 2001)."
+      }
+    ],
+    "expected_answer": "The underground (informal) economy accounted for over 50% of nonagricultural work in Latin America and up to 80% in parts of Asia and Africa."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "What is meant by the sedimentation of racial inequality, and how does redlining relate to it?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 342,
+        "evidence": "Redlining is the practice of routinely refusing mortgages for households and businesses located in predominately minority communities, while sedimentation of racial inequality describes the intergenerational impact of both practical and legalized racism that limits the abilities of Black people to accumulate wealth."
+      }
+    ],
+    "expected_answer": "Sedimentation of racial inequality describes the intergenerational impact of practical and legalized racism that limits Black people's ability to accumulate wealth, while redlining is the practice of routinely refusing mortgages for households and businesses in predominantly minority communities."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "How does having children affect the gender pay gap between women and men in the United States?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 387,
+        "evidence": "In the United States, childless women with the same education and experience levels as men are typically paid with closer (but not exact) parity to men. However, women with families and children are paid less: Mothers are recommended a 7.9 percent lower starting salary than non-mothers, which is 8.6 percent lower than men (Correll 2007)."
+      }
+    ],
+    "expected_answer": "Childless women with the same education and experience as men are paid with closer (though not exact) parity to men, whereas mothers are recommended a 7.9% lower starting salary than non-mothers (and 8.6% lower than men)."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "(Context: chapter 12) From a conflict theory perspective, who takes on the role of the proletariat in the owner-worker relationship, and why?",
+    "gold": [
+      {
+        "source_id": "openstax-sociology-3e",
+        "page": 391,
+        "evidence": "Engels suggested that the same owner-worker relationship seen in the labor force is also seen in the household, with women assuming the role of the proletariat. This is due to women’s dependence on men for the attainment of wages, which is even worse for women who are entirely dependent upon their spouses for economic support."
+      }
+    ],
+    "expected_answer": "In the household, women assume the role of the proletariat because of their economic dependence on men for wages.",
+    "filter": {
+      "chapter": 12
+    }
+  }
+]

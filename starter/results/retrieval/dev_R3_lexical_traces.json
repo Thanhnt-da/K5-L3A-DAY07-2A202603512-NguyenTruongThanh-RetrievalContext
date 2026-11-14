@@ -1,0 +1,1560 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "answerable": true,
+  "question": "How likely are students whose parents never went to college to drop out or not finish their bachelor's degree?",
+  "query_used": "How likely are students whose parents never went to college to drop out or not finish their bachelor's degree?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 68.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0271:para:000",
+    "rank": 1,
+    "score": 2.2,
+    "page": 271,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.1",
+     "section_title": "Introduction",
+     "printed_page": 259
+    },
+    "text": "Stories like this permeate American society and may sound familiar, yet this quest to achieve the American Dream is often hard for many Americans to achieve, even with hard work. After all, nearly one in three first-year college students is a first-generation college student and many are not as successful as Jarrett. According to the Center for Student Opportunity, a national nonprofit, 89% of first-generation students will not earn an undergraduate degree within six years of starting their studies. In fact, these students “drop out of college at four times the rate of peers whose parents have postsecondary degrees” (Center for Student Opportunity quoted in Huot 2014).\n\nWhy do students with parents who have completed college tend to graduate more often than those students whose parents do not hold degrees? That question and many others will be answered as we explore social stratification."
+   },
+   {
+    "id": "openstax-sociology-3e:p0274:para:000",
+    "rank": 2,
+    "score": 0.8,
+    "page": 274,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.2",
+     "section_title": "What Is Social Stratification?",
+     "printed_page": 262
+    },
+    "text": "regularly categorized based on how rich or poor they are, other important factors influence social standing. For example, in some cultures, prestige is valued, and people who have them are revered more than those who don’t. In some cultures, the elderly are esteemed, while in others, the elderly are disparaged or overlooked. Societies’ cultural beliefs often reinforce stratification.\n\nOne key determinant of social standing is our parents. Parents tend to pass their social position on to their children. People inherit not only social standing but also the cultural norms, values, and beliefs that accompany a certain lifestyle. They share these with a network of friends and family members that provide resources and support. This is one of the reasons first-generation college students do not fare as well as other students. They lack access to the resources and support commonly provided to those whose parents have gone to college."
+   },
+   {
+    "id": "openstax-sociology-3e:p0280:para:000",
+    "rank": 3,
+    "score": 0.6,
+    "page": 280,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 268
+    },
+    "text": "The Middle Class\n\nFigure 9.9: These members of a club likely consider themselves middle class, as do many Americans. (Credit: United Way Canada-Centraide\n\nCanada/flickr)\n\nMany people consider themselves middle class, but there are differing ideas about what that means. People with annual incomes of $150,000 call themselves middle class, as do people who annually earn $30,000. That helps explain why, in the United States, the middle class is broken into upper and lower subcategories.\n\nLower-middle class members tend to complete a two-year associate’s degrees from community or technical colleges or a four- year bachelor’s degree. Upper-middle class people tend to continue on to postgraduate degrees. They’ve studied subjects such as business, management, law, or medicine."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 2016,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "answerable": true,
+  "question": "In medieval Britain's nobility, who inherited a family's estate, and what was the rule if there were no sons in the family?",
+  "query_used": "In medieval Britain's nobility, who inherited a family's estate, and what was the rule if there were no sons in the family?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 74.4,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0276:para:003",
+    "rank": 1,
+    "score": 0.7,
+    "page": 276,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.2",
+     "section_title": "What Is Social Stratification?",
+     "printed_page": 264
+    },
+    "text": "Britain’s monarchy arose during the Middle Ages. Its social hierarchy placed royalty at the top and commoners on the bottom. This was generally a closed system, with people born into positions of nobility. Wealth was passed from generation to generation through primogeniture, a law stating that all property would be inherited by the firstborn son. If the family had no son, the land went to the next closest male relation. Women could not inherit property, and their social standing was primarily determined through marriage."
+   },
+   {
+    "id": "openstax-sociology-3e:p0276:para:004",
+    "rank": 2,
+    "score": 0.5,
+    "page": 276,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.2",
+     "section_title": "What Is Social Stratification?",
+     "printed_page": 264
+    },
+    "text": "The arrival of the Industrial Revolution changed Britain’s social structure. Commoners moved to cities, got jobs, and made better livings. Gradually, people found new opportunities to increase their wealth and power. Today, the government is a constitutional monarchy with the prime minister and other ministers elected to their positions, and with the royal family’s role being largely ceremonial. The long-ago differences between nobility and commoners have blurred, and the modern class system in Britain is similar to that of the United States (McKee 1996).\n\nToday, the royal family still commands wealth, power, and a great deal of attention. When Queen Elizabeth II retires or passes away, Prince Charles will be first in line to ascend the throne. If he abdicates (chooses not to become king) or dies, the position will go to Prince William, Prince Harry's older brother."
+   },
+   {
+    "id": "openstax-sociology-3e:p0385:para:003",
+    "rank": 3,
+    "score": 0.4,
+    "page": 385,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 373
+    },
+    "text": "Family is the first agent of socialization. There is considerable evidence that parents socialize sons and daughters differently. Generally speaking, girls are given more latitude to step outside of their prescribed gender role (Coltrane and Adams 2004; Kimmel 2000; Raffaelli and Ontai 2004). However, differential socialization typically results in greater privileges afforded to sons. For instance, boys are allowed more autonomy and independence at an earlier age than daughters. They may be given fewer restrictions on appropriate clothing, dating habits, or curfew. Sons are also often free from performing domestic duties such as cleaning or cooking and other household tasks that are considered feminine. Daughters are limited by their expectation to be passive and nurturing, generally obedient, and to assume many of the domestic responsibilities."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": true,
+  "context_chars_800": 614,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1581,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "answerable": true,
+  "question": "How are the lower, middle, and upper classes defined by household income in the United States?",
+  "query_used": "How are the lower, middle, and upper classes defined by household income in the United States?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 98.5,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0278:para:002",
+    "rank": 1,
+    "score": 2.8,
+    "page": 278,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 266
+    },
+    "text": "For sociologists, categorizing social class is a fluid science. Sociologists generally identify three levels of class in the United States: upper, middle, and lower class. Within each class, there are many subcategories. Wealth is the most significant way of distinguishing classes, because wealth can be transferred to one’s children and perpetuate the class structure. One economist, J.D. Foster, defines the 20 percent of U.S. citizens’ highest earners as “upper income,” and the lower 20 percent as “lower income.” The remaining 60 percent of the population make up the middle class (Mason 2010). With that distinction, economists can describe the range in annual household incomes for the middle-class, but they cannot show how the range of all incomes vary and how they change over time. For this reason, the Pew Center defines classes based on the median household income."
+   },
+   {
+    "id": "openstax-sociology-3e:p0281:para:000",
+    "rank": 2,
+    "score": 2.3,
+    "page": 281,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 269
+    },
+    "text": "The Lower Class\n\nFigure 9.10: Bike messengers and bike delivery people are often considered members of the working class. They endure difficult and dangerous conditions to do their work, and they are not always well represented by government agencies and in regulations designed for\n\nsafety or fairness. (Credit: edwardhblake/flickr)\n\nThe lower class is also referred to as the working class. Just like the middle and upper classes, the lower class can be divided into subsets: the working class, the working poor, and the underclass. Compared to the lower middle class, people from the lower economic class have less formal education and earn smaller incomes. They work jobs that require less training or experience than middle-class occupations and often do routine tasks under close supervision.\n\nWorking-class people, the highest subcategory of the lower class, often land steady jobs. The work is hands-on and often physically demanding, such as landscaping, cooking, cleaning, or building."
+   },
+   {
+    "id": "openstax-sociology-3e:p0280:para:000",
+    "rank": 3,
+    "score": 2.2,
+    "page": 280,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 268
+    },
+    "text": "The Middle Class\n\nFigure 9.9: These members of a club likely consider themselves middle class, as do many Americans. (Credit: United Way Canada-Centraide\n\nCanada/flickr)\n\nMany people consider themselves middle class, but there are differing ideas about what that means. People with annual incomes of $150,000 call themselves middle class, as do people who annually earn $30,000. That helps explain why, in the United States, the middle class is broken into upper and lower subcategories.\n\nLower-middle class members tend to complete a two-year associate’s degrees from community or technical colleges or a four- year bachelor’s degree. Upper-middle class people tend to continue on to postgraduate degrees. They’ve studied subjects such as business, management, law, or medicine."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": false,
+  "hit3": false,
+  "hit_per_rank": [
+   false,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": false,
+  "context_chars_2400": 2050,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "answerable": true,
+  "question": "Who qualifies for cash assistance under the TANF program, and how long can a family receive those benefits?",
+  "query_used": "Who qualifies for cash assistance under the TANF program, and how long can a family receive those benefits?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 62.2,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0283:para:005",
+    "rank": 1,
+    "score": 1.6,
+    "page": 283,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 271
+    },
+    "text": "As a wealthy developed country, the United States invests in resources to provide the basic necessities to those in need through a series of federal and state social welfare programs. These programs provide food, medical, and cash assistance. Temporary Assistance for Needy Families (TANF) provides cash assistance. The goal of TANF is to help families with children achieve economic self-sufficiency. Adults who receive assistance must fall under a specific income level, usually half the poverty level, set by the state. TANF funding goes to childcare, support for parents who are working or training a required number of hours a week, and other services. TANF is time-limited. Most states only provide assistance for a maximum of 5 years (CBPP)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0283:para:006",
+    "rank": 2,
+    "score": 0.8,
+    "page": 283,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 271
+    },
+    "text": "One of the best-known programs is the Supplemental Nutrition Assistance Program (SNAP), administered by the United States Department of Agriculture and formerly known as the Food Stamp Program. This program began in the Great Depression, when unmarketable or surplus food was distributed to the hungry. It was not formalized until 1961, when President John F. Kennedy initiated a food stamp pilot program. His successor Lyndon B. Johnson was instrumental in the passage of the Food Stamp Act in 1964. In 1965, more than 500,000 individuals received food assistance. During the height of the pandemic in 2020, participation reached 43 million people."
+   },
+   {
+    "id": "openstax-sociology-3e:p0270:para:000",
+    "rank": 3,
+    "score": 0.4,
+    "page": 270,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.1",
+     "section_title": "Introduction",
+     "printed_page": 258
+    },
+    "text": "9.1: Introduction\n\nJarrett grew up on a farm in rural Ohio, left home to serve in the Army, and returned a few years later to take over the family farm. He moved into his family house, and eighteen months later married Eric, with whom he had maintained a long-distance relationship for several years. Eric had two children from a previous marriage. They quickly realized the income from the farm was no longer sufficient to meet their needs. Jarrett, with little experience beyond the farm, took on a job at a grocery store to supplement his income. This part-time job shifted the direction of their family’s life.\n\nFigure 9.1: This house, formerly owned by the famous television producer, Aaron Spelling, sold in 2019 for $119 million, which set the record for\n\nthe highest individual home sale in California history. It is the largest private home in Los Angeles, and is considered one of the most\n\nextravagant homes in the United States. (Credit: Atwater Village Newbie/flickr)"
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 736,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1573,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 9) How does symbolic interactionism explain the way social status affects people's everyday interactions?",
+  "query_used": "(Context: chapter 9) How does symbolic interactionism explain the way social status affects people's everyday interactions?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 97.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0288:para:003",
+    "rank": 1,
+    "score": 2.3,
+    "page": 288,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.5",
+     "section_title": "Theoretical Perspectives on Social Stratification",
+     "printed_page": 276
+    },
+    "text": "Symbolic Interactionism\n\nSymbolic interactionism uses everyday interactions of individuals to explain society as a whole. Symbolic interactionism examines stratification from a micro-level perspective. This analysis strives to explain how people’s social standing affects their everyday interactions.\n\nIn most communities, people interact primarily with others who share the same social standing. It is precisely because of social stratification that people tend to live, work, and associate with others like themselves, people who share their same income level, educational background, class traits and even tastes in food, music, and clothing. The built-in system of social stratification groups people together. This is one of the reasons why it was rare for a royal prince like England’s Prince William to marry a commoner."
+   },
+   {
+    "id": "openstax-sociology-3e:p0275:para:001",
+    "rank": 2,
+    "score": 1.2,
+    "page": 275,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.2",
+     "section_title": "What Is Social Stratification?",
+     "printed_page": 263
+    },
+    "text": "The Class System\n\nA class system is based on both social factors and individual achievement. A class consists of a set of people who share similar status based on factors like wealth, income, education, family background, and occupation. Unlike caste systems, class systems are open. People may move to a different level (vertical movement) of education or employment status than their parents. Though family and other societal models help guide a person toward a career, personal choice and opportunity play a role.\n\nThey can also socialize with and marry members of other classes. People have the option to form an exogamous marriage, a union of spouses from different social categories. Exogamous marriages often focus on values such as love and compatibility. Though social conformities still exist that encourage people to choose partners within their own class, called an endogamous marriage, people are not as pressured to choose marriage partners based solely on their social location."
+   },
+   {
+    "id": "openstax-sociology-3e:p0282:para:004",
+    "rank": 3,
+    "score": 1.2,
+    "page": 282,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 270
+    },
+    "text": "Social mobility refers to the ability of individuals to change positions within a social stratification system. When people improve or diminish their economic status in a way that affects social class, they experience social mobility. Individuals can experience upward or downward social mobility for a variety of reasons. Upward mobility refers to an increase—or upward shift—when they move from a lower to a higher socioeconomical class. In contrast, individuals experience downward mobility when they move from higher socioeconomic class to a lower one. Some people move downward because of business setbacks, unemployment, or illness. Dropping out of school, losing a job, or getting a divorce may result in a loss of income or status and, therefore, downward social mobility."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 1996,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "answerable": true,
+  "question": "What were the working hours and wages of the garment workers at the Rana Plaza factory in Bangladesh?",
+  "query_used": "What were the working hours and wages of the garment workers at the Rana Plaza factory in Bangladesh?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 62.7,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0302:para:002",
+    "rank": 1,
+    "score": 1.4,
+    "page": 302,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.1",
+     "section_title": "Introduction",
+     "printed_page": 290
+    },
+    "text": "In addition to garment factories employing about 5,000 people, the building contained a bank, apartments, childcare facilities, and a variety of shops. Many of these closed the day before the collapse when cracks were discovered in the building walls. When some of the garment workers refused to enter the building, they were threatened with the loss of a month’s pay. Most were young women, aged twenty or younger. They typically worked over thirteen hours a day, with two days off each month. For this work, they took home between twelve and twenty-two cents an hour, or $10.56 to $12.48 a week. Without that pay, most would have been unable to feed their children. In contrast, the U.S. federal minimum wage is $7.25 an hour, and workers receive wages at time-and-a-half rates for work in excess of forty hours a week."
+   },
+   {
+    "id": "openstax-sociology-3e:p0302:para:003",
+    "rank": 2,
+    "score": 1.0,
+    "page": 302,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.1",
+     "section_title": "Introduction",
+     "printed_page": 290
+    },
+    "text": "32 percent of the clothing made in the collapsed Rana Plaza building was intended for U.S., Canadian, and European stores. Walmart jeans were made on the fifth floor. Clothing for The Children’s Place was produced in the building, as well. Afterward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour and Human Rights 2014).\n\nWhile you read this chapter, think about the global system that allows U.S. companies to outsource their manufacturing to peripheral nations, where many women and children work in conditions that some characterize as slave labor. Do people in the United States have a responsibility to foreign workers? Should U.S. corporations be held accountable for what happens to garment factory workers who make their clothing? What can you do as a consumer to help such workers?"
+   },
+   {
+    "id": "openstax-sociology-3e:p0281:para:000",
+    "rank": 3,
+    "score": 0.8,
+    "page": 281,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 269
+    },
+    "text": "The Lower Class\n\nFigure 9.10: Bike messengers and bike delivery people are often considered members of the working class. They endure difficult and dangerous conditions to do their work, and they are not always well represented by government agencies and in regulations designed for\n\nsafety or fairness. (Credit: edwardhblake/flickr)\n\nThe lower class is also referred to as the working class. Just like the middle and upper classes, the lower class can be divided into subsets: the working class, the working poor, and the underclass. Compared to the lower middle class, people from the lower economic class have less formal education and earn smaller incomes. They work jobs that require less training or experience than middle-class occupations and often do routine tasks under close supervision.\n\nWorking-class people, the highest subcategory of the lower class, often land steady jobs. The work is hands-on and often physically demanding, such as landscaping, cooking, cleaning, or building."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 1956,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "answerable": true,
+  "question": "When measuring national inequality with the Gini coefficient, what do the extreme scores of 0 and 1 represent?",
+  "query_used": "When measuring national inequality with the Gini coefficient, what do the extreme scores of 0 and 1 represent?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 60.2,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0303:para:003",
+    "rank": 1,
+    "score": 1.5,
+    "page": 303,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 291
+    },
+    "text": "Another measure of inequality is Gini Coefficient, named after the Italian sociologist and statistician Corrado Gini. (Be sure not to confuse this with GNI, which is the gross national income.) It is is calculated using a number of financial indicators, and is expressed as either a decimal or a percentage. A country in which every resident has the same income would have a Gini coefficient of 0 (or 0 percent). A country in which one resident earned all the income, while everyone else earned nothing, would have an income Gini coefficient of 1 (or 100 percent). Thus, the higher the number (the closer to that one person having all the income or wealth), the more inequality there is.\n\nOther gauges are a bit more direct: To indicate the level of poverty within a nation or region, researchers calculate the percentage"
+   },
+   {
+    "id": "openstax-sociology-3e:p0317:para:003",
+    "rank": 2,
+    "score": 0.8,
+    "page": 317,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.4",
+     "section_title": "Theoretical Perspectives on Global Stratification",
+     "printed_page": 305
+    },
+    "text": "Dependency Theory\n\nDependency theory was created in part as a response to the Western-centric mindset of modernization theory. It states that global inequality is primarily caused by core nations (or high-income nations) exploiting semi-peripheral and peripheral nations (or middle-income and low-income nations), which creates a cycle of dependence (Hendricks 2010). As long as peripheral nations are dependent on core nations for economic stimulus and access to a larger piece of the global economy, they will never achieve stable and consistent economic growth. Further, the theory states that since core nations, as well as the World Bank, choose which countries to make loans to, and for what they will loan funds, they are creating highly segmented labor markets that are built to benefit the dominant market countries."
+   },
+   {
+    "id": "openstax-sociology-3e:p0305:para:000",
+    "rank": 3,
+    "score": 0.7,
+    "page": 305,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 293
+    },
+    "text": "Country Percentage of people living on less than $1.90\n\nPercentage of people living on less than $3.90\n\nPercentage of people living on less than $5.50\n\nAngola 51.8 73.2 89.3\n\nLithuania 0.7 1.0 3.8\n\nUkraine 0.0 0.4 4.0\n\nVietnam 1.9 7.0 23.6\n\nIndonesia 3.6 9.6 53.2\n\nMost of us are accustomed to thinking of global stratification as economic inequality. For example, we can compare the United States’ average worker’s wage to America’s average wage. Social inequality, however, is just as harmful as economic discrepancies. Prejudice and discrimination—whether against a certain race, ethnicity, religion, or the like—can create and aggravate conditions of economic equality, both within and between nations. Think about the inequity that existed for decades within the nation of South Africa. Apartheid, one of the most extreme cases of institutionalized and legal racism, created a social inequality that earned it the world’s condemnation."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 1822,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "answerable": true,
+  "question": "In the world systems model of global inequality, how do middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries?",
+  "query_used": "In the world systems model of global inequality, how do middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 95.6,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0285:para:002",
+    "rank": 1,
+    "score": 2.0,
+    "page": 285,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.4",
+     "section_title": "Global Stratification and Inequality",
+     "printed_page": 273
+    },
+    "text": "Traditional models, now considered outdated, used labels, such as “first world”, “second world,” and “third world” to describe the stratification of the different areas of the world. First and second world described industrialized nations, while third world referred to “undeveloped” countries (Henslin 2004). When researching existing historical sources, you may still encounter these terms, and even today people still refer to some nations as the “third world.” This model, however, is outdated because it lumps countries together that are quite different in terms of wealth, power, prestige, and economic stability.\n\nAnother model separates countries into two groups: more developed and less developed. More-developed nations have higher wealth, such as Canada, Japan, and Australia. Less-developed nations have less wealth to distribute among populations, including many countries in central Africa, South America, and some island nations."
+   },
+   {
+    "id": "openstax-sociology-3e:p0317:para:003",
+    "rank": 2,
+    "score": 1.7,
+    "page": 317,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.4",
+     "section_title": "Theoretical Perspectives on Global Stratification",
+     "printed_page": 305
+    },
+    "text": "Dependency Theory\n\nDependency theory was created in part as a response to the Western-centric mindset of modernization theory. It states that global inequality is primarily caused by core nations (or high-income nations) exploiting semi-peripheral and peripheral nations (or middle-income and low-income nations), which creates a cycle of dependence (Hendricks 2010). As long as peripheral nations are dependent on core nations for economic stimulus and access to a larger piece of the global economy, they will never achieve stable and consistent economic growth. Further, the theory states that since core nations, as well as the World Bank, choose which countries to make loans to, and for what they will loan funds, they are creating highly segmented labor markets that are built to benefit the dominant market countries."
+   },
+   {
+    "id": "openstax-sociology-3e:p0305:para:003",
+    "rank": 3,
+    "score": 1.5,
+    "page": 305,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 293
+    },
+    "text": "Cold War Terminology\n\nCold War terminology was developed during the Cold War era (1945–1980). Familiar and still used by many, it classifies countries into first world, second world, and third world nations based on their respective economic development and standards of living. When this nomenclature was developed, capitalistic democracies such as the United States and Japan were considered part of the first world. The poorest, most undeveloped countries were referred to as the third world and included most of sub-Saharan Africa, Latin America, and Asia. The second world was the in-between category: nations not as limited in development as the third world, but not as well off as the first world, having moderate economies and standard of living, such as China or Cuba. Later, sociologist Manual Castells (1998) added the term fourth world to refer to stigmatized minority groups that were denied a political voice all over the globe (indigenous minority populations, prisoners, and the homeless, for example)."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": false,
+  "hit3": false,
+  "hit_per_rank": [
+   false,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": false,
+  "context_chars_2400": 1945,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does the World Bank separate middle-income countries into lower-middle and upper-middle categories?",
+  "query_used": "How does the World Bank separate middle-income countries into lower-middle and upper-middle categories?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 118.7,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0308:para:001",
+    "rank": 1,
+    "score": 2.4,
+    "page": 308,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 296
+    },
+    "text": "Middle-Income Nations\n\nThe World Bank divides middle-income economies into two categories. Lower middle income areas are those with a GNI per capita of more than $1,036 but less than $4,045. Upper middle income areas are those with A GNI per capita between $4,046 and $12,535. Democratic Republic of Congo, Tunisia, Philippines, El Salvador, and Nepal are are examples of lower-middle-income countries. And Argentina, Mexico, China, Iran, Turkey, and Namibia are examples of upper-middle-income nations (World Bank 2021)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0285:para:003",
+    "rank": 2,
+    "score": 1.5,
+    "page": 285,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.4",
+     "section_title": "Global Stratification and Inequality",
+     "printed_page": 273
+    },
+    "text": "GNP and GDP are used to gain insight into global stratification based on a country’s standard of living. According to this analysis, a GDP standard of a middle-income nation represents a global average. In low-income countries, most people are poor relative to people in other countries. Citizens have little access to amenities such as electricity, plumbing, and clean water. People in low-income countries are not guaranteed education, and many are illiterate. The life expectancy of citizens is lower than in high- income countries. Therefore, the different expectations in lifestyle and access to resources varies.\n\nA few organizations take on the job of comparing the wealth of nations. The Population Reference Bureau (PRB) is one of them. Besides a focus on population data, the PRB publishes an annual report that measures the relative economic well- being of all the world’s countries using the Gross National Income (GNI) and Purchasing Power Parity (PPP)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0275:para:004",
+    "rank": 3,
+    "score": 1.4,
+    "page": 275,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.2",
+     "section_title": "What Is Social Stratification?",
+     "printed_page": 263
+    },
+    "text": "To illustrate, let’s consider Serena. Serena earned her high school diploma but did not go to college. Completing high school but not college is a trait more common to the lower-middle class. After high school, she began landscaping, which, as manual labor, tracks with lower-middle class or even lower class. However, over time, Serena started her own company. She hired employees. She won larger contracts. Serena became a business owner and earned more money. Those traits represent the upper-middle class. Inconsistencies between Serena’s educational level, her occupation, and income show Serena’s flexibility in her social status, giving her low status consistency. In a class system, hard work, new opportunities, coupled with a lower education status still allow a person movement into middle or upper class, whereas in a caste system, that would not be possible. In a class system, low status consistency correlates with having more choices and opportunities."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": true,
+  "context_chars_800": 608,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1663,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 10) How is relative poverty defined?",
+  "query_used": "(Context: chapter 10) How is relative poverty defined?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 96.4,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0304:para:003",
+    "rank": 1,
+    "score": 1.0,
+    "page": 304,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 292
+    },
+    "text": "The symbolic interaction perspective studies the day-to-day impact of global inequality, the meanings individuals attach to global stratification, and the subjective nature of poverty. Someone applying this view to global inequality would probably focus on understanding the difference between what someone living in a core nation defines as poverty (relative poverty, defined as being unable to live the lifestyle of the average person in your country) and what someone living in a peripheral nation defines as poverty (extreme poverty, defined as being barely able, or unable, to afford basic necessities, such as food)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0312:para:004",
+    "rank": 2,
+    "score": 1.0,
+    "page": 312,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 300
+    },
+    "text": "Global Feminization of Poverty\n\nIn almost all societies, women have higher rates of poverty than men. More women and girls live in poor conditions, receive inadequate healthcare, bear the brunt of malnutrition and inadequate drinking water, and so on. This situation goes back decades, and led University of Michigan sociologist Diana Pearce to coin the term \"feminization of poverty\" in 1978. Throughout the 1990s, data indicated that while overall poverty rates were rising, especially in peripheral nations, the rates of impoverishment increased for women nearly 20 percent more than for men (Mogadham 2005). More recently, as extreme poverty rates continue to fall, women still make up a disproportionate amount of the world's poor. Gender differences are sometimes difficult to discern in international poverty data, but researchers have undertaken efforts to define the makeup of those affected by poverty. Of people aged 25-34, the world has 122 women living in poverty for every 100 men living in poverty."
+   },
+   {
+    "id": "openstax-sociology-3e:p0310:para:002",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 310,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 298
+    },
+    "text": "Types of Poverty\n\nSocial scientists define global poverty in different ways and take into account the complexities and the issues of relativism described above. Relative poverty is a state of living where people can afford necessities but are unable to meet their society’s average standard of living. People often disparage “keeping up with the Joneses”—the idea that you must keep up with the neighbors’ standard of living to not feel deprived. But it is true that you might feel ”poor” if you are living without a car to drive to and from work, without any money for a safety net should a family member fall ill, and without any “extras” beyond just making ends meet.\n\nContrary to relative poverty, people who live in extreme poverty lack even the basic necessities, which typically include adequate food, clean water, safe housing, and access to healthcare. Extreme poverty occurs when someone lives on less than 1.90 U.S dollars per day."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   true
+  ],
+  "context_hit_800": true,
+  "context_chars_800": 709,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1811,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "answerable": true,
+  "question": "What are the five characteristics that distinguish a minority group in sociology?",
+  "query_used": "What are the five characteristics that distinguish a minority group in sociology?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 56.2,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0333:para:006",
+    "rank": 1,
+    "score": 2.1000001,
+    "page": 333,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 321
+    },
+    "text": "Note that being a numerical minority is not a characteristic of being a minority group; sometimes larger groups can be considered minority groups due to their lack of power. It is the lack of power that is the predominant characteristic of a minority, or subordinate group. For example, consider apartheid in South Africa, in which a numerical majority (the Black inhabitants of the country) were exploited and oppressed by the White minority.\n\nAccording to Charles Wagley and Marvin Harris (1958), a minority group is distinguished by five characteristics: (1) unequal treatment and less power over their lives, (2) distinguishing physical or cultural traits like skin color or language, (3) involuntary membership in the group, (4) awareness of subordination, and (5) high rate of in-group marriage. Additional examples of minority groups might include the LGBTQ community, religious practitioners whose faith is not widely practiced where they live, and people with disabilities."
+   },
+   {
+    "id": "openstax-sociology-3e:p0333:para:005",
+    "rank": 2,
+    "score": 1.4,
+    "page": 333,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 321
+    },
+    "text": "Sociologist Louis Wirth (1945) defined a minority group as “any group of people who, because of their physical or cultural characteristics, are singled out from the others in the society in which they live for differential and unequal treatment, and who therefore regard themselves as objects of collective discrimination.” The term minority connotes discrimination, and in its sociological use, the term subordinate group can be used interchangeably with the term minority group, while the term dominant group is often substituted for the group that represents rulers or is in the majority who can access power and privilege in a given society. These definitions correlate to the concept that the dominant group is that which holds the most power in a given society, while subordinate groups are those who lack power compared to the dominant group."
+   },
+   {
+    "id": "openstax-sociology-3e:p0332:para:001",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 332,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 320
+    },
+    "text": "While many students first entering a sociology classroom are accustomed to conflating the terms “race,” “ethnicity,” and “minority group,” these three terms have distinct meanings for sociologists. The idea of race refers to superficial physical differences that a particular society considers significant, while ethnicity describes shared culture. And the term \"minority groups\" describe groups that are subordinate, or that lack power in society regardless of skin color or country of origin. For example, in modern U.S. history, the elderly might be considered a minority group due to a diminished status that results from popular prejudice and discrimination against them. Ten percent of nursing home staff admitted to physically abusing an elderly person in the past year, and 40 percent admitted to committing psychological abuse (World Health Organization 2011). In this chapter we focus on racial and ethnic minorities.\n\nWhat Is Race?"
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 2007,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "answerable": true,
+  "question": "Why do people in a dominant racial group often hesitate to admit that they receive unearned advantages from their race?",
+  "query_used": "Why do people in a dominant racial group often hesitate to admit that they receive unearned advantages from their race?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 45.0,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0339:para:003",
+    "rank": 1,
+    "score": 1.5,
+    "page": 339,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.4",
+     "section_title": "Prejudice, Discrimination, and Racism",
+     "printed_page": 327
+    },
+    "text": "Most people have some level of privilege, whether it has to do with health, ability, race, or gender. When discussing race, the focus is often on White privilege, which is the societal privilege that benefits White people, or those perceived to be White, over non-White people in some societies, including the United States. Most White people are willing to admit that non-White people live with a set of disadvantages due to the color of their skin. But until they gain a good degree of self-awareness, few people are willing to acknowledge the benefits they themselves receive by being a part of the dominant group. Why not? Some may feel it lessens their accomplishments, others may feel a degree of guilt, and still others may feel that admitting to privilege makes them seem like a bad or mean person. But White (or other dominant) privilege is an institutional condition, not a personal one. It exists whether the person asks for it or not."
+   },
+   {
+    "id": "openstax-sociology-3e:p0333:para:005",
+    "rank": 2,
+    "score": 1.4,
+    "page": 333,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 321
+    },
+    "text": "Sociologist Louis Wirth (1945) defined a minority group as “any group of people who, because of their physical or cultural characteristics, are singled out from the others in the society in which they live for differential and unequal treatment, and who therefore regard themselves as objects of collective discrimination.” The term minority connotes discrimination, and in its sociological use, the term subordinate group can be used interchangeably with the term minority group, while the term dominant group is often substituted for the group that represents rulers or is in the majority who can access power and privilege in a given society. These definitions correlate to the concept that the dominant group is that which holds the most power in a given society, while subordinate groups are those who lack power compared to the dominant group."
+   },
+   {
+    "id": "openstax-sociology-3e:p0335:para:005",
+    "rank": 3,
+    "score": 1.4,
+    "page": 335,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.3",
+     "section_title": "Theoretical Perspectives on Race and Ethnicity",
+     "printed_page": 323
+    },
+    "text": "Interactionism\n\nFor symbolic interactionists, race and ethnicity provide strong symbols as sources of identity. In fact, some interactionists propose that the symbols of race, not race itself, are what lead to racism. Famed Interactionist Herbert Blumer (1958) suggested that racial prejudice is formed through interactions between members of the dominant group: Without these interactions, individuals in the dominant group would not hold racist views. These interactions contribute to an abstract picture of the subordinate group that allows the dominant group to support its view of the subordinate group, and thus maintains the status quo. An example of this might be an individual whose beliefs about a particular group are based on images conveyed in popular media, and those are unquestionably believed because the individual has never personally met a member of that group."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 1971,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "answerable": true,
+  "question": "How do researchers evaluate how much an immigrant group has integrated into a host society's culture?",
+  "query_used": "How do researchers evaluate how much an immigrant group has integrated into a host society's culture?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 39.6,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0333:para:005",
+    "rank": 1,
+    "score": 1.3000001,
+    "page": 333,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 321
+    },
+    "text": "Sociologist Louis Wirth (1945) defined a minority group as “any group of people who, because of their physical or cultural characteristics, are singled out from the others in the society in which they live for differential and unequal treatment, and who therefore regard themselves as objects of collective discrimination.” The term minority connotes discrimination, and in its sociological use, the term subordinate group can be used interchangeably with the term minority group, while the term dominant group is often substituted for the group that represents rulers or is in the majority who can access power and privilege in a given society. These definitions correlate to the concept that the dominant group is that which holds the most power in a given society, while subordinate groups are those who lack power compared to the dominant group."
+   },
+   {
+    "id": "openstax-sociology-3e:p0333:para:006",
+    "rank": 2,
+    "score": 0.90000004,
+    "page": 333,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 321
+    },
+    "text": "Note that being a numerical minority is not a characteristic of being a minority group; sometimes larger groups can be considered minority groups due to their lack of power. It is the lack of power that is the predominant characteristic of a minority, or subordinate group. For example, consider apartheid in South Africa, in which a numerical majority (the Black inhabitants of the country) were exploited and oppressed by the White minority.\n\nAccording to Charles Wagley and Marvin Harris (1958), a minority group is distinguished by five characteristics: (1) unequal treatment and less power over their lives, (2) distinguishing physical or cultural traits like skin color or language, (3) involuntary membership in the group, (4) awareness of subordination, and (5) high rate of in-group marriage. Additional examples of minority groups might include the LGBTQ community, religious practitioners whose faith is not widely practiced where they live, and people with disabilities."
+   },
+   {
+    "id": "openstax-sociology-3e:p0343:para:002",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 343,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.5",
+     "section_title": "Intergroup Relationships",
+     "printed_page": 331
+    },
+    "text": "Assimilation\n\nAssimilation describes the process by which a minority individual or group gives up its own identity by taking on the characteristics of the dominant culture. In the United States, which has a history of welcoming and absorbing immigrants from different lands, assimilation has been a function of immigration.\n\nFigure 11.6: For many immigrants to the United States, the Statue of Liberty is a symbol of freedom and a new life. Unfortunately, they often\n\nencounter prejudice and discrimination. (Credit: Mark Heard/flickr)\n\nMost people in the United States have immigrant ancestors. In relatively recent history, between 1890 and 1920, the United States became home to around 24 million immigrants. In the decades since then, further waves of immigrants have come to these shores and have eventually been absorbed into U.S. culture, sometimes after facing extended periods of prejudice and"
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": false,
+  "hit3": false,
+  "hit_per_rank": [
+   false,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": false,
+  "context_chars_2400": 2007,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "answerable": true,
+  "question": "When Cuban migrants attempt to reach the United States by boat, what determines whether the U.S. government sends them back to Cuba or allows them to stay?",
+  "query_used": "When Cuban migrants attempt to reach the United States by boat, what determines whether the U.S. government sends them back to Cuba or allows them to stay?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 50.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0356:para:007",
+    "rank": 1,
+    "score": 1.4,
+    "page": 356,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.6",
+     "section_title": "Race and Ethnicity in the United States",
+     "printed_page": 344
+    },
+    "text": "Cuban Americans, perhaps because of their relative wealth and education level at the time of immigration, have fared better than many immigrants. Further, because they were fleeing a Communist country, they were given refugee status and offered protection and social services. The Cuban Migration Agreement of 1995 has curtailed legal immigration from Cuba, leading many Cubans to try to immigrate illegally by boat. According to a 2009 report from the Congressional Research Service, the U.S. government applies a “wet foot/dry foot” policy toward Cuban immigrants; Cubans who are intercepted while still at sea will be returned to Cuba, while those who reach the shore will be permitted to stay in the United States."
+   },
+   {
+    "id": "openstax-sociology-3e:p0343:para:002",
+    "rank": 2,
+    "score": 0.90000004,
+    "page": 343,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.5",
+     "section_title": "Intergroup Relationships",
+     "printed_page": 331
+    },
+    "text": "Assimilation\n\nAssimilation describes the process by which a minority individual or group gives up its own identity by taking on the characteristics of the dominant culture. In the United States, which has a history of welcoming and absorbing immigrants from different lands, assimilation has been a function of immigration.\n\nFigure 11.6: For many immigrants to the United States, the Statue of Liberty is a symbol of freedom and a new life. Unfortunately, they often\n\nencounter prejudice and discrimination. (Credit: Mark Heard/flickr)\n\nMost people in the United States have immigrant ancestors. In relatively recent history, between 1890 and 1920, the United States became home to around 24 million immigrants. In the decades since then, further waves of immigrants have come to these shores and have eventually been absorbed into U.S. culture, sometimes after facing extended periods of prejudice and"
+   },
+   {
+    "id": "openstax-sociology-3e:p0394:para:004",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 394,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.4",
+     "section_title": "Sexuality",
+     "printed_page": 382
+    },
+    "text": "Sexuality in the United States\n\nThe United States prides itself on being the land of the “free,” but it is rather restrictive when it comes to its citizens’ general attitudes about sex compared to other industrialized nations. In an international survey, 25 percent of U.S. respondents stated that premarital sex is always wrong, while the average among the 24 countries surveyed was 17 percent, with less than ten percent of respondents from France, Germany, and Spain saying premarital sex was unacceptable (Chamie 2018). Similar discrepancies were found in questions about the condemnation of sex before the age of 16, extramarital sex, and homosexuality, with total disapproval of these acts being 12, 13, and 11 percent higher, respectively, in the United States, than the study’s average (Widmer, Treas, and Newcomb 1998). U.S. culture is particularly restrictive in its attitudes about sex when it comes to women and sexuality."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 1796,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does Samoan culture recognize and describe a third gender?",
+  "query_used": "How does Samoan culture recognize and describe a third gender?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 42.4,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0375:para:003",
+    "rank": 1,
+    "score": 1.5,
+    "page": 375,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.2",
+     "section_title": "Sex, Gender, Identity, and Expression",
+     "printed_page": 363
+    },
+    "text": "The kilt worn by a Scottish man does not make him appear feminine in that culture.\n\nThe dichotomous or binary view of gender (the notion that someone is either male or female) is specific to certain cultures and is not universal. In some cultures gender is viewed as fluid. In the past, some anthropologists used the term berdache to refer to individuals who occasionally or permanently dressed and lived as a different gender. The practice has been noted among certain Native American tribes (Jacobs, Thomas, and Lang 1997). Samoan culture accepts what Samoans refer to as a “third gender.” Fa’afafine, which translates as “the way of the woman,” is a term used to describe individuals who are born biologically male but embody both masculine and feminine traits. Fa’afafines are considered an important part of Samoan culture. Individuals from other cultures may mislabel their sexuality because fa’afafines have a varied sexual life that may include men and women (Poasa"
+   },
+   {
+    "id": "openstax-sociology-3e:p0376:para:004",
+    "rank": 2,
+    "score": 1.0,
+    "page": 376,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.2",
+     "section_title": "Sex, Gender, Identity, and Expression",
+     "printed_page": 364
+    },
+    "text": "A person’s sexual orientation is their physical, mental, emotional, and sexual attraction to a particular sex (male and/or female). Sexual orientation is typically divided into several categories: heterosexuality, the attraction to individuals of the other sex; homosexuality, the attraction to individuals of the same sex; bisexuality, the attraction to individuals of either sex; asexuality, a lack of sexual attraction or desire for sexual contact; pansexuality, an attraction to people regardless of sex, gender, gender identity, or gender expression; omnisexuality, an attraction to people of all sexes, genders, gender identities, and gender expressions that considers the person's gender, and queer, an umbrella term used to describe sexual orientation, gender identity or gender expression. Other categories may not refer to a sexual attraction, but rather a romantic one."
+   },
+   {
+    "id": "openstax-sociology-3e:p0381:para:001",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 381,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.2",
+     "section_title": "Sex, Gender, Identity, and Expression",
+     "printed_page": 369
+    },
+    "text": "People become aware that they may be transgender at different ages. Even if someone does not have a full (or even partial) understanding of gender terminology and its implications, they can still develop an awareness that their gender assigned at birth does not align with their gender identity. Society, particularly in the United States, has been reluctant to accept transgender identities at any age, but we have particular difficulty accepting those identities in children. Many people feel that children are too young to understand their feelings, and that they may \"grow out of it.\" And it is true that some children who verbalize their identification or desire to live as another gender may ultimately decide to live in alignment with their assigned gender. But if a child consistently describes themselves as a gender (or as both genders) and/or expresses themselves as that gender over a long period of time, their feelings cannot be attributed to going through a \"phase\" (Mayo Clinic 2021)."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 2029,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q16",
+  "split": "dev",
+  "answerable": true,
+  "question": "What does the Davis-Moore thesis argue about why some jobs and social roles receive much higher rewards than others?",
+  "query_used": "What does the Davis-Moore thesis argue about why some jobs and social roles receive much higher rewards than others?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 35.2,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0287:para:002",
+    "rank": 1,
+    "score": 1.5,
+    "page": 287,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.5",
+     "section_title": "Theoretical Perspectives on Social Stratification",
+     "printed_page": 275
+    },
+    "text": "Functionalism\n\nIn sociology, the functionalist perspective examines how society’s parts operate. According to functionalism, different aspects of society exist because they serve a vital purpose. What is the function of social stratification?\n\nIn 1945, sociologists Kingsley Davis and Wilbert Moore published the Davis-Moore thesis, which argued that the greater the functional importance of a social role, the greater must be the reward. The theory posits that social stratification represents the inherently unequal value of different work. Certain tasks in society are more valuable than others (for example, doctors or lawyers). Qualified people who fill those positions are rewarded more than others."
+   },
+   {
+    "id": "openstax-sociology-3e:p0287:para:004",
+    "rank": 2,
+    "score": 1.5,
+    "page": 287,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.5",
+     "section_title": "Theoretical Perspectives on Social Stratification",
+     "printed_page": 275
+    },
+    "text": "Davis and Moore stated that, in most cases, the degree of skill required for a job determines that job’s importance. They noted that the more skill required for a job, the fewer qualified people there would be to do that job. Certain jobs, such as cleaning hallways or answering phones, do not require much skill. Therefore, most people would be qualified for these positions. Other work, like designing a highway system or delivering a baby, requires immense skill limiting the number of people qualified to take on this type of work.\n\nMany scholars have criticized the Davis-Moore thesis. In 1953, Melvin Tumin argued that it does not explain inequalities in the education system or inequalities due to race or gender. Tumin believed social stratification prevented qualified people from attempting to fill roles (Tumin 1953)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0282:para:004",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 282,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 270
+    },
+    "text": "Social mobility refers to the ability of individuals to change positions within a social stratification system. When people improve or diminish their economic status in a way that affects social class, they experience social mobility. Individuals can experience upward or downward social mobility for a variety of reasons. Upward mobility refers to an increase—or upward shift—when they move from a lower to a higher socioeconomical class. In contrast, individuals experience downward mobility when they move from higher socioeconomic class to a lower one. Some people move downward because of business setbacks, unemployment, or illness. Dropping out of school, losing a job, or getting a divorce may result in a loss of income or status and, therefore, downward social mobility."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": true,
+  "context_chars_800": 792,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1709,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q17",
+  "split": "dev",
+  "answerable": true,
+  "question": "How large a share of non-farming jobs in Latin America, Asia, and Africa consists of untaxed, unregulated work outside government oversight?",
+  "query_used": "How large a share of non-farming jobs in Latin America, Asia, and Africa consists of untaxed, unregulated work outside government oversight?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 38.5,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0281:para:000",
+    "rank": 1,
+    "score": 1.1,
+    "page": 281,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 269
+    },
+    "text": "The Lower Class\n\nFigure 9.10: Bike messengers and bike delivery people are often considered members of the working class. They endure difficult and dangerous conditions to do their work, and they are not always well represented by government agencies and in regulations designed for\n\nsafety or fairness. (Credit: edwardhblake/flickr)\n\nThe lower class is also referred to as the working class. Just like the middle and upper classes, the lower class can be divided into subsets: the working class, the working poor, and the underclass. Compared to the lower middle class, people from the lower economic class have less formal education and earn smaller incomes. They work jobs that require less training or experience than middle-class occupations and often do routine tasks under close supervision.\n\nWorking-class people, the highest subcategory of the lower class, often land steady jobs. The work is hands-on and often physically demanding, such as landscaping, cooking, cleaning, or building."
+   },
+   {
+    "id": "openstax-sociology-3e:p0314:para:000",
+    "rank": 2,
+    "score": 1.0,
+    "page": 314,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 302
+    },
+    "text": "While the majority of the world’s poorest countries are in Africa, the majority of the world’s poorest people are in Asia. As in Africa, Asia finds itself with disparity in the distribution of poverty, with Japan and South Korea holding much more wealth than India and Cambodia. In fact, most poverty is concentrated in South Asia. One of the most pressing causes of poverty in Asia is simply the pressure that the size of the population puts on its resources. Unlike Africa, many people living in poverty reside in urban areas, often in crowded, unhygenic conditions with limited access to water and resources. Estimates indicate that Asia has 60 percent of the world's people who live in slums (WorldVision 2019). Those who find work often do so in garment factories or other manufacturing facilities, where pay is very low and the demands are incredibly high. (See the feature below on sweatshop labor.) Children are sent to work in these conditions as well."
+   },
+   {
+    "id": "openstax-sociology-3e:p0311:para:002",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 311,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 299
+    },
+    "text": "What do the driver of an unlicensed hack cab in New York, a piecework seamstress working from her home in Mumbai, and a street tortilla vendor in Mexico City have in common? They are all members of the underground economy, a loosely defined unregulated market unhindered by taxes, government permits, or human protections. Official statistics before the worldwide recession posit that the underground economy accounted for over 50 percent of nonagricultural work in Latin America; the figure went as high as 80 percent in parts of Asia and Africa (Chen 2001). A recent article in the Wall Street Journal discusses the challenges, parameters, and surprising benefits of this informal marketplace. The wages earned in most underground economy jobs, especially in peripheral nations, are a pittance––a few rupees for a handmade bracelet at a market, or maybe 250 rupees ($5 U.S.) for a day’s worth of fruit and vegetable sales (Barta 2009)."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": false,
+  "hit3": true,
+  "hit_per_rank": [
+   false,
+   false,
+   true
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": false,
+  "context_chars_2400": 2132,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q18",
+  "split": "dev",
+  "answerable": true,
+  "question": "What is meant by the sedimentation of racial inequality, and how does redlining relate to it?",
+  "query_used": "What is meant by the sedimentation of racial inequality, and how does redlining relate to it?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 29.6,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0342:para:001",
+    "rank": 1,
+    "score": 0.8,
+    "page": 342,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.4",
+     "section_title": "Prejudice, Discrimination, and Racism",
+     "printed_page": 330
+    },
+    "text": "Redlining is the practice of routinely refusing mortgages for households and businesses located in predominately minority communities, while sedimentation of racial inequality describes the intergenerational impact of both practical and legalized racism that limits the abilities of Black people to accumulate wealth.\n\nFerguson’s racial imbalance may explain in part why, even though in 2010 only about 63 percent of its population was Black, in 2013 Black people were detained in 86 percent of stops, 92 percent of searches, and 93 percent of arrests (Missouri Attorney General’s Office 2014). In addition, de facto segregation in Ferguson’s schools, a race-based wealth gap, urban sprawl, and a Black unemployment rate three times that of the White unemployment rate worsened existing racial tensions in Ferguson while also reflecting nationwide racial inequalities (Bouie 2014)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0342:para:000",
+    "rank": 2,
+    "score": 0.7,
+    "page": 342,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.4",
+     "section_title": "Prejudice, Discrimination, and Racism",
+     "printed_page": 330
+    },
+    "text": "The shooting focused attention on a number of race-related tensions in the United States. First, members of the predominantly Black community viewed Brown’s death as the result of a White police officer racially profiling a Black man (Nobles and Bosman 2014). In the days after, it was revealed that only three members of the town’s fifty-three-member police force were Black (Nobles and Bosman 2014). The national dialogue shifted during the next few weeks, with some commentators pointing to a nationwide sedimentation of racial inequality and identifying redlining in Ferguson as a cause of the unbalanced racial composition in the community, in local political establishments, and in the police force (Bouie 2014)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0315:para:003",
+    "rank": 3,
+    "score": 0.6,
+    "page": 315,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 303
+    },
+    "text": "According to sociologists Neckerman and Torche (2007) in their analysis of global inequality studies, the consequences of poverty are many. Neckerman and Torche have divided them into three areas. The first, termed “the sedimentation of global inequality,” relates to the fact that once poverty becomes entrenched in an area, it is typically very difficult to reverse. As mentioned above, poverty exists in a cycle where the consequences and causes are intertwined. The second consequence of poverty is its effect on physical and mental health. Poor people face physical health challenges, including malnutrition and high infant mortality rates. Mental health is also detrimentally affected by the emotional stresses of poverty, with relative deprivation carrying the most robust effect. Again, as with the ongoing inequality, the effects of poverty on mental and physical health become more entrenched as time goes on. Neckerman and Torche’s third consequence of poverty is the prevalence of crime."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 0,
+  "context_chunks_800": 0,
+  "context_hit_2400": true,
+  "context_chars_2400": 1775,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q19",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does having children affect the gender pay gap between women and men in the United States?",
+  "query_used": "How does having children affect the gender pay gap between women and men in the United States?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 35.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0387:para:002",
+    "rank": 1,
+    "score": 1.7,
+    "page": 387,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 375
+    },
+    "text": "considered by society as a feminine trait. (Credit: Evil Erin/flickr)\n\nPart of the gender pay gap can be attributed to unique barriers faced by women regarding work experience and promotion opportunities. A mother of young children is more likely to drop out of the labor force for several years or work on a reduced schedule than is the father. As a result, women in their 30s and 40s are likely, on average, to have less job experience than men. This effect becomes more evident when considering the pay rates of two groups of women: those who did not leave the workforce and those who did: In the United States, childless women with the same education and experience levels as men are typically paid with closer (but not exact) parity to men. However, women with families and children are paid less: Mothers are recommended a 7.9 percent lower starting salary than non-mothers, which is 8.6 percent lower than men (Correll 2007)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0384:para:000",
+    "rank": 2,
+    "score": 1.5,
+    "page": 384,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 372
+    },
+    "text": "12.3: Gender and Gender Inequality\n\nBy the end of this section, you should be able to:\n\n• Explain the influence of socialization on gender roles in the United States • Explain the stratification of gender in major American institutions • Provide examples of gender inequality in the United States • Describe the rise of feminism in the United States • Describe gender from the view of each sociological perspective\n\nFigure 12.8: Traditional images of U.S. gender roles reinforce the idea that women should be subordinate to men. (Credit: Sport Suburban/\n\nflickr)"
+   },
+   {
+    "id": "openstax-sociology-3e:p0388:para:003",
+    "rank": 3,
+    "score": 1.4,
+    "page": 388,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 376
+    },
+    "text": "Women in Politics\n\nOne of the most important places for women to help other women is in politics. Historically in the United States, like many other institutions, political representation has been mostly made up of White men. By not having women in government, their issues are being decided by people who don’t share their perspective. The number of women elected to serve in Congress has increased over the years, but does not yet accurately reflect the general population. For example, in 2018, the population of the United States was 49 percent male and 51 percent female, but the population of Congress was 78.8 percent male and 21.2 percent female (Manning 2018). Over the years, the number of women in the federal government has increased, but until it accurately reflects the population, there will be inequalities in our laws.\n\nFigure 12.12: Breakdown of Congressional Membership by Gender. 2021 saw a record number of women in Congress, with 120 women serving"
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 649,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1670,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "q20",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 12) From a conflict theory perspective, who takes on the role of the proletariat in the owner-worker relationship, and why?",
+  "query_used": "(Context: chapter 12) From a conflict theory perspective, who takes on the role of the proletariat in the owner-worker relationship, and why?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 33.6,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0336:para:000",
+    "rank": 1,
+    "score": 0.8,
+    "page": 336,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.3",
+     "section_title": "Theoretical Perspectives on Race and Ethnicity",
+     "printed_page": 324
+    },
+    "text": "Conflict Theory\n\nConflict theories are often applied to inequalities of gender, social class, education, race, and ethnicity. A conflict theory perspective of U.S. history would examine the numerous past and current struggles between the White ruling class and racial and ethnic minorities, noting specific conflicts that have arisen when the dominant group perceived a threat from the minority group. In the late nineteenth century, the rising power of Black Americans after the Civil War resulted in draconian Jim Crow laws that severely limited Black political and social power. For example, Vivien Thomas (1910–1985), the Black surgical technician who helped develop the groundbreaking surgical technique that saves the lives of “blue babies” was classified as a janitor for many years, and paid as such, despite the fact that he was conducting complicated surgical experiments."
+   },
+   {
+    "id": "openstax-sociology-3e:p0391:para:001",
+    "rank": 2,
+    "score": 0.8,
+    "page": 391,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 379
+    },
+    "text": "Friedrich Engels, a German sociologist, studied family structure and gender roles. Engels suggested that the same owner-worker relationship seen in the labor force is also seen in the household, with women assuming the role of the proletariat. This is due to women’s dependence on men for the attainment of wages, which is even worse for women who are entirely dependent upon their spouses for economic support. Contemporary conflict theorists suggest that when women become wage earners, they can gain power in the family structure and create more democratic arrangements in the home, although they may still carry the majority of the domestic burden, as noted earlier (Rismanand and Johnson-Sumerford 1998)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0391:para:002",
+    "rank": 3,
+    "score": 0.8,
+    "page": 391,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 379
+    },
+    "text": "Feminist Theory\n\nFeminist theory is a type of conflict theory that examines inequalities in gender-related issues. It uses the conflict approach to examine the maintenance of gender roles and inequalities. Radical feminism, in particular, considers the role of the family in perpetuating male dominance. In patriarchal societies, men’s contributions are seen as more valuable than those of women. Patriarchal perspectives and arrangements are widespread and taken for granted. As a result, women’s viewpoints tend to be silenced or marginalized to the point of being discredited or considered invalid."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": false,
+  "hit3": true,
+  "hit_per_rank": [
+   false,
+   true,
+   false
+  ],
+  "context_hit_800": true,
+  "context_chars_800": 796,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1767,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+  "query_used": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 34.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0302:para:003",
+    "rank": 1,
+    "score": 1.1,
+    "page": 302,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.1",
+     "section_title": "Introduction",
+     "printed_page": 290
+    },
+    "text": "32 percent of the clothing made in the collapsed Rana Plaza building was intended for U.S., Canadian, and European stores. Walmart jeans were made on the fifth floor. Clothing for The Children’s Place was produced in the building, as well. Afterward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour and Human Rights 2014).\n\nWhile you read this chapter, think about the global system that allows U.S. companies to outsource their manufacturing to peripheral nations, where many women and children work in conditions that some characterize as slave labor. Do people in the United States have a responsibility to foreign workers? Should U.S. corporations be held accountable for what happens to garment factory workers who make their clothing? What can you do as a consumer to help such workers?"
+   },
+   {
+    "id": "openstax-sociology-3e:p0315:para:000",
+    "rank": 2,
+    "score": 0.8,
+    "page": 315,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 303
+    },
+    "text": "How do clothes get made, and why are garment workers among the most commonly mistreated? In many cases, large apparel companies—including Nike, Lululemon, H&M, Urban Outfitters (owner of Anthropologie and Free People), Zara, and most other major brands—outsource their manufacturing to factories around the world. The apparel companies negotiate prices and schedules with the local manufacturers, and often push for the lowest possible manufacturing cost and the fastest schedule. In order to keep up with demand and manufacture the clothing at the required cost, the factories may pay their employees less, force them to work longer hours, and may maintain unsafe conditions. All of those tactics are associated with sweatshop practices (Chan 2019). In response to action from organizations like USAS, many apparel companies have undertaken steps to ensure that the factories they use are treating workers properly, but in reality, it is very difficult to know for sure."
+   },
+   {
+    "id": "openstax-sociology-3e:p0307:para:001",
+    "rank": 3,
+    "score": 0.6,
+    "page": 307,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 295
+    },
+    "text": "Deindustrialization, a related issue, occurs as a consequence of capital flight, as no new companies open to replace jobs lost to foreign nations. As expected, global companies move their industrial processes to the places where they can get the most production with the least cost, including the building of infrastructure, training of workers, shipping of goods, and, of course, paying employee wages. This means that as emerging economies create their own industrial zones, global companies see the opportunity for existing infrastructure and much lower costs. Those opportunities lead to businesses closing the factories that provide jobs to the middle class within core nations and moving their industrial production to peripheral and semi-peripheral nations.\n\nFigure 10.4: Factories and stores in places like the Detroit metro area have been closed and abandoned as companies go out of business.\n\n(Credit: Joe Nuxoll/flickr)"
+   }
+  ],
+  "top_score": 1.1
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+  "query_used": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+  "config": "R3_lexical",
+  "method": "lexical",
+  "use_filter": false,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 34.7,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0310:para:002",
+    "rank": 1,
+    "score": 1.1,
+    "page": 310,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 298
+    },
+    "text": "Types of Poverty\n\nSocial scientists define global poverty in different ways and take into account the complexities and the issues of relativism described above. Relative poverty is a state of living where people can afford necessities but are unable to meet their society’s average standard of living. People often disparage “keeping up with the Joneses”—the idea that you must keep up with the neighbors’ standard of living to not feel deprived. But it is true that you might feel ”poor” if you are living without a car to drive to and from work, without any money for a safety net should a family member fall ill, and without any “extras” beyond just making ends meet.\n\nContrary to relative poverty, people who live in extreme poverty lack even the basic necessities, which typically include adequate food, clean water, safe housing, and access to healthcare. Extreme poverty occurs when someone lives on less than 1.90 U.S dollars per day."
+   },
+   {
+    "id": "openstax-sociology-3e:p0312:para:004",
+    "rank": 2,
+    "score": 1.0,
+    "page": 312,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 300
+    },
+    "text": "Global Feminization of Poverty\n\nIn almost all societies, women have higher rates of poverty than men. More women and girls live in poor conditions, receive inadequate healthcare, bear the brunt of malnutrition and inadequate drinking water, and so on. This situation goes back decades, and led University of Michigan sociologist Diana Pearce to coin the term \"feminization of poverty\" in 1978. Throughout the 1990s, data indicated that while overall poverty rates were rising, especially in peripheral nations, the rates of impoverishment increased for women nearly 20 percent more than for men (Mogadham 2005). More recently, as extreme poverty rates continue to fall, women still make up a disproportionate amount of the world's poor. Gender differences are sometimes difficult to discern in international poverty data, but researchers have undertaken efforts to define the makeup of those affected by poverty. Of people aged 25-34, the world has 122 women living in poverty for every 100 men living in poverty."
+   },
+   {
+    "id": "openstax-sociology-3e:p0283:para:004",
+    "rank": 3,
+    "score": 0.90000004,
+    "page": 283,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 271
+    },
+    "text": "In the United States, poverty is most often referred to as a relative rather than absolute measurement. Absolute poverty is an economic condition in which a family or individual cannot afford basic necessities, such as food and shelter, so that day-to-day survival is in jeopardy. Relative poverty is an economic condition in which a family or individuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021)."
+   }
+  ],
+  "top_score": 1.1
+ }
+]

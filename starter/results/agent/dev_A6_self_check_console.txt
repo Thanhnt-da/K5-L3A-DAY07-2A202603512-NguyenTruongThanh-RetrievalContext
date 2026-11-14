@@ -1,0 +1,51 @@
+q01  answered  searches=1 ctx_ev=True cites=1 "Students whose parents never went to college are much more likely to drop out or not finish their bachelor's d"
+q02  answered  searches=1 ctx_ev=True cites=1 "In medieval Britain's nobility, the family's estate was inherited by the firstborn son according to the law of"
+q03  answered  searches=1 ctx_ev=True cites=2 'The lower class in the United States includes those whose income is two-thirds of the national median, the mid'
+q04  abstain   searches=1 ctx_ev=True cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+q05  answered  searches=1 ctx_ev=True cites=3 "Symbolic interactionism explains that social status affects people's everyday interactions by influencing who "
+q06  answered  searches=1 ctx_ev=True cites=1 'The garment workers at the Rana Plaza factory in Bangladesh typically worked over thirteen hours a day, with t'
+q07  answered  searches=1 ctx_ev=True cites=1 'The Gini coefficient extreme scores represent the following: a score of 0 means every resident has the same in'
+q08  answered  searches=3 ctx_ev=False cites=2 'In the world systems model, middle-tier nations, also called semi-peripheral nations, interact economically by'
+q09  answered  searches=1 ctx_ev=True cites=1 'The World Bank separates middle-income countries into two categories based on GNI per capita: lower middle inc'
+q10  answered  searches=1 ctx_ev=True cites=1 'Relative poverty is defined as a state of living where people can afford necessities but are unable to meet th'
+q11  answered  searches=1 ctx_ev=True cites=1 'The five characteristics that distinguish a minority group in sociology, according to Charles Wagley and Marvi'
+q12  answered  searches=1 ctx_ev=True cites=1 'People in a dominant racial group often hesitate to admit that they receive unearned advantages from their rac'
+q13  answered  searches=1 ctx_ev=True cites=2 "Researchers evaluate how much an immigrant group has integrated into a host society's culture by measuring fou"
+q14  answered  searches=1 ctx_ev=True cites=1 'The U.S. government applies a "wet foot/dry foot" policy toward Cuban immigrants; those intercepted while stil'
+q15  answered  searches=1 ctx_ev=True cites=1 'Samoan culture recognizes a third gender called fa’afafine, which translates as "the way of the woman." Fa’afa'
+q16  answered  searches=1 ctx_ev=True cites=2 'The Davis-Moore thesis argues that the greater the functional importance of a social role, the greater must be'
+q17  answered  searches=1 ctx_ev=True cites=1 'The underground economy, consisting of untaxed, unregulated work outside government oversight, accounted for o'
+q18  answered  searches=1 ctx_ev=True cites=1 'The sedimentation of racial inequality refers to the intergenerational impact of both practical and legalized '
+q19  answered  searches=1 ctx_ev=True cites=1 'Having children affects the gender pay gap in the United States by contributing to lower pay for mothers compa'
+q20  answered  searches=1 ctx_ev=True cites=1 'From a conflict theory perspective, women take on the role of the proletariat in the owner-worker relationship'
+u01  abstain   searches=3 ctx_ev=- cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+u02  abstain   searches=2 ctx_ev=- cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+{
+ "config": "A6_self_check",
+ "split": "dev",
+ "questions": 22,
+ "errors": 0,
+ "status": {
+  "answered": 19,
+  "abstain": 3
+ },
+ "tool_use": "22/22",
+ "searches_distribution": {
+  "1": 19,
+  "2": 1,
+  "3": 2
+ },
+ "context_evidence_rate": "19/20",
+ "answered_answerable": "19/20",
+ "abstained_unanswerable": "2/2",
+ "false_abstention": "1/20",
+ "invalid_citation_events": 1,
+ "input_tokens": 42835,
+ "output_tokens": 3469,
+ "llm_cost_usd": 0.02268,
+ "median_elapsed_s": 2.6500000000000004,
+ "mean_context_chars": 2053.2,
+ "new_embedding_tokens": 54,
+ "run_at": "2026-11-14T08:48:18+00:00",
+ "subset": "all"
+}

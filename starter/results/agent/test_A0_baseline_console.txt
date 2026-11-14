@@ -1,0 +1,35 @@
+t01  abstain   searches=4 ctx_ev=False cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+t02  answered  searches=4 ctx_ev=False cites=1 'Capital flight is the movement of capital from one nation to another, such as when companies close factories i'
+t03  abstain   searches=4 ctx_ev=False cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+t04  abstain   searches=4 ctx_ev=False cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+t05  abstain   searches=4 ctx_ev=False cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+u03  abstain   searches=3 ctx_ev=- cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+u04  abstain   searches=3 ctx_ev=- cites=0 'Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.'
+{
+ "config": "A0_baseline",
+ "split": "test",
+ "questions": 7,
+ "errors": 0,
+ "status": {
+  "abstain": 6,
+  "answered": 1
+ },
+ "tool_use": "7/7",
+ "searches_distribution": {
+  "3": 2,
+  "4": 5
+ },
+ "context_evidence_rate": "0/5",
+ "answered_answerable": "1/5",
+ "abstained_unanswerable": "2/2",
+ "false_abstention": "4/5",
+ "invalid_citation_events": 0,
+ "input_tokens": 15384,
+ "output_tokens": 995,
+ "llm_cost_usd": 0.00775,
+ "median_elapsed_s": 6.26,
+ "mean_context_chars": 285.9,
+ "new_embedding_tokens": 112,
+ "run_at": "2026-11-14T09:18:07+00:00",
+ "subset": "all"
+}

@@ -1,0 +1,80 @@
+{
+  "A0_baseline": {
+    "split": "test",
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 4,
+      "1": 1,
+      "2": 0,
+      "N": 5,
+      "mean": 0.2
+    },
+    "citation_validity": {
+      "n": 0,
+      "N": 1
+    },
+    "answer_citation_coverage": {
+      "n": 1,
+      "N": 1
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 4,
+      "N": 5
+    },
+    "context_score": {
+      "0": 3,
+      "1": 2,
+      "2": 0,
+      "N": 5,
+      "mean": 0.4
+    }
+  },
+  "A6_self_check": {
+    "split": "test",
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 0,
+      "1": 0,
+      "2": 5,
+      "N": 5,
+      "mean": 2.0
+    },
+    "citation_validity": {
+      "n": 7,
+      "N": 7
+    },
+    "answer_citation_coverage": {
+      "n": 5,
+      "N": 5
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 5
+    },
+    "context_score": {
+      "0": 0,
+      "1": 0,
+      "2": 5,
+      "N": 5,
+      "mean": 2.0
+    }
+  }
+}

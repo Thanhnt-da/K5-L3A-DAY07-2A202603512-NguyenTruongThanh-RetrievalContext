@@ -1,0 +1,47 @@
+{
+  "config": "A0_baseline",
+  "split": "dev",
+  "questions": 5,
+  "errors": 0,
+  "status": {
+    "abstain": 5
+  },
+  "tool_use": "5/5",
+  "searches_distribution": {
+    "1": 1,
+    "3": 2,
+    "4": 2
+  },
+  "context_evidence_rate": "0/3",
+  "answered_answerable": "0/3",
+  "abstained_unanswerable": "2/2",
+  "false_abstention": "3/3",
+  "invalid_citation_events": 1,
+  "input_tokens": 10076,
+  "output_tokens": 598,
+  "llm_cost_usd": 0.00499,
+  "median_elapsed_s": 6.26,
+  "mean_context_chars": 567.4,
+  "new_embedding_tokens": 124,
+  "config_detail": {
+    "name": "A0_baseline",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 4,
+    "use_filter": false,
+    "dense_weight": 0.5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "temperature": 0.0,
+    "notes": "starter defaults on the Day 6 dense index",
+    "extra": {}
+  },
+  "run_at": "2026-11-14T08:35:02+00:00",
+  "subset": [
+    "q01",
+    "q10",
+    "q08",
+    "u01",
+    "u02"
+  ]
+}

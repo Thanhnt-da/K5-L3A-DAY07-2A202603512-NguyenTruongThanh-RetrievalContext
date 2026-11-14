@@ -1,0 +1,2014 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "answerable": true,
+  "question": "How likely are students whose parents never went to college to drop out or not finish their bachelor's degree?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Students whose parents never went to college are much more likely to drop out or not finish their bachelor's degree, with 89% of first-generation college students not earning an undergraduate degree within six years of starting their studies. They drop out at four times the rate of peers whose parents have postsecondary degrees [openstax-sociology-3e:p0271:para:000].",
+  "citations": [
+   "openstax-sociology-3e:p0271:para:000"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college drop out or not finish bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.5978871522959596,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.36233073281699646,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.3563311939978162,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0271:para:000",
+     "openstax-sociology-3e:p0282:para:003",
+     "openstax-sociology-3e:p0274:para:000"
+    ],
+    "context_chars": 2353
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "students whose parents never went to college drop out or not finish bachelor's degree"
+  ],
+  "final_context": "[openstax-sociology-3e:p0271:para:000 | data/Introductory Sociology 3e.pdf | page 271]\nStories like this permeate American society and may sound familiar, yet this quest to achieve the American Dream is often hard for many Americans to achieve, even with hard work. After all, nearly one in three first-year college students is a first-generation college student and many are not as successful as Jarrett. According to the Center for Student Opportunity, a national nonprofit, 89% of first-generation students will not earn an undergraduate degree within six years of starting their studies. In fact, these students “drop out of college at four times the rate of peers whose parents have postsecondary degrees” (Center for Student Opportunity quoted in Huot 2014).\n\nWhy do students with parents who have completed college tend to graduate more often than those students whose parents do not hold degrees? That question and many others will be answered as we explore social stratification.\n\n[openstax-sociology-3e:p0282:para:003 | data/Introductory Sociology 3e.pdf | page 282]\nSystemic barriers like unequal education, discrimination, and lack of opportunity can slow or diminish one's ability to move up. Still, people who earn a college degree, get a job promotion, or marry someone with a good income may move up socially.\n\n[openstax-sociology-3e:p0274:para:000 | data/Introductory Sociology 3e.pdf | page 274]\nregularly categorized based on how rich or poor they are, other important factors influence social standing. For example, in some cultures, prestige is valued, and people who have them are revered more than those who don’t. In some cultures, the elderly are esteemed, while in others, the elderly are disparaged or overlooked. Societies’ cultural beliefs often reinforce stratification.\n\nOne key determinant of social standing is our parents. Parents tend to pass their social position on to their children. People inherit not only social standing but also the cultural norms, values, and beliefs that accompany a certain lifestyle. They share these with a network of friends and family members that provide resources and support. This is one of the reasons first-generation college students do not fare as well as other students. They lack access to the resources and support commonly provided to those whose parents have gone to college.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0271:para:000",
+   "openstax-sociology-3e:p0282:para:003",
+   "openstax-sociology-3e:p0274:para:000"
+  ],
+  "final_context_chars": 2353,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1747,
+  "output_tokens": 143,
+  "llm_cost_usd": 0.000928,
+  "elapsed_s": 2.92,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "answerable": true,
+  "question": "In medieval Britain's nobility, who inherited a family's estate, and what was the rule if there were no sons in the family?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "In medieval Britain's nobility, the family's estate was inherited by the firstborn son according to the law of primogeniture. If the family had no son, the land went to the next closest male relation, as women could not inherit property [openstax-sociology-3e:p0276:para:003].",
+  "citations": [
+   "openstax-sociology-3e:p0276:para:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "medieval Britain nobility inheritance estate sons",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0276:para:003",
+      "rank": 1,
+      "score": 0.6015056968966113,
+      "page": 276
+     },
+     {
+      "id": "openstax-sociology-3e:p0276:para:004",
+      "rank": 2,
+      "score": 0.45333792561732833,
+      "page": 276
+     },
+     {
+      "id": "openstax-sociology-3e:p0276:para:002",
+      "rank": 3,
+      "score": 0.3286470530242227,
+      "page": 276
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0276:para:003",
+     "openstax-sociology-3e:p0276:para:004",
+     "openstax-sociology-3e:p0276:para:002"
+    ],
+    "context_chars": 2174
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "medieval Britain nobility inheritance estate sons"
+  ],
+  "final_context": "[openstax-sociology-3e:p0276:para:003 | data/Introductory Sociology 3e.pdf | page 276]\nBritain’s monarchy arose during the Middle Ages. Its social hierarchy placed royalty at the top and commoners on the bottom. This was generally a closed system, with people born into positions of nobility. Wealth was passed from generation to generation through primogeniture, a law stating that all property would be inherited by the firstborn son. If the family had no son, the land went to the next closest male relation. Women could not inherit property, and their social standing was primarily determined through marriage.\n\n[openstax-sociology-3e:p0276:para:004 | data/Introductory Sociology 3e.pdf | page 276]\nThe arrival of the Industrial Revolution changed Britain’s social structure. Commoners moved to cities, got jobs, and made better livings. Gradually, people found new opportunities to increase their wealth and power. Today, the government is a constitutional monarchy with the prime minister and other ministers elected to their positions, and with the royal family’s role being largely ceremonial. The long-ago differences between nobility and commoners have blurred, and the modern class system in Britain is similar to that of the United States (McKee 1996).\n\nToday, the royal family still commands wealth, power, and a great deal of attention. When Queen Elizabeth II retires or passes away, Prince Charles will be first in line to ascend the throne. If he abdicates (chooses not to become king) or dies, the position will go to Prince William, Prince Harry's older brother.\n\n[openstax-sociology-3e:p0276:para:002 | data/Introductory Sociology 3e.pdf | page 276]\nPrince Harry, however, had been \"His Royal Highness\" since he was born; by nature of his ancestry he was entitled to vast sums of money, property, and cultural-political positions such as Honorary Air Commandant, Commodore-in-Chief, and President of the Queen's Commonwealth Trust. Harry would also lose the military rank he had earned through almost ten years of military service, including two combat deployments to Afghanistan. Would Megxit work for him? What gave him those honors in the first place?",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0276:para:003",
+   "openstax-sociology-3e:p0276:para:004",
+   "openstax-sociology-3e:p0276:para:002"
+  ],
+  "final_context_chars": 2174,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1741,
+  "output_tokens": 126,
+  "llm_cost_usd": 0.000898,
+  "elapsed_s": 2.34,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "answerable": true,
+  "question": "How are the lower, middle, and upper classes defined by household income in the United States?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The lower class in the United States includes those whose income is two-thirds of the national median, the middle class includes those whose income falls between two-thirds and twice the median, and the upper class includes those whose income is above twice the national median. In 2018 U.S. dollars, the middle class earned between $48,500 to $145,500 annually. These definitions are based on median household income at the national level [openstax-sociology-3e:p0278:para:002][openstax-sociology-3e:p0278:para:003].",
+  "citations": [
+   "openstax-sociology-3e:p0278:para:002",
+   "openstax-sociology-3e:p0278:para:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "lower middle upper class household income United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0278:para:002",
+      "rank": 1,
+      "score": 0.6245755394773514,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0278:para:003",
+      "rank": 2,
+      "score": 0.592901461321312,
+      "page": 278
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:001",
+      "rank": 3,
+      "score": 0.5789036776442193,
+      "page": 283
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0278:para:002",
+     "openstax-sociology-3e:p0278:para:003"
+    ],
+    "context_chars": 2053
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "lower middle upper class household income United States"
+  ],
+  "final_context": "[openstax-sociology-3e:p0278:para:002 | data/Introductory Sociology 3e.pdf | page 278]\nFor sociologists, categorizing social class is a fluid science. Sociologists generally identify three levels of class in the United States: upper, middle, and lower class. Within each class, there are many subcategories. Wealth is the most significant way of distinguishing classes, because wealth can be transferred to one’s children and perpetuate the class structure. One economist, J.D. Foster, defines the 20 percent of U.S. citizens’ highest earners as “upper income,” and the lower 20 percent as “lower income.” The remaining 60 percent of the population make up the middle class (Mason 2010). With that distinction, economists can describe the range in annual household incomes for the middle-class, but they cannot show how the range of all incomes vary and how they change over time. For this reason, the Pew Center defines classes based on the median household income.\n\n[openstax-sociology-3e:p0278:para:003 | data/Introductory Sociology 3e.pdf | page 278]\nThe lower class includes those whose income is two-thirds of the national median, the middle class includes those whose income falls between two-thirds and twice the median, and the upper class includes those whose income is above twice the national median (Kochhar 2015). Though median income levels vary from state to state, at the national level you would be considered in the middle-class if you earned between $48,500 to $145,500 in 2018 U.S. dollars (Bennett 2000).\n\nOne sociological perspective distinguishes the classes, in part, according to their relative power and control over their lives. Members of the upper class not only have power and control over their own lives, but their social status gives them power and control over others’ lives. The middle class doesn’t generally control other strata of society, but its members do exert control over their own lives. In contrast, the lower class has little control over their work or lives. Below, we will explore the major divisions of",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0278:para:002",
+   "openstax-sociology-3e:p0278:para:003"
+  ],
+  "final_context_chars": 2053,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1696,
+  "output_tokens": 199,
+  "llm_cost_usd": 0.000997,
+  "elapsed_s": 3.42,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "answerable": true,
+  "question": "Who qualifies for cash assistance under the TANF program, and how long can a family receive those benefits?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "TANF program cash assistance eligibility and duration",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:005",
+      "rank": 1,
+      "score": 0.6741725472108707,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0283:para:006",
+      "rank": 2,
+      "score": 0.41378374652262795,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0313:para:000",
+      "rank": 3,
+      "score": 0.2529001771891918,
+      "page": 313
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:005",
+     "openstax-sociology-3e:p0283:para:006"
+    ],
+    "context_chars": 1573
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "model_answer": "Under the TANF program, adults who receive assistance must fall under a specific income level, usually half the poverty level, set by the state. The program provides cash assistance to families with children to help them achieve economic self-sufficiency. TANF benefits are time-limited, with most states providing assistance for a maximum of 5 years.",
+    "model_citations": [
+     "openstax-sociology-3e:p0283:para:005"
+    ]
+   }
+  ],
+  "queries": [
+   "TANF program cash assistance eligibility and duration"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:005 | data/Introductory Sociology 3e.pdf | page 283]\nAs a wealthy developed country, the United States invests in resources to provide the basic necessities to those in need through a series of federal and state social welfare programs. These programs provide food, medical, and cash assistance. Temporary Assistance for Needy Families (TANF) provides cash assistance. The goal of TANF is to help families with children achieve economic self-sufficiency. Adults who receive assistance must fall under a specific income level, usually half the poverty level, set by the state. TANF funding goes to childcare, support for parents who are working or training a required number of hours a week, and other services. TANF is time-limited. Most states only provide assistance for a maximum of 5 years (CBPP).\n\n[openstax-sociology-3e:p0283:para:006 | data/Introductory Sociology 3e.pdf | page 283]\nOne of the best-known programs is the Supplemental Nutrition Assistance Program (SNAP), administered by the United States Department of Agriculture and formerly known as the Food Stamp Program. This program began in the Great Depression, when unmarketable or surplus food was distributed to the hungry. It was not formalized until 1961, when President John F. Kennedy initiated a food stamp pilot program. His successor Lyndon B. Johnson was instrumental in the passage of the Food Stamp Act in 1964. In 1965, more than 500,000 individuals received food assistance. During the height of the pandemic in 2020, participation reached 43 million people.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:005",
+   "openstax-sociology-3e:p0283:para:006"
+  ],
+  "final_context_chars": 1573,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1600,
+  "output_tokens": 129,
+  "llm_cost_usd": 0.000846,
+  "elapsed_s": 2.69,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 9) How does symbolic interactionism explain the way social status affects people's everyday interactions?",
+  "filter_given": {
+   "chapter": 9
+  },
+  "status": "answered",
+  "answer": "Symbolic interactionism explains that social status affects people's everyday interactions by influencing who they interact with, as people tend to associate with others who share the same social standing, including similar income, education, and tastes. People's appearance and possessions, such as clothing, housing, and accessories, also reflect and communicate their perceived social status. Additionally, individuals engage in conspicuous consumption, purchasing certain products to make social statements about their status, which shapes how they are perceived and how they interact with others [openstax-sociology-3e:p0288:para:003][openstax-sociology-3e:p0288:para:004][openstax-sociology-3e:p0289:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0288:para:003",
+   "openstax-sociology-3e:p0288:para:004",
+   "openstax-sociology-3e:p0289:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "symbolic interactionism social status everyday interactions",
+    "filter": {
+     "chapter": 9
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0288:para:003",
+      "rank": 1,
+      "score": 0.7094512173079716,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0288:para:004",
+      "rank": 2,
+      "score": 0.7006167699753724,
+      "page": 288
+     },
+     {
+      "id": "openstax-sociology-3e:p0289:para:001",
+      "rank": 3,
+      "score": 0.5493198904260369,
+      "page": 289
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0288:para:003",
+     "openstax-sociology-3e:p0288:para:004",
+     "openstax-sociology-3e:p0289:para:001"
+    ],
+    "context_chars": 2192
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "symbolic interactionism social status everyday interactions"
+  ],
+  "final_context": "[openstax-sociology-3e:p0288:para:003 | data/Introductory Sociology 3e.pdf | page 288]\nSymbolic Interactionism\n\nSymbolic interactionism uses everyday interactions of individuals to explain society as a whole. Symbolic interactionism examines stratification from a micro-level perspective. This analysis strives to explain how people’s social standing affects their everyday interactions.\n\nIn most communities, people interact primarily with others who share the same social standing. It is precisely because of social stratification that people tend to live, work, and associate with others like themselves, people who share their same income level, educational background, class traits and even tastes in food, music, and clothing. The built-in system of social stratification groups people together. This is one of the reasons why it was rare for a royal prince like England’s Prince William to marry a commoner.\n\n[openstax-sociology-3e:p0288:para:004 | data/Introductory Sociology 3e.pdf | page 288]\nSymbolic interactionists also note that people’s appearance reflects their perceived social standing. As discussed above, class traits seen through housing, clothing, and transportation indicate social status, as do hairstyles, taste in accessories, and personal style. Symbolic interactionists also analyze how individuals think of themselves or others interpretation of themselves based on these class traits.\n\n[openstax-sociology-3e:p0289:para:001 | data/Introductory Sociology 3e.pdf | page 289]\nTo symbolically communicate social standing, people often engage in conspicuous consumption, which is the purchase and use of certain products to make a social statement about status. Carrying pricey but eco-friendly water bottles could indicate a person’s social standing, or what they would like others to believe their social standing is. Some people buy expensive trendy sneakers even though they will never wear them to jog or play sports. A $17,000 car provides transportation as easily as a $100,000 vehicle, but the luxury car makes a social statement that the less expensive car can’t live up to. All these symbols of stratification are worthy of examination by an interactionist.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0288:para:003",
+   "openstax-sociology-3e:p0288:para:004",
+   "openstax-sociology-3e:p0289:para:001"
+  ],
+  "final_context_chars": 2192,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1701,
+  "output_tokens": 243,
+  "llm_cost_usd": 0.001069,
+  "elapsed_s": 2.92,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "answerable": true,
+  "question": "What were the working hours and wages of the garment workers at the Rana Plaza factory in Bangladesh?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The garment workers at the Rana Plaza factory in Bangladesh typically worked over thirteen hours a day, with two days off each month. They earned between twelve and twenty-two cents an hour, or $10.56 to $12.48 a week. Most of these workers were young women, aged twenty or younger, and without this pay, many would have been unable to feed their children [openstax-sociology-3e:p0302:para:002].",
+  "citations": [
+   "openstax-sociology-3e:p0302:para:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "working hours and wages of garment workers at Rana Plaza factory Bangladesh",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:002",
+      "rank": 1,
+      "score": 0.6349205464228227,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 2,
+      "score": 0.5639223230667274,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 3,
+      "score": 0.5597961638350952,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:002",
+     "openstax-sociology-3e:p0302:para:003"
+    ],
+    "context_chars": 1956
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "working hours and wages of garment workers at Rana Plaza factory Bangladesh"
+  ],
+  "final_context": "[openstax-sociology-3e:p0302:para:002 | data/Introductory Sociology 3e.pdf | page 302]\nIn addition to garment factories employing about 5,000 people, the building contained a bank, apartments, childcare facilities, and a variety of shops. Many of these closed the day before the collapse when cracks were discovered in the building walls. When some of the garment workers refused to enter the building, they were threatened with the loss of a month’s pay. Most were young women, aged twenty or younger. They typically worked over thirteen hours a day, with two days off each month. For this work, they took home between twelve and twenty-two cents an hour, or $10.56 to $12.48 a week. Without that pay, most would have been unable to feed their children. In contrast, the U.S. federal minimum wage is $7.25 an hour, and workers receive wages at time-and-a-half rates for work in excess of forty hours a week.\n\n[openstax-sociology-3e:p0302:para:003 | data/Introductory Sociology 3e.pdf | page 302]\n32 percent of the clothing made in the collapsed Rana Plaza building was intended for U.S., Canadian, and European stores. Walmart jeans were made on the fifth floor. Clothing for The Children’s Place was produced in the building, as well. Afterward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour and Human Rights 2014).\n\nWhile you read this chapter, think about the global system that allows U.S. companies to outsource their manufacturing to peripheral nations, where many women and children work in conditions that some characterize as slave labor. Do people in the United States have a responsibility to foreign workers? Should U.S. corporations be held accountable for what happens to garment factory workers who make their clothing? What can you do as a consumer to help such workers?",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0302:para:002",
+   "openstax-sociology-3e:p0302:para:003"
+  ],
+  "final_context_chars": 1956,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1683,
+  "output_tokens": 158,
+  "llm_cost_usd": 0.000926,
+  "elapsed_s": 2.41,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "answerable": true,
+  "question": "When measuring national inequality with the Gini coefficient, what do the extreme scores of 0 and 1 represent?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The Gini coefficient extreme scores represent the following: a score of 0 means every resident has the same income, indicating perfect equality, while a score of 1 means one resident earns all the income and everyone else earns nothing, indicating maximum inequality [openstax-sociology-3e:p0303:para:003].",
+  "citations": [
+   "openstax-sociology-3e:p0303:para:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Gini coefficient extreme scores 0 and 1",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0303:para:003",
+      "rank": 1,
+      "score": 0.5921170020925992,
+      "page": 303
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:006",
+      "rank": 2,
+      "score": 0.36740336279352004,
+      "page": 304
+     },
+     {
+      "id": "openstax-sociology-3e:p0303:para:001",
+      "rank": 3,
+      "score": 0.3656685412198769,
+      "page": 303
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0303:para:003",
+     "openstax-sociology-3e:p0304:para:006",
+     "openstax-sociology-3e:p0303:para:001"
+    ],
+    "context_chars": 2289
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "Gini coefficient extreme scores 0 and 1"
+  ],
+  "final_context": "[openstax-sociology-3e:p0303:para:003 | data/Introductory Sociology 3e.pdf | page 303]\nAnother measure of inequality is Gini Coefficient, named after the Italian sociologist and statistician Corrado Gini. (Be sure not to confuse this with GNI, which is the gross national income.) It is is calculated using a number of financial indicators, and is expressed as either a decimal or a percentage. A country in which every resident has the same income would have a Gini coefficient of 0 (or 0 percent). A country in which one resident earned all the income, while everyone else earned nothing, would have an income Gini coefficient of 1 (or 100 percent). Thus, the higher the number (the closer to that one person having all the income or wealth), the more inequality there is.\n\nOther gauges are a bit more direct: To indicate the level of poverty within a nation or region, researchers calculate the percentage\n\n[openstax-sociology-3e:p0304:para:006 | data/Introductory Sociology 3e.pdf | page 304]\nTable 10.1: The differences among countries is clear when considering their extreme poverty rates. For the most part, the selected countries show disparities even within countries from the same regions. All data is from 2018. (World Bank 2020)\n\n[openstax-sociology-3e:p0303:para:001 | data/Introductory Sociology 3e.pdf | page 303]\nOne straightforward method is to compare the ratio of income of the richest 10 percent to the income of the poorest 10 percent. (The same method is sometime used with the richest 20 percent and the poorest 20 percent.) This method does not always provide a full picture of income inequality (it literally leaves out the middle), but it can certain provide insight.\n\nThe Human Development Index expresses the capabilities of people's potential achievement. The index is calculated using data regarding people's lifespan, education, and income. By using both financial and non-financial factors, it paints a deeper picture of the lives and issues in a region. For example, a nation with high income but low education will still have difficulty in overall opportunity. This approach was developed by Pakistani economist Mahbub ul Haq, who produced the first annual Human Development report, which captures and illustrates development issues and changes each year.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0303:para:003",
+   "openstax-sociology-3e:p0304:para:006",
+   "openstax-sociology-3e:p0303:para:001"
+  ],
+  "final_context_chars": 2289,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1758,
+  "output_tokens": 129,
+  "llm_cost_usd": 0.00091,
+  "elapsed_s": 2.37,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "answerable": true,
+  "question": "In the world systems model of global inequality, how do middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "In the world systems model, middle-tier nations, also called semi-peripheral nations, interact economically by serving as partners to both the wealthiest dominant core countries and the poorest peripheral countries. Core nations outsource significant portions of work to these semi-peripheral nations, ensuring they remain healthy enough to provide labor but not so strong as to become a threat. This dynamic allows middle-tier nations to be economically linked to both dominant and peripheral countries, maintaining the global economic hierarchy [openstax-sociology-3e:p0317:para:004][openstax-sociology-3e:p0306:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0317:para:004",
+   "openstax-sociology-3e:p0306:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with dominant and poorest countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.6004052762726578,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5958296452905671,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:003",
+      "rank": 3,
+      "score": 0.5648386546953764,
+      "page": 317
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000",
+     "openstax-sociology-3e:p0317:para:004"
+    ],
+    "context_chars": 1635
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.5652677337163184,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5480070258427631,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0285:para:002",
+      "rank": 3,
+      "score": 0.5227092756249926,
+      "page": 285
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000",
+     "openstax-sociology-3e:p0317:para:004"
+    ],
+    "context_chars": 1635
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction core and peripheral countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:001",
+      "rank": 1,
+      "score": 0.5910548047248263,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5689261962909492,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 3,
+      "score": 0.5582597384925063,
+      "page": 306
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000",
+     "openstax-sociology-3e:p0317:para:004",
+     "openstax-sociology-3e:p0306:para:001"
+    ],
+    "context_chars": 2356
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "world systems model middle-tier nations economic interaction with dominant and poorest countries",
+   "world systems model middle-tier nations economic interaction",
+   "world systems model middle-tier nations economic interaction core and peripheral countries"
+  ],
+  "final_context": "[openstax-sociology-3e:p0306:para:000 | data/Introductory Sociology 3e.pdf | page 306]\nImmanuel Wallerstein: World Systems Approach\n\nImmanuel Wallerstein’s (1979) world systems approach uses an economic basis to understand global inequality. Wallerstein conceived of the global economy as a complex system that supports an economic hierarchy that placed some nations in positions of power with numerous resources and other nations in a state of economic subordination. Those that were in a state of subordination faced significant obstacles to mobilization.\n\n[openstax-sociology-3e:p0317:para:004 | data/Introductory Sociology 3e.pdf | page 317]\nAt first glance, it seems this theory ignores the formerly low-income nations that are now considered middle-income nations and are on their way to becoming high-income nations and major players in the global economy, such as China. But some dependency theorists would state that it is in the best interests of core nations to ensure the long-term usefulness of their peripheral and semi-peripheral partners. Following that theory, sociologists have found that entities are more likely to outsource a significant portion of a company’s work if they are the dominant player in the equation; in other words, companies want to see their partner countries healthy enough to provide work, but not so healthy as to establish a threat (Caniels and Roeleveld 2009).\n\nWe’ve examined functionalist and conflict theorist perspectives on global inequality, as well as modernization and dependency theories. How might a symbolic interactionist approach this topic?\n\nSociological Research: Factory Girls\n\n[openstax-sociology-3e:p0306:para:001 | data/Introductory Sociology 3e.pdf | page 306]\nCore nations are dominant capitalist countries, highly industrialized, technological, and urbanized. For example, Wallerstein contends that the United States is an economic powerhouse that can support or deny support to important economic legislation with far-reaching implications, thus exerting control over every aspect of the global economy and exploiting both semi-peripheral and peripheral nations. We can look at free trade agreements such as the North American Free Trade Agreement (NAFTA) as an example of how a core nation is able to leverage its power to gain the most advantageous position in the matter of global trade.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0306:para:000",
+   "openstax-sociology-3e:p0317:para:004",
+   "openstax-sociology-3e:p0306:para:001"
+  ],
+  "final_context_chars": 2356,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 3742,
+  "output_tokens": 252,
+  "llm_cost_usd": 0.0019,
+  "elapsed_s": 5.39,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does the World Bank separate middle-income countries into lower-middle and upper-middle categories?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The World Bank separates middle-income countries into two categories based on GNI per capita: lower middle income countries have a GNI per capita of more than $1,036 but less than $4,045, while upper middle income countries have a GNI per capita between $4,046 and $12,535 [openstax-sociology-3e:p0308:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0308:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "World Bank middle-income countries lower-middle upper-middle categories",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0308:para:001",
+      "rank": 1,
+      "score": 0.7195160111998511,
+      "page": 308
+     },
+     {
+      "id": "openstax-sociology-3e:p0306:para:004",
+      "rank": 2,
+      "score": 0.6537790385608468,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0308:para:003",
+      "rank": 3,
+      "score": 0.555631748565375,
+      "page": 308
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0308:para:001",
+     "openstax-sociology-3e:p0306:para:004",
+     "openstax-sociology-3e:p0308:para:003"
+    ],
+    "context_chars": 1996
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "World Bank middle-income countries lower-middle upper-middle categories"
+  ],
+  "final_context": "[openstax-sociology-3e:p0308:para:001 | data/Introductory Sociology 3e.pdf | page 308]\nMiddle-Income Nations\n\nThe World Bank divides middle-income economies into two categories. Lower middle income areas are those with a GNI per capita of more than $1,036 but less than $4,045. Upper middle income areas are those with A GNI per capita between $4,046 and $12,535. Democratic Republic of Congo, Tunisia, Philippines, El Salvador, and Nepal are are examples of lower-middle-income countries. And Argentina, Mexico, China, Iran, Turkey, and Namibia are examples of upper-middle-income nations (World Bank 2021).\n\n[openstax-sociology-3e:p0306:para:004 | data/Introductory Sociology 3e.pdf | page 306]\nWorld Bank Economic Classification by Income\n\nWhile the World Bank is often criticized, both for its policies and its method of calculating data, it is still a common source for global economic data. Along with tracking the economy, the World Bank tracks demographics and environmental health to provide a complete picture of whether a nation is high income, middle income, or low income.\n\nFigure 10.3: This world map shows advanced, transitioning, less, and least developed countries. Note that the data in this map is one year older\n\nthan the data presented in the text below. (Credit: Sbw01f, data obtained from the CIA World Factbook/Wikimedia Commons)\n\n[openstax-sociology-3e:p0308:para:003 | data/Introductory Sociology 3e.pdf | page 308]\nLow-Income Nations\n\nThe World Bank defines low-income countries as nations whose per capita GNI was $1,035 per capita or less in 2019. For example, Afghanistan, Ethiopia, and Yemen are considered low-income countries. Low-income economies are primarily found in Asia and Africa (World Bank 2021), where most of the world’s population lives. There are two major challenges that these countries face: women are disproportionately affected by poverty (in a trend toward a global feminization of poverty) and much of the population lives in absolute poverty.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0308:para:001",
+   "openstax-sociology-3e:p0306:para:004",
+   "openstax-sociology-3e:p0308:para:003"
+  ],
+  "final_context_chars": 1996,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1706,
+  "output_tokens": 143,
+  "llm_cost_usd": 0.000911,
+  "elapsed_s": 2.77,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 10) How is relative poverty defined?",
+  "filter_given": {
+   "chapter": 10
+  },
+  "status": "answered",
+  "answer": "Relative poverty is defined as a state of living where people can afford necessities but are unable to meet their society’s average standard of living [openstax-sociology-3e:p0310:para:002].",
+  "citations": [
+   "openstax-sociology-3e:p0310:para:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "relative poverty definition",
+    "filter": {
+     "chapter": 10
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0311:para:001",
+      "rank": 1,
+      "score": 0.6068713507303952,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0310:para:002",
+      "rank": 2,
+      "score": 0.6053463285353983,
+      "page": 310
+     },
+     {
+      "id": "openstax-sociology-3e:p0310:para:001",
+      "rank": 3,
+      "score": 0.5560854811819067,
+      "page": 310
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0311:para:001",
+     "openstax-sociology-3e:p0310:para:002"
+    ],
+    "context_chars": 1733
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "relative poverty definition"
+  ],
+  "final_context": "[openstax-sociology-3e:p0311:para:001 | data/Introductory Sociology 3e.pdf | page 311]\nSubjective poverty describes poverty that is composed of many dimensions; it is subjectively present when your actual income does not meet your expectations and perceptions. With the concept of subjective poverty, the poor themselves have a greater say in recognizing when it is present. In short, subjective poverty has more to do with how a person or a family defines themselves. This means that a family subsisting on a few dollars a day in Nepal might think of themselves as doing well, within their perception of normal. However, a westerner traveling to Nepal might visit the same family and see extreme need.\n\n[openstax-sociology-3e:p0310:para:002 | data/Introductory Sociology 3e.pdf | page 310]\nTypes of Poverty\n\nSocial scientists define global poverty in different ways and take into account the complexities and the issues of relativism described above. Relative poverty is a state of living where people can afford necessities but are unable to meet their society’s average standard of living. People often disparage “keeping up with the Joneses”—the idea that you must keep up with the neighbors’ standard of living to not feel deprived. But it is true that you might feel ”poor” if you are living without a car to drive to and from work, without any money for a safety net should a family member fall ill, and without any “extras” beyond just making ends meet.\n\nContrary to relative poverty, people who live in extreme poverty lack even the basic necessities, which typically include adequate food, clean water, safe housing, and access to healthcare. Extreme poverty occurs when someone lives on less than 1.90 U.S dollars per day.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0311:para:001",
+   "openstax-sociology-3e:p0310:para:002"
+  ],
+  "final_context_chars": 1733,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1601,
+  "output_tokens": 99,
+  "llm_cost_usd": 0.000799,
+  "elapsed_s": 2.3,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "answerable": true,
+  "question": "What are the five characteristics that distinguish a minority group in sociology?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The five characteristics that distinguish a minority group in sociology, according to Charles Wagley and Marvin Harris (1958), are: (1) unequal treatment and less power over their lives, (2) distinguishing physical or cultural traits like skin color or language, (3) involuntary membership in the group, (4) awareness of subordination, and (5) high rate of in-group marriage [openstax-sociology-3e:p0333:para:006].",
+  "citations": [
+   "openstax-sociology-3e:p0333:para:006"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "five characteristics that distinguish a minority group in sociology",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0333:para:006",
+      "rank": 1,
+      "score": 0.6661112862514977,
+      "page": 333
+     },
+     {
+      "id": "openstax-sociology-3e:p0332:para:001",
+      "rank": 2,
+      "score": 0.6307746733532379,
+      "page": 332
+     },
+     {
+      "id": "openstax-sociology-3e:p0333:para:005",
+      "rank": 3,
+      "score": 0.6094034504709905,
+      "page": 333
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0333:para:006",
+     "openstax-sociology-3e:p0332:para:001"
+    ],
+    "context_chars": 2100
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "five characteristics that distinguish a minority group in sociology"
+  ],
+  "final_context": "[openstax-sociology-3e:p0333:para:006 | data/Introductory Sociology 3e.pdf | page 333]\nNote that being a numerical minority is not a characteristic of being a minority group; sometimes larger groups can be considered minority groups due to their lack of power. It is the lack of power that is the predominant characteristic of a minority, or subordinate group. For example, consider apartheid in South Africa, in which a numerical majority (the Black inhabitants of the country) were exploited and oppressed by the White minority.\n\nAccording to Charles Wagley and Marvin Harris (1958), a minority group is distinguished by five characteristics: (1) unequal treatment and less power over their lives, (2) distinguishing physical or cultural traits like skin color or language, (3) involuntary membership in the group, (4) awareness of subordination, and (5) high rate of in-group marriage. Additional examples of minority groups might include the LGBTQ community, religious practitioners whose faith is not widely practiced where they live, and people with disabilities.\n\n[openstax-sociology-3e:p0332:para:001 | data/Introductory Sociology 3e.pdf | page 332]\nWhile many students first entering a sociology classroom are accustomed to conflating the terms “race,” “ethnicity,” and “minority group,” these three terms have distinct meanings for sociologists. The idea of race refers to superficial physical differences that a particular society considers significant, while ethnicity describes shared culture. And the term \"minority groups\" describe groups that are subordinate, or that lack power in society regardless of skin color or country of origin. For example, in modern U.S. history, the elderly might be considered a minority group due to a diminished status that results from popular prejudice and discrimination against them. Ten percent of nursing home staff admitted to physically abusing an elderly person in the past year, and 40 percent admitted to committing psychological abuse (World Health Organization 2011). In this chapter we focus on racial and ethnic minorities.\n\nWhat Is Race?",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0333:para:006",
+   "openstax-sociology-3e:p0332:para:001"
+  ],
+  "final_context_chars": 2100,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1659,
+  "output_tokens": 158,
+  "llm_cost_usd": 0.000916,
+  "elapsed_s": 2.45,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "answerable": true,
+  "question": "Why do people in a dominant racial group often hesitate to admit that they receive unearned advantages from their race?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "People in a dominant racial group often hesitate to admit that they receive unearned advantages from their race because they may feel it lessens their accomplishments, cause feelings of guilt, or make them seem like a bad or mean person. Additionally, White (or other dominant) privilege is an institutional condition that exists regardless of personal acknowledgment, which can make it harder for individuals to recognize or admit these benefits without self-awareness [openstax-sociology-3e:p0339:para:003].",
+  "citations": [
+   "openstax-sociology-3e:p0339:para:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "dominant racial group hesitation to admit unearned advantages",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0339:para:003",
+      "rank": 1,
+      "score": 0.5900785789743479,
+      "page": 339
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:004",
+      "rank": 2,
+      "score": 0.5166548539689356,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:007",
+      "rank": 3,
+      "score": 0.5010794900141934,
+      "page": 340
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0339:para:003",
+     "openstax-sociology-3e:p0340:para:004"
+    ],
+    "context_chars": 2101
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "dominant racial group hesitation to admit unearned advantages"
+  ],
+  "final_context": "[openstax-sociology-3e:p0339:para:003 | data/Introductory Sociology 3e.pdf | page 339]\nMost people have some level of privilege, whether it has to do with health, ability, race, or gender. When discussing race, the focus is often on White privilege, which is the societal privilege that benefits White people, or those perceived to be White, over non-White people in some societies, including the United States. Most White people are willing to admit that non-White people live with a set of disadvantages due to the color of their skin. But until they gain a good degree of self-awareness, few people are willing to acknowledge the benefits they themselves receive by being a part of the dominant group. Why not? Some may feel it lessens their accomplishments, others may feel a degree of guilt, and still others may feel that admitting to privilege makes them seem like a bad or mean person. But White (or other dominant) privilege is an institutional condition, not a personal one. It exists whether the person asks for it or not.\n\n[openstax-sociology-3e:p0340:para:004 | data/Introductory Sociology 3e.pdf | page 340]\nA study showed that White and Asian American students with high GPAs experience greater social acceptance while Black and Native American students with high GPAs are rejected by their peers (Fuller-Rowell and Doan 2010). • Colorism is a form of racism, in which someone believes one type of skin tone is superior or inferior to another within a racial group. For example, if an employer believes a Black employee with a darker skin tone is less capable than a Black employee with lighter skin tone, that is colorism. Studies suggest that darker skinned African Americans experience more discrimination than lighter skinned African Americans (Herring, Keith, and Horton 2004; Klonoff and Landrine 2000). • Color-Avoidance Racism (sometimes referred to as \"colorblind racism\") is an avoidance of racial language by European- Americans that the racism is no longer an issue. The U.S. cultural narrative that typically focuses on individual racism fails to recognize systemic racism.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0339:para:003",
+   "openstax-sociology-3e:p0340:para:004"
+  ],
+  "final_context_chars": 2101,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1711,
+  "output_tokens": 161,
+  "llm_cost_usd": 0.000942,
+  "elapsed_s": 2.46,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "answerable": true,
+  "question": "How do researchers evaluate how much an immigrant group has integrated into a host society's culture?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Researchers evaluate how much an immigrant group has integrated into a host society's culture by measuring four benchmarks: socioeconomic status, spatial concentration, language assimilation, and intermarriage. These benchmarks help sociologists assess the degree of assimilation, which is the process by which a minority group adopts characteristics of the dominant culture. Language assimilation is particularly important as it affects employment and educational opportunities, influencing socioeconomic growth [openstax-sociology-3e:p0344:para:001][openstax-sociology-3e:p0343:para:002].",
+  "citations": [
+   "openstax-sociology-3e:p0344:para:001",
+   "openstax-sociology-3e:p0343:para:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "how researchers evaluate immigrant group integration into host society culture",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0344:para:001",
+      "rank": 1,
+      "score": 0.5671493828314659,
+      "page": 344
+     },
+     {
+      "id": "openstax-sociology-3e:p0354:para:004",
+      "rank": 2,
+      "score": 0.4758887940965426,
+      "page": 354
+     },
+     {
+      "id": "openstax-sociology-3e:p0343:para:002",
+      "rank": 3,
+      "score": 0.44049730506573015,
+      "page": 343
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0344:para:001",
+     "openstax-sociology-3e:p0354:para:004",
+     "openstax-sociology-3e:p0343:para:002"
+    ],
+    "context_chars": 2275
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "how researchers evaluate immigrant group integration into host society culture"
+  ],
+  "final_context": "[openstax-sociology-3e:p0344:para:001 | data/Introductory Sociology 3e.pdf | page 344]\nAssimilation is antithetical to the “salad bowl” created by pluralism; rather than maintaining their own cultural flavor, subordinate cultures give up their own traditions in order to conform to their new environment. Sociologists measure the degree to which immigrants have assimilated to a new culture with four benchmarks: socioeconomic status, spatial concentration, language assimilation, and intermarriage. When faced with racial and ethnic discrimination, it can be difficult for new immigrants to fully assimilate. Language assimilation, in particular, can be a formidable barrier, limiting employment and educational options and therefore constraining growth in socioeconomic status.\n\n[openstax-sociology-3e:p0354:para:004 | data/Introductory Sociology 3e.pdf | page 354]\nHistory of Intergroup Relations\n\nIn a broad sense, German immigrants were not victimized to the same degree as many of the other subordinate groups this section discusses. While they may not have been welcomed with open arms, they were able to settle in enclaves and establish roots. A notable exception to this was during the lead up to World War I and through World War II, when anti-German sentiment was virulent.\n\n[openstax-sociology-3e:p0343:para:002 | data/Introductory Sociology 3e.pdf | page 343]\nAssimilation\n\nAssimilation describes the process by which a minority individual or group gives up its own identity by taking on the characteristics of the dominant culture. In the United States, which has a history of welcoming and absorbing immigrants from different lands, assimilation has been a function of immigration.\n\nFigure 11.6: For many immigrants to the United States, the Statue of Liberty is a symbol of freedom and a new life. Unfortunately, they often\n\nencounter prejudice and discrimination. (Credit: Mark Heard/flickr)\n\nMost people in the United States have immigrant ancestors. In relatively recent history, between 1890 and 1920, the United States became home to around 24 million immigrants. In the decades since then, further waves of immigrants have come to these shores and have eventually been absorbed into U.S. culture, sometimes after facing extended periods of prejudice and",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0344:para:001",
+   "openstax-sociology-3e:p0354:para:004",
+   "openstax-sociology-3e:p0343:para:002"
+  ],
+  "final_context_chars": 2275,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1724,
+  "output_tokens": 191,
+  "llm_cost_usd": 0.000995,
+  "elapsed_s": 2.66,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "answerable": true,
+  "question": "When Cuban migrants attempt to reach the United States by boat, what determines whether the U.S. government sends them back to Cuba or allows them to stay?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The U.S. government applies a \"wet foot/dry foot\" policy toward Cuban immigrants; those intercepted while still at sea are returned to Cuba, while those who reach the shore are permitted to stay in the United States [openstax-sociology-3e:p0356:para:007].",
+  "citations": [
+   "openstax-sociology-3e:p0356:para:007"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Cuban migrants boat United States government policy",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0356:para:007",
+      "rank": 1,
+      "score": 0.7161093104291499,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0356:para:004",
+      "rank": 2,
+      "score": 0.574164846539576,
+      "page": 356
+     },
+     {
+      "id": "openstax-sociology-3e:p0357:para:001",
+      "rank": 3,
+      "score": 0.5325995196030823,
+      "page": 357
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0356:para:007",
+     "openstax-sociology-3e:p0356:para:004",
+     "openstax-sociology-3e:p0357:para:001"
+    ],
+    "context_chars": 2399
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "Cuban migrants boat United States government policy"
+  ],
+  "final_context": "[openstax-sociology-3e:p0356:para:007 | data/Introductory Sociology 3e.pdf | page 356]\nCuban Americans, perhaps because of their relative wealth and education level at the time of immigration, have fared better than many immigrants. Further, because they were fleeing a Communist country, they were given refugee status and offered protection and social services. The Cuban Migration Agreement of 1995 has curtailed legal immigration from Cuba, leading many Cubans to try to immigrate illegally by boat. According to a 2009 report from the Congressional Research Service, the U.S. government applies a “wet foot/dry foot” policy toward Cuban immigrants; Cubans who are intercepted while still at sea will be returned to Cuba, while those who reach the shore will be permitted to stay in the United States.\n\n[openstax-sociology-3e:p0356:para:004 | data/Introductory Sociology 3e.pdf | page 356]\nCuban Americans are the second-largest Hispanic subgroup, and their history is quite different from that of Mexican Americans. The main wave of Cuban immigration to the United States started after Fidel Castro came to power in 1959 and reached its crest with the Mariel boatlift in 1980. Castro’s Cuban Revolution ushered in an era of communism that continues to this day. To avoid having their assets seized by the government, many wealthy and educated Cubans migrated north, generally to the Miami area.\n\n[openstax-sociology-3e:p0357:para:001 | data/Introductory Sociology 3e.pdf | page 357]\nHe further suggests that “the slow rates of economic and civic assimilation set Mexicans apart from other immigrants, and may reflect the fact that the large numbers of Mexican immigrants residing in the United States undocumented have few opportunities to advance themselves along these dimensions.”\n\nBy contrast, Cuban Americans are often seen as a model minority group within the larger Hispanic group. Many Cubans had higher socioeconomic status when they arrived in this country, and their anti-Communist agenda has made them welcome refugees to this country. In south Florida, especially, Cuban Americans are active in local politics and professional life. As with Asian Americans, however, being a model minority can mask the issue of powerlessness that these minority groups face in U.S. society.\n\nFigure 11.13: Protesters in Arizona dispute the harsh new anti-immigration law. (Credit: rprathap/flickr)",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0356:para:007",
+   "openstax-sociology-3e:p0356:para:004",
+   "openstax-sociology-3e:p0357:para:001"
+  ],
+  "final_context_chars": 2399,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1786,
+  "output_tokens": 122,
+  "llm_cost_usd": 0.00091,
+  "elapsed_s": 2.55,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does Samoan culture recognize and describe a third gender?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Samoan culture recognizes a third gender called fa’afafine, which translates as \"the way of the woman.\" Fa’afafines are individuals who are born biologically male but embody both masculine and feminine traits and are considered an important part of Samoan culture. Their sexual life may include men and women, and they may be mislabelled by individuals from other cultures due to this varied sexual life [openstax-sociology-3e:p0375:para:003].",
+  "citations": [
+   "openstax-sociology-3e:p0375:para:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Samoan culture third gender",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0375:para:003",
+      "rank": 1,
+      "score": 0.598507205633128,
+      "page": 375
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:003",
+      "rank": 2,
+      "score": 0.4189142666204819,
+      "page": 391
+     },
+     {
+      "id": "openstax-sociology-3e:p0379:para:001",
+      "rank": 3,
+      "score": 0.3747459505009958,
+      "page": 379
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0375:para:003",
+     "openstax-sociology-3e:p0391:para:003",
+     "openstax-sociology-3e:p0379:para:001"
+    ],
+    "context_chars": 2014
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "Samoan culture third gender"
+  ],
+  "final_context": "[openstax-sociology-3e:p0375:para:003 | data/Introductory Sociology 3e.pdf | page 375]\nThe kilt worn by a Scottish man does not make him appear feminine in that culture.\n\nThe dichotomous or binary view of gender (the notion that someone is either male or female) is specific to certain cultures and is not universal. In some cultures gender is viewed as fluid. In the past, some anthropologists used the term berdache to refer to individuals who occasionally or permanently dressed and lived as a different gender. The practice has been noted among certain Native American tribes (Jacobs, Thomas, and Lang 1997). Samoan culture accepts what Samoans refer to as a “third gender.” Fa’afafine, which translates as “the way of the woman,” is a term used to describe individuals who are born biologically male but embody both masculine and feminine traits. Fa’afafines are considered an important part of Samoan culture. Individuals from other cultures may mislabel their sexuality because fa’afafines have a varied sexual life that may include men and women (Poasa\n\n[openstax-sociology-3e:p0391:para:003 | data/Introductory Sociology 3e.pdf | page 391]\nSanday’s study of the Indonesian Minangkabau (2004) revealed that in societies some consider to be matriarchies (where women comprise the dominant group), women and men tend to work cooperatively rather than competitively regardless of whether a job is considered feminine by U.S. standards. The men, however, do not experience the sense of bifurcated consciousness under this social structure that modern U.S. females encounter (Sanday 2004).\n\n[openstax-sociology-3e:p0379:para:001 | data/Introductory Sociology 3e.pdf | page 379]\nGender Identity\n\nU.S. society allows for some level of flexibility when it comes to acting out gender roles. To a certain extent, men can assume some feminine roles and women can assume some masculine roles without interfering with their gender identity. Gender identity is a person’s deeply held internal perception of one's gender.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0375:para:003",
+   "openstax-sociology-3e:p0391:para:003",
+   "openstax-sociology-3e:p0379:para:001"
+  ],
+  "final_context_chars": 2014,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1691,
+  "output_tokens": 159,
+  "llm_cost_usd": 0.000931,
+  "elapsed_s": 2.34,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q16",
+  "split": "dev",
+  "answerable": true,
+  "question": "What does the Davis-Moore thesis argue about why some jobs and social roles receive much higher rewards than others?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The Davis-Moore thesis argues that the greater the functional importance of a social role, the greater must be the reward. It posits that social stratification represents the inherently unequal value of different work, where certain tasks in society are more valuable than others, and qualified people who fill those positions are rewarded more highly. This is because the degree of skill required for a job determines its importance, and fewer people are qualified for highly skilled jobs, leading to higher rewards for those roles [openstax-sociology-3e:p0287:para:002][openstax-sociology-3e:p0287:para:004].",
+  "citations": [
+   "openstax-sociology-3e:p0287:para:002",
+   "openstax-sociology-3e:p0287:para:004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Davis-Moore thesis rewards social roles",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0287:para:004",
+      "rank": 1,
+      "score": 0.5659950313958793,
+      "page": 287
+     },
+     {
+      "id": "openstax-sociology-3e:p0287:para:002",
+      "rank": 2,
+      "score": 0.5252446319790813,
+      "page": 287
+     },
+     {
+      "id": "openstax-sociology-3e:p0378:para:005",
+      "rank": 3,
+      "score": 0.4606340653033716,
+      "page": 378
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0287:para:004",
+     "openstax-sociology-3e:p0287:para:002"
+    ],
+    "context_chars": 1709
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "Davis-Moore thesis rewards social roles"
+  ],
+  "final_context": "[openstax-sociology-3e:p0287:para:004 | data/Introductory Sociology 3e.pdf | page 287]\nDavis and Moore stated that, in most cases, the degree of skill required for a job determines that job’s importance. They noted that the more skill required for a job, the fewer qualified people there would be to do that job. Certain jobs, such as cleaning hallways or answering phones, do not require much skill. Therefore, most people would be qualified for these positions. Other work, like designing a highway system or delivering a baby, requires immense skill limiting the number of people qualified to take on this type of work.\n\nMany scholars have criticized the Davis-Moore thesis. In 1953, Melvin Tumin argued that it does not explain inequalities in the education system or inequalities due to race or gender. Tumin believed social stratification prevented qualified people from attempting to fill roles (Tumin 1953).\n\n[openstax-sociology-3e:p0287:para:002 | data/Introductory Sociology 3e.pdf | page 287]\nFunctionalism\n\nIn sociology, the functionalist perspective examines how society’s parts operate. According to functionalism, different aspects of society exist because they serve a vital purpose. What is the function of social stratification?\n\nIn 1945, sociologists Kingsley Davis and Wilbert Moore published the Davis-Moore thesis, which argued that the greater the functional importance of a social role, the greater must be the reward. The theory posits that social stratification represents the inherently unequal value of different work. Certain tasks in society are more valuable than others (for example, doctors or lawyers). Qualified people who fill those positions are rewarded more than others.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0287:para:004",
+   "openstax-sociology-3e:p0287:para:002"
+  ],
+  "final_context_chars": 1709,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1620,
+  "output_tokens": 209,
+  "llm_cost_usd": 0.000982,
+  "elapsed_s": 2.67,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q17",
+  "split": "dev",
+  "answerable": true,
+  "question": "How large a share of non-farming jobs in Latin America, Asia, and Africa consists of untaxed, unregulated work outside government oversight?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The underground economy, consisting of untaxed, unregulated work outside government oversight, accounted for over 50 percent of non-farming jobs in Latin America and went as high as 80 percent in parts of Asia and Africa according to official statistics before the worldwide recession [openstax-sociology-3e:p0311:para:002].",
+  "citations": [
+   "openstax-sociology-3e:p0311:para:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0311:para:002",
+      "rank": 1,
+      "score": 0.6376607626745747,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0312:para:001",
+      "rank": 2,
+      "score": 0.5376695717708962,
+      "page": 312
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:003",
+      "rank": 3,
+      "score": 0.4940260752819544,
+      "page": 311
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0311:para:002",
+     "openstax-sociology-3e:p0312:para:001"
+    ],
+    "context_chars": 1933
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "share of non-farming jobs in Latin America Asia Africa untaxed unregulated work outside government oversight"
+  ],
+  "final_context": "[openstax-sociology-3e:p0311:para:002 | data/Introductory Sociology 3e.pdf | page 311]\nWhat do the driver of an unlicensed hack cab in New York, a piecework seamstress working from her home in Mumbai, and a street tortilla vendor in Mexico City have in common? They are all members of the underground economy, a loosely defined unregulated market unhindered by taxes, government permits, or human protections. Official statistics before the worldwide recession posit that the underground economy accounted for over 50 percent of nonagricultural work in Latin America; the figure went as high as 80 percent in parts of Asia and Africa (Chen 2001). A recent article in the Wall Street Journal discusses the challenges, parameters, and surprising benefits of this informal marketplace. The wages earned in most underground economy jobs, especially in peripheral nations, are a pittance––a few rupees for a handmade bracelet at a market, or maybe 250 rupees ($5 U.S.) for a day’s worth of fruit and vegetable sales (Barta 2009).\n\n[openstax-sociology-3e:p0312:para:001 | data/Introductory Sociology 3e.pdf | page 312]\nEven in the United States, the informal economy exists, although not on the same scale as in peripheral and semi-peripheral nations. It might include under-the-table nannies, gardeners, and housecleaners, as well as unlicensed street vendors and taxi drivers. There are also those who run informal businesses, like daycares or salons, from their houses. Analysts estimate that this type of labor may make up 10 percent of the overall U.S. economy, a number that will likely grow as companies reduce head counts, leaving more workers to seek other options. In the end, the article suggests that, whether selling medicinal wines in Thailand or woven bracelets in India, the workers of the underground economy at least have what most people want most of all: a chance to stay afloat (Barta 2009).\n\nWho Are the Impoverished?",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0311:para:002",
+   "openstax-sociology-3e:p0312:para:001"
+  ],
+  "final_context_chars": 1933,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1709,
+  "output_tokens": 141,
+  "llm_cost_usd": 0.000909,
+  "elapsed_s": 2.64,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q18",
+  "split": "dev",
+  "answerable": true,
+  "question": "What is meant by the sedimentation of racial inequality, and how does redlining relate to it?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "The sedimentation of racial inequality refers to the intergenerational impact of both practical and legalized racism that limits the abilities of Black people to accumulate wealth. Redlining relates to this as it is the practice of routinely refusing mortgages for households and businesses located in predominately minority communities, which contributes to this ongoing racial inequality [openstax-sociology-3e:p0342:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0342:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "sedimentation of racial inequality redlining",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0342:para:001",
+      "rank": 1,
+      "score": 0.6595500201905511,
+      "page": 342
+     },
+     {
+      "id": "openstax-sociology-3e:p0340:para:005",
+      "rank": 2,
+      "score": 0.47203377692339377,
+      "page": 340
+     },
+     {
+      "id": "openstax-sociology-3e:p0345:para:004",
+      "rank": 3,
+      "score": 0.465481714300956,
+      "page": 345
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0342:para:001",
+     "openstax-sociology-3e:p0340:para:005",
+     "openstax-sociology-3e:p0345:para:004"
+    ],
+    "context_chars": 2167
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "sedimentation of racial inequality redlining"
+  ],
+  "final_context": "[openstax-sociology-3e:p0342:para:001 | data/Introductory Sociology 3e.pdf | page 342]\nRedlining is the practice of routinely refusing mortgages for households and businesses located in predominately minority communities, while sedimentation of racial inequality describes the intergenerational impact of both practical and legalized racism that limits the abilities of Black people to accumulate wealth.\n\nFerguson’s racial imbalance may explain in part why, even though in 2010 only about 63 percent of its population was Black, in 2013 Black people were detained in 86 percent of stops, 92 percent of searches, and 93 percent of arrests (Missouri Attorney General’s Office 2014). In addition, de facto segregation in Ferguson’s schools, a race-based wealth gap, urban sprawl, and a Black unemployment rate three times that of the White unemployment rate worsened existing racial tensions in Ferguson while also reflecting nationwide racial inequalities (Bouie 2014).\n\n[openstax-sociology-3e:p0340:para:005 | data/Introductory Sociology 3e.pdf | page 340]\nIt has arisen since the post-Civil Rights era and supports racism while avoiding any reference to race (Bonilla-Silva (2015).\n\n[openstax-sociology-3e:p0345:para:004 | data/Introductory Sociology 3e.pdf | page 345]\nDe facto segregation, however, cannot be abolished by any court mandate. Few institutions desegregated as a result of Brown; in fact, government and even military intervention was necessary to enforce the ruling, and it took the Civil Rights Act and other laws to formalize the equality. Segregation is still alive and well in the United States, with different racial or ethnic groups often segregated by neighborhood, borough, or parish. Sociologists use segregation indices to measure racial segregation of different races in different areas. The indices employ a scale from zero to 100, where zero is the most integrated and 100 is the least. In the New York metropolitan area, for instance, the Black-White segregation index was seventy-nine for the years 2005–2009. This means that 79 percent of either Black or White people would have to move in order for each neighborhood to have the same",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0342:para:001",
+   "openstax-sociology-3e:p0340:para:005",
+   "openstax-sociology-3e:p0345:para:004"
+  ],
+  "final_context_chars": 2167,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1727,
+  "output_tokens": 139,
+  "llm_cost_usd": 0.000913,
+  "elapsed_s": 2.34,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q19",
+  "split": "dev",
+  "answerable": true,
+  "question": "How does having children affect the gender pay gap between women and men in the United States?",
+  "filter_given": null,
+  "status": "answered",
+  "answer": "Having children affects the gender pay gap in the United States by contributing to lower pay for mothers compared to men and childless women. Mothers are recommended a 7.9 percent lower starting salary than non-mothers, which is 8.6 percent lower than men. This is partly because mothers are more likely to drop out of the labor force or work reduced schedules, leading to less job experience than men, which widens the pay gap [openstax-sociology-3e:p0387:para:002].",
+  "citations": [
+   "openstax-sociology-3e:p0387:para:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "gender pay gap and children United States",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0387:para:002",
+      "rank": 1,
+      "score": 0.5925480548211962,
+      "page": 387
+     },
+     {
+      "id": "openstax-sociology-3e:p0386:para:005",
+      "rank": 2,
+      "score": 0.569803510808354,
+      "page": 386
+     },
+     {
+      "id": "openstax-sociology-3e:p0387:para:000",
+      "rank": 3,
+      "score": 0.5175388969316043,
+      "page": 387
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0387:para:002",
+     "openstax-sociology-3e:p0386:para:005",
+     "openstax-sociology-3e:p0387:para:000"
+    ],
+    "context_chars": 2117
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "gender pay gap and children United States"
+  ],
+  "final_context": "[openstax-sociology-3e:p0387:para:002 | data/Introductory Sociology 3e.pdf | page 387]\nconsidered by society as a feminine trait. (Credit: Evil Erin/flickr)\n\nPart of the gender pay gap can be attributed to unique barriers faced by women regarding work experience and promotion opportunities. A mother of young children is more likely to drop out of the labor force for several years or work on a reduced schedule than is the father. As a result, women in their 30s and 40s are likely, on average, to have less job experience than men. This effect becomes more evident when considering the pay rates of two groups of women: those who did not leave the workforce and those who did: In the United States, childless women with the same education and experience levels as men are typically paid with closer (but not exact) parity to men. However, women with families and children are paid less: Mothers are recommended a 7.9 percent lower starting salary than non-mothers, which is 8.6 percent lower than men (Correll 2007).\n\n[openstax-sociology-3e:p0386:para:005 | data/Introductory Sociology 3e.pdf | page 386]\nThe Pay Gap\n\nDespite making up nearly half (49.8 percent) of payroll employment, men vastly outnumber women in authoritative, powerful, and, therefore, high-earning jobs (U.S. Census Bureau 2010). Even when a woman’s employment status is equal to a man’s, she will generally make only 81 cents for every dollar made by her male counterpart (Payscale 2020). Women in the paid labor force also still do the majority of the unpaid work at home. On an average day, 84 percent of women (compared to 67 percent of men) spend time doing household management activities (U.S. Census Bureau 2011). This double duty keeps working women in a subordinate role in the family structure (Hochschild and Machung 1989).\n\n[openstax-sociology-3e:p0387:para:000 | data/Introductory Sociology 3e.pdf | page 387]\nFigure 12.10: In 2017 men’s overall median earnings were $52,146 and women’s were $41,977. This means that women earned 80.1% of what\n\nmen earned in the United States. (Credit: Women’s Bureau, U.S. Department of Labor)",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0387:para:002",
+   "openstax-sociology-3e:p0386:para:005",
+   "openstax-sociology-3e:p0387:para:000"
+  ],
+  "final_context_chars": 2117,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1769,
+  "output_tokens": 165,
+  "llm_cost_usd": 0.000972,
+  "elapsed_s": 2.7,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q20",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 12) From a conflict theory perspective, who takes on the role of the proletariat in the owner-worker relationship, and why?",
+  "filter_given": {
+   "chapter": 12
+  },
+  "status": "answered",
+  "answer": "From a conflict theory perspective, women take on the role of the proletariat in the owner-worker relationship because they are dependent on men for wages and economic support, making them the subordinate group in this dynamic [openstax-sociology-3e:p0391:para:001].",
+  "citations": [
+   "openstax-sociology-3e:p0391:para:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "conflict theory proletariat owner-worker relationship",
+    "filter": {
+     "chapter": 12
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0391:para:001",
+      "rank": 1,
+      "score": 0.5710288769543622,
+      "page": 391
+     },
+     {
+      "id": "openstax-sociology-3e:p0391:para:000",
+      "rank": 2,
+      "score": 0.4374858712042382,
+      "page": 391
+     },
+     {
+      "id": "openstax-sociology-3e:p0395:para:006",
+      "rank": 3,
+      "score": 0.3747464443091659,
+      "page": 395
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0391:para:001",
+     "openstax-sociology-3e:p0391:para:000"
+    ],
+    "context_chars": 1564
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "queries": [
+   "conflict theory proletariat owner-worker relationship"
+  ],
+  "final_context": "[openstax-sociology-3e:p0391:para:001 | data/Introductory Sociology 3e.pdf | page 391]\nFriedrich Engels, a German sociologist, studied family structure and gender roles. Engels suggested that the same owner-worker relationship seen in the labor force is also seen in the household, with women assuming the role of the proletariat. This is due to women’s dependence on men for the attainment of wages, which is even worse for women who are entirely dependent upon their spouses for economic support. Contemporary conflict theorists suggest that when women become wage earners, they can gain power in the family structure and create more democratic arrangements in the home, although they may still carry the majority of the domestic burden, as noted earlier (Rismanand and Johnson-Sumerford 1998).\n\n[openstax-sociology-3e:p0391:para:000 | data/Introductory Sociology 3e.pdf | page 391]\nConflict Theory\n\nAccording to conflict theory, society is a struggle for dominance among social groups (like women versus men) that compete for scarce resources. When sociologists examine gender from this perspective, we can view men as the dominant group and women as the subordinate group. According to conflict theory, social problems are created when dominant groups exploit or oppress subordinate groups. Consider the Women’s Suffrage Movement or the debate over women’s “right to choose” their reproductive futures. It is difficult for women to rise above men, as dominant group members create the rules for success and opportunity in society (Farrington and Chertok 1993).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0391:para:001",
+   "openstax-sociology-3e:p0391:para:000"
+  ],
+  "final_context_chars": 1564,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 1603,
+  "output_tokens": 118,
+  "llm_cost_usd": 0.00083,
+  "elapsed_s": 2.31,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  },
+  "context_evidence": true,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "retail companies that refused to contribute to Rana Plaza Trust Fund",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5545057404962341,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 2,
+      "score": 0.4269724949567386,
+      "page": 315
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 3,
+      "score": 0.4190852783486734,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:003",
+     "openstax-sociology-3e:p0315:para:001",
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 2326
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "fifteen brands that refused to contribute to Rana Plaza Trust Fund",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.514187361722142,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.4350993711387514,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.4165932273467763,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:003",
+     "openstax-sociology-3e:p0315:para:001",
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 2326
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "names of the fifteen brands that refused to contribute to Rana Plaza Trust Fund",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5184779097511719,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.44235387753458055,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.41794585616596724,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:003",
+     "openstax-sociology-3e:p0315:para:001",
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 2326
+   },
+   {
+    "event": "abstain",
+    "reason": "The context mentions that fifteen companies refused to contribute to the Rana Plaza Trust Fund but does not provide the specific names of these companies."
+   }
+  ],
+  "queries": [
+   "retail companies that refused to contribute to Rana Plaza Trust Fund",
+   "fifteen brands that refused to contribute to Rana Plaza Trust Fund",
+   "names of the fifteen brands that refused to contribute to Rana Plaza Trust Fund"
+  ],
+  "final_context": "[openstax-sociology-3e:p0302:para:003 | data/Introductory Sociology 3e.pdf | page 302]\n32 percent of the clothing made in the collapsed Rana Plaza building was intended for U.S., Canadian, and European stores. Walmart jeans were made on the fifth floor. Clothing for The Children’s Place was produced in the building, as well. Afterward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour and Human Rights 2014).\n\nWhile you read this chapter, think about the global system that allows U.S. companies to outsource their manufacturing to peripheral nations, where many women and children work in conditions that some characterize as slave labor. Do people in the United States have a responsibility to foreign workers? Should U.S. corporations be held accountable for what happens to garment factory workers who make their clothing? What can you do as a consumer to help such workers?\n\n[openstax-sociology-3e:p0315:para:001 | data/Introductory Sociology 3e.pdf | page 315]\nOften, the brands work through subcontractors and subsidiaries, and may not know exactly which factories are producing their products.\n\nMembers of USAS helped form the Worker Rights Consortium (WRC), which monitors working conditions for a wide array of companies and their affiliated factories. WRC conducts regular reviews of worldwide manufacturing facilities and publishes the results. The WRC also studies and reports on overall economic conditions and their effect on employment. For example, in 2020, as the global economy went through a rapid downturn, apparel companies demanded lower prices while they also reduced their orders, which put workers at risk of exploitation or job loss (Karim 2020).\n\n[openstax-sociology-3e:p0302:para:001 | data/Introductory Sociology 3e.pdf | page 302]\nChapter Outline\n\n10.1 Global Stratification and Classification 10.2 Global Wealth and Poverty 10.3 Theoretical Perspectives on Global Stratification\n\nThe April 24, 2013 collapse of the Rana Plaza in Dhaka, Bangladesh that killed over 1,100 people, was the deadliest garment factory accident in history, and it was preventable (International Labour Organization, Department of Communication 2014).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0302:para:003",
+   "openstax-sociology-3e:p0315:para:001",
+   "openstax-sociology-3e:p0302:para:001"
+  ],
+  "final_context_chars": 2326,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 4090,
+  "output_tokens": 115,
+  "llm_cost_usd": 0.00182,
+  "elapsed_s": 5.12,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  }
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004",
+     "openstax-sociology-3e:p0311:para:000"
+    ],
+    "context_chars": 1790
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004",
+     "openstax-sociology-3e:p0311:para:000"
+    ],
+    "context_chars": 1790
+   },
+   {
+    "event": "self_reported_missing",
+    "model_answer": "The official 2021 U.S. poverty line threshold for a household of six people is not explicitly stated in the provided context. However, the poverty line was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four in 2021 [openstax-sociology-3e:p0283:para:004].",
+    "model_citations": [
+     "openstax-sociology-3e:p0283:para:004"
+    ]
+   }
+  ],
+  "queries": [
+   "2021 U.S. poverty line threshold household of six people",
+   "2021 U.S. poverty line threshold household of six people"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:004 | data/Introductory Sociology 3e.pdf | page 283]\nIn the United States, poverty is most often referred to as a relative rather than absolute measurement. Absolute poverty is an economic condition in which a family or individual cannot afford basic necessities, such as food and shelter, so that day-to-day survival is in jeopardy. Relative poverty is an economic condition in which a family or individuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021).\n\n[openstax-sociology-3e:p0311:para:000 | data/Introductory Sociology 3e.pdf | page 311]\nthat extreme poverty level of $1.90 per day. (The previous term was \"absolute poverty.\") In 2018, the World Bank added two more measures to consider: people living on less than $3.20 and people living on less than $5.50. As the number of people in that extreme category continues to decline, these two new categories will be important to recognize the population that lives above the $1.90 line, but still remains vulnerable to extreme poverty. Someone who begins to earn enough to live on more than $1.90 is still in severe poverty and should be considered as such (Schoch 2020).\n\nIf you were forced to live on $1.90 a day, or even $5.50, how would you do it? What would you deem worthy of spending money on, and what could you do without? How would you manage the necessities—and how would you make up the gap between what you need to live and what you can afford?\n\nFigure 10.7: Slums in many countries illustrate absolute poverty all too well. (Credit: Ninara/flickr)",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:004",
+   "openstax-sociology-3e:p0311:para:000"
+  ],
+  "final_context_chars": 1790,
+  "searches": 2,
+  "model_calls": 3,
+  "input_tokens": 2771,
+  "output_tokens": 170,
+  "llm_cost_usd": 0.00138,
+  "elapsed_s": 3.37,
+  "config": {
+   "name": "A6_self_check",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 2400,
+   "max_searches": 4,
+   "use_filter": true,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+   "extra": {
+    "strict": true,
+    "self_check": true
+   }
+  }
+ }
+]

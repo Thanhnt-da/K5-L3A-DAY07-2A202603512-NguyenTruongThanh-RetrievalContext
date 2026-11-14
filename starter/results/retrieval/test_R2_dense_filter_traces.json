@@ -1,0 +1,482 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "answerable": true,
+  "question": "How has the size of the American middle class and its share of national wealth changed since the 1970s and 1980s?",
+  "query_used": "How has the size of the American middle class and its share of national wealth changed since the 1970s and 1980s?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 67.2,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0283:para:001",
+    "rank": 1,
+    "score": 0.6943715269442104,
+    "page": 283,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 271
+    },
+    "text": "Many people think of the United States as a “middle-class society.” They think a few people are rich, a few are poor, and most are fairly well off, existing in the middle of the social strata. Rising from lower classes into the middle-class is to achieve the American Dream. For this reason, scholars are particularly worried by the shrinking of the middle class. Although the middle class is still significantly larger than the lower and upper classes, it shrank from 69 percent in 1971 to 51 percent in 2020. Arguably the most significant threat to the U.S.’s relatively high standard of living is the decline of the middle class. The wealth of the middle class has also been declining in recent decades. Its share of the wealth fell from 32 percent in 1983 to 16 percent in 2016 (Horowitz, Igielnik, & Kochhar 2020)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0278:para:002",
+    "rank": 2,
+    "score": 0.5232153415023499,
+    "page": 278,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 266
+    },
+    "text": "For sociologists, categorizing social class is a fluid science. Sociologists generally identify three levels of class in the United States: upper, middle, and lower class. Within each class, there are many subcategories. Wealth is the most significant way of distinguishing classes, because wealth can be transferred to one’s children and perpetuate the class structure. One economist, J.D. Foster, defines the 20 percent of U.S. citizens’ highest earners as “upper income,” and the lower 20 percent as “lower income.” The remaining 60 percent of the population make up the middle class (Mason 2010). With that distinction, economists can describe the range in annual household incomes for the middle-class, but they cannot show how the range of all incomes vary and how they change over time. For this reason, the Pew Center defines classes based on the median household income."
+   },
+   {
+    "id": "openstax-sociology-3e:p0282:para:007",
+    "rank": 3,
+    "score": 0.5200143340405032,
+    "page": 282,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 9,
+     "section": "9.3",
+     "section_title": "Social Stratification and Mobility in the United States",
+     "printed_page": 270
+    },
+    "text": "Stratification of Socioeconomic Classes\n\nIn the last century, the United States has seen a steady rise in its standard of living, the level of wealth available to acquire the material necessities and comforts to maintain a specific lifestyle. The country’s standard of living is based on factors such as income, employment, class, literacy rates, mortality rates, poverty rates, and housing affordability. A country with a high standard"
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 523,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 2399,
+  "context_chunks_2400": 3
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "answerable": true,
+  "question": "What are capital flight and deindustrialization, and how does one lead to the other in high-income countries?",
+  "query_used": "What are capital flight and deindustrialization, and how does one lead to the other in high-income countries?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 66.5,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0307:para:000",
+    "rank": 1,
+    "score": 0.7872439217916551,
+    "page": 307,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 295
+    },
+    "text": "High-income countries face two major issues: capital flight and deindustrialization. Capital flight refers to the movement (flight) of capital from one nation to another, as when General Motors automotive company closed U.S. factories in Michigan and opened factories in Mexico."
+   },
+   {
+    "id": "openstax-sociology-3e:p0307:para:001",
+    "rank": 2,
+    "score": 0.6837184964705382,
+    "page": 307,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 295
+    },
+    "text": "Deindustrialization, a related issue, occurs as a consequence of capital flight, as no new companies open to replace jobs lost to foreign nations. As expected, global companies move their industrial processes to the places where they can get the most production with the least cost, including the building of infrastructure, training of workers, shipping of goods, and, of course, paying employee wages. This means that as emerging economies create their own industrial zones, global companies see the opportunity for existing infrastructure and much lower costs. Those opportunities lead to businesses closing the factories that provide jobs to the middle class within core nations and moving their industrial production to peripheral and semi-peripheral nations.\n\nFigure 10.4: Factories and stores in places like the Detroit metro area have been closed and abandoned as companies go out of business.\n\n(Credit: Joe Nuxoll/flickr)"
+   },
+   {
+    "id": "openstax-sociology-3e:p0307:para:002",
+    "rank": 3,
+    "score": 0.5397636564789332,
+    "page": 307,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 295
+    },
+    "text": "Capital flight describes jobs and infrastructure moving from one nation to another. Look at the U.S. automobile industry. In the early twentieth century, the cars driven in the United States were made here, employing thousands of workers in Detroit and in the companies that produced everything that made building cars possible. However, once the fuel crisis of the 1970s hit and people in the United States increasingly looked to imported cars with better gas mileage, U.S. auto manufacturing began to decline. During the 2007–2009 recession, the U.S. government provided emergency funding (usually called a \"bail out\") for the three main auto companies, which is evidence of those companies' vulnerability. At the same time, Japanese- owned Toyota and Honda and South Korean Kia maintained stable sales levels."
+   }
+  ],
+  "evidence_rule": "all",
+  "hit1": false,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   true,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 365,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 2285,
+  "context_chunks_2400": 3
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "answerable": true,
+  "question": "Why can being labeled a 'model minority' actually harm members of that minority group?",
+  "query_used": "Why can being labeled a 'model minority' actually harm members of that minority group?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 63.0,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0353:para:001",
+    "rank": 1,
+    "score": 0.60817630194678,
+    "page": 353,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.6",
+     "section_title": "Race and Ethnicity in the United States",
+     "printed_page": 341
+    },
+    "text": "Current Status\n\nAsian Americans certainly have been subject to their share of racial prejudice, despite the seemingly positive stereotype as the model minority. The model minority stereotype is applied to a minority group that is seen as reaching significant educational, professional, and socioeconomic levels without challenging the existing establishment.\n\nThis stereotype is typically applied to Asian groups in the United States, and it can result in unrealistic expectations by putting a stigma on members of this group that do not meet the expectations. Stereotyping all Asians as smart and capable can also lead to a lack of much-needed government assistance and to educational and professional discrimination.\n\nFigure 11.11: In response to widespread attacks against Asian people, partly linked to incorrect associations regarding Asian people and\n\nthe COVID-19 pandemic, groups around the country and world held Stop Asian Hate rallies like this one in Canada. (Credit: GoToVan/\n\nflickr)"
+   },
+   {
+    "id": "openstax-sociology-3e:p0333:para:004",
+    "rank": 2,
+    "score": 0.5174601961808772,
+    "page": 333,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.2",
+     "section_title": "Racial, Ethnic, and Minority Groups",
+     "printed_page": 321
+    },
+    "text": "For example, someone who identifies as Asian American while at home in Houston may not refer to themselves as such when they visit extended family in Japan. In a similar manner, a grouping of people from Mexico, Central America and South America—often referred to as Latinx, Latina, or Latino—may be embraced by some and rejected by others in the group (Martinez 2019).\n\nWhat Are Minority Groups?"
+   },
+   {
+    "id": "openstax-sociology-3e:p0353:para:003",
+    "rank": 3,
+    "score": 0.5162077133421685,
+    "page": 353,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.6",
+     "section_title": "Race and Ethnicity in the United States",
+     "printed_page": 341
+    },
+    "text": "Many Asian Americans feel their communities have long been ignored by mainstream politics, media and entertainment although they are considered as a “model minority.” Recently, Asian American journalists are sharing their own stories of discrimination on social media and a growing chorus of federal lawmakers are demanding actions. Do you think you can do something to stop violence against Asian Americans? Can any of your actions not only help Asian Americans but also wider people in the United States?\n\nSociology in the Real World: Hate Crimes Against Asian Americans"
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 483,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 2230,
+  "context_chunks_2400": 3
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "answerable": true,
+  "question": "How was the sexual double standard regarding premarital sex originally defined, and under what condition does the evolved standard allow premarital sex for women compared to men?",
+  "query_used": "How was the sexual double standard regarding premarital sex originally defined, and under what condition does the evolved standard allow premarital sex for women compared to men?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 67.7,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0394:para:006",
+    "rank": 1,
+    "score": 0.6500163729363881,
+    "page": 394,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.4",
+     "section_title": "Sexuality",
+     "printed_page": 382
+    },
+    "text": "Belief that men have—or have the right to—more sexual urges than women creates a double standard. Ira Reiss, a pioneer researcher in the field of sexual studies, defined the double standard as prohibiting premarital sexual intercourse for women but allowing it for men (Reiss 1960). This standard has evolved into allowing women to engage in premarital sex only within committed love relationships, but allowing men to engage in sexual relationships with as many partners as they wish without condition (Milhausen and Herold 1999). Due to this double standard, a woman is likely to have fewer sexual partners in her life time than a man. According to a Centers for Disease Control and Prevention (CDC) survey, the average thirty-five-year-old woman has had three opposite-sex sexual partners while the average thirty-five-year-old man has had twice as many (Centers for Disease Control 2011)."
+   },
+   {
+    "id": "openstax-sociology-3e:p0393:para:003",
+    "rank": 2,
+    "score": 0.4870634360575876,
+    "page": 393,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.4",
+     "section_title": "Sexuality",
+     "printed_page": 381
+    },
+    "text": "Sexuality around the World\n\nCross-national research on sexual attitudes in industrialized nations reveals that normative standards differ across the world. For example, several studies have shown that Scandinavian students are more tolerant of premarital sex than are U.S. students"
+   },
+   {
+    "id": "openstax-sociology-3e:p0393:para:002",
+    "rank": 3,
+    "score": 0.4776982458711825,
+    "page": 393,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.4",
+     "section_title": "Sexuality",
+     "printed_page": 381
+    },
+    "text": "Likewise, societies generally have norms that reinforce their accepted social system of sexuality.\n\nWhat is considered “normal” in terms of sexual behavior is based on the mores and values of the society. Societies that value monogamy, for example, would likely oppose extramarital sex. Individuals are socialized to sexual attitudes by their family, education system, peers, media, and religion. Historically, religion has been the greatest influence on sexual behavior in most societies, but in more recent years, peers and the media have emerged as two of the strongest influences, particularly among U.S. teens (Potard, Courtois, and Rusch 2008). Let us take a closer look at sexual attitudes in the United States and around the world."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 368,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 2177,
+  "context_chunks_2400": 3
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "answerable": true,
+  "question": "(Context: chapter 11) From a functionalist perspective, how can excluding out-group members strengthen in-group solidarity, and what dysfunctions does this create for society?",
+  "query_used": "(Context: chapter 11) From a functionalist perspective, how can excluding out-group members strengthen in-group solidarity, and what dysfunctions does this create for society?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": {
+   "chapter": 11
+  },
+  "elapsed_ms": 63.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0335:para:003",
+    "rank": 1,
+    "score": 0.6532849688553436,
+    "page": 335,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.3",
+     "section_title": "Theoretical Perspectives on Race and Ethnicity",
+     "printed_page": 323
+    },
+    "text": "Another way to apply the functionalist perspective to race and ethnicity is to discuss the way racism can contribute positively to the functioning of society by strengthening bonds between in-group members through the ostracism of out-group members. Consider how a community might increase solidarity by refusing to allow outsiders access. On the other hand, Rose (1951) suggested that dysfunctions associated with racism include the failure to take advantage of talent in the subjugated group, and that society must divert from other purposes the time and effort needed to maintain artificially constructed racial boundaries. Consider how much money, time, and effort went toward maintaining separate and unequal educational systems prior to the civil rights movement."
+   },
+   {
+    "id": "openstax-sociology-3e:p0335:para:002",
+    "rank": 2,
+    "score": 0.6043404179192956,
+    "page": 335,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.3",
+     "section_title": "Theoretical Perspectives on Race and Ethnicity",
+     "printed_page": 323
+    },
+    "text": "Functionalism\n\nFunctionalism emphasizes that all the elements of society have functions that promote solidarity and maintain order and stability in society. Hence, we can observe people from various racial and ethnic backgrounds interacting harmoniously in a state of social balance. Problems arise when one or more racial or ethnic groups experience inequalities and discriminations. This creates tension and conflict resulting in temporary dysfunction of the social system. For example, the killing of a Black man George Floyd by a White police officer in 2020 stirred up protests demanding racial justice and changes in policing in the United States. To restore the society’s pre-disturbed state or to seek a new equilibrium, the police department and various parts of the system require changes and compensatory adjustments."
+   },
+   {
+    "id": "openstax-sociology-3e:p0335:para:004",
+    "rank": 3,
+    "score": 0.5479856712926112,
+    "page": 335,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 11,
+     "section": "11.3",
+     "section_title": "Theoretical Perspectives on Race and Ethnicity",
+     "printed_page": 323
+    },
+    "text": "In the view of functionalism, racial and ethnic inequalities must have served an important function in order to exist as long as they have. This concept, sometimes, can be problematic. How can racism and discrimination contribute positively to society? Nash (1964) focused his argument on the way racism is functional for the dominant group, for example, suggesting that racism morally justifies a racially unequal society. Consider the way slave owners justified slavery in the antebellum South, by suggesting Black people were fundamentally inferior to White and preferred slavery to freedom."
+   }
+  ],
+  "evidence_rule": "any",
+  "hit1": true,
+  "hit3": true,
+  "hit_per_rank": [
+   true,
+   false,
+   false
+  ],
+  "context_hit_800": false,
+  "context_chars_800": 681,
+  "context_chunks_800": 1,
+  "context_hit_2400": true,
+  "context_chars_2400": 1773,
+  "context_chunks_2400": 2
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "answerable": false,
+  "question": "According to the 2018 World Bank extreme poverty table in Chapter 10, what percentage of Mexico's population lived on less than $1.90 per day?",
+  "query_used": "According to the 2018 World Bank extreme poverty table in Chapter 10, what percentage of Mexico's population lived on less than $1.90 per day?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 62.1,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0304:para:005",
+    "rank": 1,
+    "score": 0.6700890449824148,
+    "page": 304,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 292
+    },
+    "text": "As mentioned earlier, one way to evaluate stratification is to consider how many people are living in poverty, and particularly extreme poverty, which is often defined as needing to survive on less than $1.90 per day. Fortunately, until the COVID-19 pandemic impacted economies in 2020, the extreme poverty rate had been on a 20-year decline. In 2015, 10.1 percent of the world's population was living in extreme poverty; in 2017, that number had dropped an entire percentage point to 9.2 percent. While a positive, that 9.2 percent is equivalent to 689 million people living on less than $1.90 a day. The same year, 24.1 percent of the world lived on less than $3.20 per day and 43.6 percent on less than $5.50 per day in 2017 (World Bank 2020). The table below makes the differences in poverty very clear."
+   },
+   {
+    "id": "openstax-sociology-3e:p0311:para:000",
+    "rank": 2,
+    "score": 0.6227826649223646,
+    "page": 311,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.3",
+     "section_title": "Global Wealth and Poverty",
+     "printed_page": 299
+    },
+    "text": "that extreme poverty level of $1.90 per day. (The previous term was \"absolute poverty.\") In 2018, the World Bank added two more measures to consider: people living on less than $3.20 and people living on less than $5.50. As the number of people in that extreme category continues to decline, these two new categories will be important to recognize the population that lives above the $1.90 line, but still remains vulnerable to extreme poverty. Someone who begins to earn enough to live on more than $1.90 is still in severe poverty and should be considered as such (Schoch 2020).\n\nIf you were forced to live on $1.90 a day, or even $5.50, how would you do it? What would you deem worthy of spending money on, and what could you do without? How would you manage the necessities—and how would you make up the gap between what you need to live and what you can afford?\n\nFigure 10.7: Slums in many countries illustrate absolute poverty all too well. (Credit: Ninara/flickr)"
+   },
+   {
+    "id": "openstax-sociology-3e:p0304:para:006",
+    "rank": 3,
+    "score": 0.5562975216283963,
+    "page": 304,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 10,
+     "section": "10.2",
+     "section_title": "Global Stratification and Classification",
+     "printed_page": 292
+    },
+    "text": "Table 10.1: The differences among countries is clear when considering their extreme poverty rates. For the most part, the selected countries show disparities even within countries from the same regions. All data is from 2018. (World Bank 2020)"
+   }
+  ],
+  "top_score": 0.6700890449824148
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "answerable": false,
+  "question": "Which specific corporations among the world's 500 largest companies were led by female chief executives at the start of 2021?",
+  "query_used": "Which specific corporations among the world's 500 largest companies were led by female chief executives at the start of 2021?",
+  "config": "R2_dense_filter",
+  "method": "dense",
+  "use_filter": true,
+  "top_k": 3,
+  "options": {},
+  "filter_applied": null,
+  "elapsed_ms": 98.6,
+  "results": [
+   {
+    "id": "openstax-sociology-3e:p0388:para:001",
+    "rank": 1,
+    "score": 0.580342114837333,
+    "page": 388,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 376
+    },
+    "text": "The Glass Ceiling\n\nThe idea that women are unable to reach the executive suite is known as the glass ceiling. It is an invisible barrier that women encounter when trying to win jobs in the highest level of business. At the beginning of 2021, for example, a record 41 of the world’s largest 500 companies were run by women. While a vast improvement over the number twenty years earlier – where only two of the companies were run by women – these 41 chief executives still only represent eight percent of those large companies (Newcomb 2020).\n\nWhy do women have a more difficult time reaching the top of a company? One idea is that there is still a stereotype in the United States that women aren’t aggressive enough to handle the boardroom or that they tend to seek jobs and work with other women (Reiners 2019). Other issues stem from the gender biases based on gender roles and motherhood discussed above."
+   },
+   {
+    "id": "openstax-sociology-3e:p0388:para:003",
+    "rank": 2,
+    "score": 0.3894054001392597,
+    "page": 388,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 376
+    },
+    "text": "Women in Politics\n\nOne of the most important places for women to help other women is in politics. Historically in the United States, like many other institutions, political representation has been mostly made up of White men. By not having women in government, their issues are being decided by people who don’t share their perspective. The number of women elected to serve in Congress has increased over the years, but does not yet accurately reflect the general population. For example, in 2018, the population of the United States was 49 percent male and 51 percent female, but the population of Congress was 78.8 percent male and 21.2 percent female (Manning 2018). Over the years, the number of women in the federal government has increased, but until it accurately reflects the population, there will be inequalities in our laws.\n\nFigure 12.12: Breakdown of Congressional Membership by Gender. 2021 saw a record number of women in Congress, with 120 women serving"
+   },
+   {
+    "id": "openstax-sociology-3e:p0388:para:002",
+    "rank": 3,
+    "score": 0.36624234006966616,
+    "page": 388,
+    "source_id": "openstax-sociology-3e",
+    "metadata": {
+     "chapter": 12,
+     "section": "12.3",
+     "section_title": "Gender and Gender Inequality",
+     "printed_page": 376
+    },
+    "text": "Another idea is that women lack mentors, executives who take an interest and get them into the right meetings and introduce them to the right people to succeed (Murrell & Blake-Beard 2017)."
+   }
+  ],
+  "top_score": 0.580342114837333
+ }
+]

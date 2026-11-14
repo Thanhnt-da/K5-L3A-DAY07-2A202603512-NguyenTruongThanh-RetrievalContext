@@ -1,0 +1,870 @@
+[
+  {
+    "query_id": "t01",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "size of American middle class since 1970s and 1980s",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0283:para:001",
+            "rank": 1,
+            "score": 0.6719984469876907,
+            "page": 283
+          },
+          {
+            "id": "openstax-sociology-3e:p0280:para:000",
+            "rank": 2,
+            "score": 0.5179119821488353,
+            "page": 280
+          },
+          {
+            "id": "openstax-sociology-3e:p0278:para:002",
+            "rank": 3,
+            "score": 0.5042198511217556,
+            "page": 278
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "size of American middle class since 1970s and 1980s",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0283:para:001",
+            "rank": 1,
+            "score": 0.6719984469876907,
+            "page": 283
+          },
+          {
+            "id": "openstax-sociology-3e:p0280:para:000",
+            "rank": 2,
+            "score": 0.5179119821488353,
+            "page": 280
+          },
+          {
+            "id": "openstax-sociology-3e:p0278:para:002",
+            "rank": 3,
+            "score": 0.5042198511217556,
+            "page": 278
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "size of American middle class since 1970s and 1980s",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0283:para:001",
+            "rank": 1,
+            "score": 0.6719984469876907,
+            "page": 283
+          },
+          {
+            "id": "openstax-sociology-3e:p0280:para:000",
+            "rank": 2,
+            "score": 0.5179119821488353,
+            "page": 280
+          },
+          {
+            "id": "openstax-sociology-3e:p0278:para:002",
+            "rank": 3,
+            "score": 0.5042198511217556,
+            "page": 278
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "size of American middle class since 1970s and 1980s",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0283:para:001",
+            "rank": 1,
+            "score": 0.6719984469876907,
+            "page": 283
+          },
+          {
+            "id": "openstax-sociology-3e:p0280:para:000",
+            "rank": 2,
+            "score": 0.5179119821488353,
+            "page": 280
+          },
+          {
+            "id": "openstax-sociology-3e:p0278:para:002",
+            "rank": 3,
+            "score": 0.5042198511217556,
+            "page": 278
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain any information about the size of the American middle class or its share of national wealth since the 1970s and 1980s."
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t02",
+    "status": "answered",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "capital flight and deindustrialization in high-income countries",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0307:para:000",
+            "rank": 1,
+            "score": 0.7476169332696292,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:001",
+            "rank": 2,
+            "score": 0.6523866883210693,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:002",
+            "rank": 3,
+            "score": 0.5869414485809907,
+            "page": 307
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0307:para:000"
+        ],
+        "context_chars": 365
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "deindustrialization in high-income countries",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0307:para:001",
+            "rank": 1,
+            "score": 0.6494527419594391,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:000",
+            "rank": 2,
+            "score": 0.6262132368343621,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0317:para:001",
+            "rank": 3,
+            "score": 0.48714923700814716,
+            "page": 317
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0307:para:000"
+        ],
+        "context_chars": 365
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "deindustrialization in high-income countries",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0307:para:001",
+            "rank": 1,
+            "score": 0.6494527419594391,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:000",
+            "rank": 2,
+            "score": 0.6262132368343621,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0317:para:001",
+            "rank": 3,
+            "score": 0.48714923700814716,
+            "page": 317
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0307:para:000"
+        ],
+        "context_chars": 365
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "deindustrialization and its relation to capital flight in high-income countries",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0307:para:000",
+            "rank": 1,
+            "score": 0.7831247194534094,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:001",
+            "rank": 2,
+            "score": 0.6740520398130159,
+            "page": 307
+          },
+          {
+            "id": "openstax-sociology-3e:p0307:para:002",
+            "rank": 3,
+            "score": 0.5170049609301499,
+            "page": 307
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0307:para:000"
+        ],
+        "context_chars": 365
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "citations": [
+      "openstax-sociology-3e:p0307:para:000"
+    ]
+  },
+  {
+    "query_id": "t03",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "model minority harm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0353:para:001",
+            "rank": 1,
+            "score": 0.5067577808493123,
+            "page": 353
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:003",
+            "rank": 2,
+            "score": 0.44194966185175233,
+            "page": 340
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:004",
+            "rank": 3,
+            "score": 0.43312748018445446,
+            "page": 340
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "model minority harm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0353:para:001",
+            "rank": 1,
+            "score": 0.5067577808493123,
+            "page": 353
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:003",
+            "rank": 2,
+            "score": 0.44194966185175233,
+            "page": 340
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:004",
+            "rank": 3,
+            "score": 0.43312748018445446,
+            "page": 340
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "model minority harm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0353:para:001",
+            "rank": 1,
+            "score": 0.5067577808493123,
+            "page": 353
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:003",
+            "rank": 2,
+            "score": 0.44194966185175233,
+            "page": 340
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:004",
+            "rank": 3,
+            "score": 0.43312748018445446,
+            "page": 340
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "model minority harm",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0353:para:001",
+            "rank": 1,
+            "score": 0.5067577808493123,
+            "page": 353
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:003",
+            "rank": 2,
+            "score": 0.44194966185175233,
+            "page": 340
+          },
+          {
+            "id": "openstax-sociology-3e:p0340:para:004",
+            "rank": 3,
+            "score": 0.43312748018445446,
+            "page": 340
+          }
+        ],
+        "context_ids": [],
+        "context_chars": 0
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain any information about why being labeled a 'model minority' can harm members of that minority group."
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t04",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "sexual double standard premarital sex definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0394:para:006",
+            "rank": 1,
+            "score": 0.6065493740664359,
+            "page": 394
+          },
+          {
+            "id": "openstax-sociology-3e:p0393:para:003",
+            "rank": 2,
+            "score": 0.47835650853731737,
+            "page": 393
+          },
+          {
+            "id": "openstax-sociology-3e:p0394:para:004",
+            "rank": 3,
+            "score": 0.4732826648933174,
+            "page": 394
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0393:para:003"
+        ],
+        "context_chars": 368
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "sexual double standard premarital sex",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0394:para:006",
+            "rank": 1,
+            "score": 0.629766949420941,
+            "page": 394
+          },
+          {
+            "id": "openstax-sociology-3e:p0393:para:003",
+            "rank": 2,
+            "score": 0.509367670975723,
+            "page": 393
+          },
+          {
+            "id": "openstax-sociology-3e:p0394:para:001",
+            "rank": 3,
+            "score": 0.501398717809363,
+            "page": 394
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0393:para:003"
+        ],
+        "context_chars": 368
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "sexual double standard premarital sex definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0394:para:006",
+            "rank": 1,
+            "score": 0.6065493740664359,
+            "page": 394
+          },
+          {
+            "id": "openstax-sociology-3e:p0393:para:003",
+            "rank": 2,
+            "score": 0.47835650853731737,
+            "page": 393
+          },
+          {
+            "id": "openstax-sociology-3e:p0394:para:004",
+            "rank": 3,
+            "score": 0.4732826648933174,
+            "page": 394
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0393:para:003"
+        ],
+        "context_chars": 368
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "sexual double standard premarital sex definition",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0394:para:006",
+            "rank": 1,
+            "score": 0.6065493740664359,
+            "page": 394
+          },
+          {
+            "id": "openstax-sociology-3e:p0393:para:003",
+            "rank": 2,
+            "score": 0.47835650853731737,
+            "page": 393
+          },
+          {
+            "id": "openstax-sociology-3e:p0394:para:004",
+            "rank": 3,
+            "score": 0.4732826648933174,
+            "page": 394
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0393:para:003"
+        ],
+        "context_chars": 368
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain information about the original definition of the sexual double standard regarding premarital sex or the conditions under which the evolved standard allows premarital sex for women compared to men."
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "t05",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "functionalist perspective excluding out-group members in-group solidarity dysfunctions",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0335:para:003",
+            "rank": 1,
+            "score": 0.6219752356733873,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0335:para:002",
+            "rank": 2,
+            "score": 0.5239452417979562,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:001",
+            "rank": 3,
+            "score": 0.49362286041966996,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:001"
+        ],
+        "context_chars": 662
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "functionalist perspective excluding out-group members in-group solidarity dysfunctions",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0335:para:003",
+            "rank": 1,
+            "score": 0.6219752356733873,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0335:para:002",
+            "rank": 2,
+            "score": 0.5239452417979562,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:001",
+            "rank": 3,
+            "score": 0.49362286041966996,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:001"
+        ],
+        "context_chars": 662
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "functionalist perspective excluding out-group members in-group solidarity dysfunctions",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0335:para:003",
+            "rank": 1,
+            "score": 0.6219752356733873,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0335:para:002",
+            "rank": 2,
+            "score": 0.5239452417979562,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:001",
+            "rank": 3,
+            "score": 0.49362286041966996,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:001"
+        ],
+        "context_chars": 662
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "functionalist perspective excluding out-group members in-group solidarity dysfunctions",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0335:para:003",
+            "rank": 1,
+            "score": 0.6219752356733873,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0335:para:002",
+            "rank": 2,
+            "score": 0.5239452417979562,
+            "page": 335
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:001",
+            "rank": 3,
+            "score": 0.49362286041966996,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:001"
+        ],
+        "context_chars": 662
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain information about how excluding out-group members strengthens in-group solidarity from a functionalist perspective or the dysfunctions this creates for society."
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "u03",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6239703646117528,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6049400249485606,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5118875966017263,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 330
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6239703646117528,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6049400249485606,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5118875966017263,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 330
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "2018 World Bank extreme poverty Mexico percentage less than $1.90 per day",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0304:para:005",
+            "rank": 1,
+            "score": 0.6239703646117528,
+            "page": 304
+          },
+          {
+            "id": "openstax-sociology-3e:p0311:para:000",
+            "rank": 2,
+            "score": 0.6049400249485606,
+            "page": 311
+          },
+          {
+            "id": "openstax-sociology-3e:p0304:para:006",
+            "rank": 3,
+            "score": 0.5118875966017263,
+            "page": 304
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0304:para:006"
+        ],
+        "context_chars": 330
+      },
+      {
+        "event": "abstain",
+        "reason": "The context does not contain the specific percentage of Mexico's population living on less than $1.90 per day according to the 2018 World Bank extreme poverty table."
+      }
+    ],
+    "citations": []
+  },
+  {
+    "query_id": "u04",
+    "status": "abstain",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "female chief executives among the world's 500 largest companies at the start of 2021",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0388:para:001",
+            "rank": 1,
+            "score": 0.5579387835130264,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:002",
+            "rank": 2,
+            "score": 0.3618942644377716,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:003",
+            "rank": 3,
+            "score": 0.3564672361653183,
+            "page": 388
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0388:para:002"
+        ],
+        "context_chars": 276
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "female chief executives among the world's 500 largest companies at the start of 2021",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0388:para:001",
+            "rank": 1,
+            "score": 0.5579387835130264,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:002",
+            "rank": 2,
+            "score": 0.3618942644377716,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:003",
+            "rank": 3,
+            "score": 0.3564672361653183,
+            "page": 388
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0388:para:002"
+        ],
+        "context_chars": 276
+      },
+      {
+        "event": "search",
+        "tool": "search:dense",
+        "query": "female chief executives among the world's 500 largest companies at the start of 2021",
+        "filter": null,
+        "top_k": 3,
+        "results": [
+          {
+            "id": "openstax-sociology-3e:p0388:para:001",
+            "rank": 1,
+            "score": 0.5579387835130264,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:002",
+            "rank": 2,
+            "score": 0.3618942644377716,
+            "page": 388
+          },
+          {
+            "id": "openstax-sociology-3e:p0388:para:003",
+            "rank": 3,
+            "score": 0.3564672361653183,
+            "page": 388
+          }
+        ],
+        "context_ids": [
+          "openstax-sociology-3e:p0388:para:002"
+        ],
+        "context_chars": 276
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain information about specific corporations led by female chief executives among the world's 500 largest companies at the start of 2021."
+      }
+    ],
+    "citations": []
+  }
+]

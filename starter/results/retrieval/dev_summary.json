@@ -1,0 +1,96 @@
+{
+  "split": "dev",
+  "index": "Day 6 pgvector, strategy B (427 chunks)",
+  "embedding": "openai text-embedding-3-small (1536d), queries cached in Day 6 embedding_cache",
+  "new_embedding_tokens": 50,
+  "embedding_calls": 2,
+  "run_at": "2026-11-14T08:30:29+00:00",
+  "summaries": [
+    {
+      "config": "R1_dense",
+      "method": "dense",
+      "use_filter": false,
+      "top_k": 3,
+      "options": {},
+      "n_answerable": 20,
+      "hit1": 13,
+      "hit3": 19,
+      "median_ms": 113.2,
+      "unanswerable_top_scores": {
+        "u01": 0.6185334977851312,
+        "u02": 0.523164341754733
+      },
+      "answerable_top1_scores_median": 0.6585,
+      "context_hit_800": 3,
+      "mean_context_chunks_800": 0.8,
+      "context_hit_2400": 19,
+      "mean_context_chunks_2400": 2.5,
+      "filter_questions": 3
+    },
+    {
+      "config": "R2_dense_filter",
+      "method": "dense",
+      "use_filter": true,
+      "top_k": 3,
+      "options": {},
+      "n_answerable": 20,
+      "hit1": 15,
+      "hit3": 19,
+      "median_ms": 59.5,
+      "unanswerable_top_scores": {
+        "u01": 0.6185334977851312,
+        "u02": 0.523164341754733
+      },
+      "answerable_top1_scores_median": 0.6554,
+      "context_hit_800": 4,
+      "mean_context_chunks_800": 0.8,
+      "context_hit_2400": 19,
+      "mean_context_chunks_2400": 2.5,
+      "filter_questions": 3
+    },
+    {
+      "config": "R3_lexical",
+      "method": "lexical",
+      "use_filter": false,
+      "top_k": 3,
+      "options": {},
+      "n_answerable": 20,
+      "hit1": 15,
+      "hit3": 17,
+      "median_ms": 53.2,
+      "unanswerable_top_scores": {
+        "u01": 1.1,
+        "u02": 1.1
+      },
+      "answerable_top1_scores_median": 1.5,
+      "context_hit_800": 5,
+      "mean_context_chunks_800": 0.35,
+      "context_hit_2400": 16,
+      "mean_context_chunks_2400": 2,
+      "filter_questions": 3
+    },
+    {
+      "config": "R4_hybrid",
+      "method": "hybrid",
+      "use_filter": false,
+      "top_k": 3,
+      "options": {
+        "dense_weight": 0.5
+      },
+      "n_answerable": 20,
+      "hit1": 16,
+      "hit3": 18,
+      "median_ms": 106.4,
+      "unanswerable_top_scores": {
+        "u01": 0.016393,
+        "u02": 0.016133
+      },
+      "answerable_top1_scores_median": 0.0164,
+      "context_hit_800": 4,
+      "mean_context_chunks_800": 0.55,
+      "context_hit_2400": 18,
+      "mean_context_chunks_2400": 2.1,
+      "filter_questions": 3
+    }
+  ]
+}

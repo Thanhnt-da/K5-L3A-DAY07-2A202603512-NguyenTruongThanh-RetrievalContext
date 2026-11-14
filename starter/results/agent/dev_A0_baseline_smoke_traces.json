@@ -1,0 +1,703 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "answerable": true,
+  "question": "How likely are students whose parents never went to college to drop out or not finish their bachelor's degree?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college drop out or not finish bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.5978871522959596,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.36233073281699646,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.3563311939978162,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college drop out or not finish bachelor's degree likelihood",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.6128555956103487,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 2,
+      "score": 0.3826982318148511,
+      "page": 282
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 3,
+      "score": 0.36434699447721974,
+      "page": 274
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "students whose parents never went to college likelihood of dropping out or not finishing bachelor's degree",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0271:para:000",
+      "rank": 1,
+      "score": 0.6286815204109337,
+      "page": 271
+     },
+     {
+      "id": "openstax-sociology-3e:p0274:para:000",
+      "rank": 2,
+      "score": 0.3910222322354897,
+      "page": 274
+     },
+     {
+      "id": "openstax-sociology-3e:p0282:para:003",
+      "rank": 3,
+      "score": 0.3874078983286786,
+      "page": 282
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0282:para:003"
+    ],
+    "context_chars": 335
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about the likelihood of students whose parents never went to college dropping out or not finishing their bachelor's degree."
+   }
+  ],
+  "queries": [
+   "students whose parents never went to college drop out or not finish bachelor's degree",
+   "students whose parents never went to college drop out or not finish bachelor's degree likelihood",
+   "students whose parents never went to college likelihood of dropping out or not finishing bachelor's degree"
+  ],
+  "final_context": "[openstax-sociology-3e:p0282:para:003 | data/Introductory Sociology 3e.pdf | page 282]\nSystemic barriers like unequal education, discrimination, and lack of opportunity can slow or diminish one's ability to move up. Still, people who earn a college degree, get a job promotion, or marry someone with a good income may move up socially.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0282:para:003"
+  ],
+  "final_context_chars": 335,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 1897,
+  "output_tokens": 122,
+  "llm_cost_usd": 0.000954,
+  "elapsed_s": 10.27,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "answerable": true,
+  "question": "In the world systems model of global inequality, how do middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with dominant and poorest countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.6004052762726578,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5958296452905671,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:003",
+      "rank": 3,
+      "score": 0.5648386546953764,
+      "page": 317
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.5652677337163184,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5480070258427631,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0285:para:002",
+      "rank": 3,
+      "score": 0.5227092756249926,
+      "page": 285
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with dominant countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:001",
+      "rank": 1,
+      "score": 0.5912087890366754,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 2,
+      "score": 0.5880817053020196,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 3,
+      "score": 0.5764742419243678,
+      "page": 317
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "world systems model middle-tier nations economic interaction with poorest countries",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0306:para:000",
+      "rank": 1,
+      "score": 0.5825148603918722,
+      "page": 306
+     },
+     {
+      "id": "openstax-sociology-3e:p0317:para:004",
+      "rank": 2,
+      "score": 0.5766866237881173,
+      "page": 317
+     },
+     {
+      "id": "openstax-sociology-3e:p0285:para:000",
+      "rank": 3,
+      "score": 0.5537681665262775,
+      "page": 285
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0306:para:000"
+    ],
+    "context_chars": 557
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about how middle-tier nations interact economically with both the wealthiest dominant countries and the poorest countries in the world systems model."
+   }
+  ],
+  "queries": [
+   "world systems model middle-tier nations economic interaction with dominant and poorest countries",
+   "world systems model middle-tier nations economic interaction",
+   "world systems model middle-tier nations economic interaction with dominant countries",
+   "world systems model middle-tier nations economic interaction with poorest countries"
+  ],
+  "final_context": "[openstax-sociology-3e:p0306:para:000 | data/Introductory Sociology 3e.pdf | page 306]\nImmanuel Wallerstein: World Systems Approach\n\nImmanuel Wallerstein’s (1979) world systems approach uses an economic basis to understand global inequality. Wallerstein conceived of the global economy as a complex system that supports an economic hierarchy that placed some nations in positions of power with numerous resources and other nations in a state of economic subordination. Those that were in a state of subordination faced significant obstacles to mobilization.",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0306:para:000"
+  ],
+  "final_context_chars": 557,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2552,
+  "output_tokens": 136,
+  "llm_cost_usd": 0.001238,
+  "elapsed_s": 7.39,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "answerable": true,
+  "question": "(Context: chapter 10) How is relative poverty defined?",
+  "filter_given": {
+   "chapter": 10
+  },
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "relative poverty definition",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.6418721978186508,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:001",
+      "rank": 2,
+      "score": 0.6068713507303952,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0310:para:002",
+      "rank": 3,
+      "score": 0.6053463285353983,
+      "page": 310
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "invalid_or_missing_citations",
+    "model_answer": "Relative poverty is defined as an economic condition in which a family or individuals have 50% income less than the average median income, sometimes called the poverty level or the poverty line.",
+    "model_citations": [
+     "openstax-sociology-3e:p0283:para:004"
+    ]
+   }
+  ],
+  "queries": [
+   "relative poverty definition"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:004 | data/Introductory Sociology 3e.pdf | page 283]\nIn the United States, poverty is most often referred to as a relative rather than absolute measurement. Absolute poverty is an economic condition in which a family or individual cannot afford basic necessities, such as food and shelter, so that day-to-day survival is in jeopardy. Relative poverty is an economic condition in which a family or individuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:004"
+  ],
+  "final_context_chars": 731,
+  "searches": 1,
+  "model_calls": 2,
+  "input_tokens": 943,
+  "output_tokens": 83,
+  "llm_cost_usd": 0.00051,
+  "elapsed_s": 2.47,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  },
+  "context_evidence": false,
+  "evidence_rule": "any"
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "answerable": false,
+  "question": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5733964613281888,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 2,
+      "score": 0.44786795456321815,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 3,
+      "score": 0.4233684958491488,
+      "page": 315
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal specific brands",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5816209739873668,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 2,
+      "score": 0.458262543865982,
+      "page": 315
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 3,
+      "score": 0.4497037831316304,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal specific brands",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5816209739873668,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 2,
+      "score": 0.458262543865982,
+      "page": 315
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 3,
+      "score": 0.4497037831316304,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "Rana Plaza Trust Fund retail companies refusal specific brands",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0302:para:003",
+      "rank": 1,
+      "score": 0.5816209739873668,
+      "page": 302
+     },
+     {
+      "id": "openstax-sociology-3e:p0315:para:001",
+      "rank": 2,
+      "score": 0.458262543865982,
+      "page": 315
+     },
+     {
+      "id": "openstax-sociology-3e:p0302:para:001",
+      "rank": 3,
+      "score": 0.4497037831316304,
+      "page": 302
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0302:para:001"
+    ],
+    "context_chars": 483
+   },
+   {
+    "event": "abstain",
+    "reason": "The provided context does not contain information about which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse."
+   }
+  ],
+  "queries": [
+   "Rana Plaza Trust Fund retail companies refusal",
+   "Rana Plaza Trust Fund retail companies refusal specific brands",
+   "Rana Plaza Trust Fund retail companies refusal specific brands",
+   "Rana Plaza Trust Fund retail companies refusal specific brands"
+  ],
+  "final_context": "[openstax-sociology-3e:p0302:para:001 | data/Introductory Sociology 3e.pdf | page 302]\nChapter Outline\n\n10.1 Global Stratification and Classification 10.2 Global Wealth and Poverty 10.3 Theoretical Perspectives on Global Stratification\n\nThe April 24, 2013 collapse of the Rana Plaza in Dhaka, Bangladesh that killed over 1,100 people, was the deadliest garment factory accident in history, and it was preventable (International Labour Organization, Department of Communication 2014).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0302:para:001"
+  ],
+  "final_context_chars": 483,
+  "searches": 4,
+  "model_calls": 5,
+  "input_tokens": 2522,
+  "output_tokens": 135,
+  "llm_cost_usd": 0.001225,
+  "elapsed_s": 6.26,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  }
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "answerable": false,
+  "question": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+  "filter_given": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời. / Not enough evidence in the documents to answer.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "search",
+    "tool": "search:dense",
+    "query": "2021 U.S. poverty line threshold household of six people",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "openstax-sociology-3e:p0283:para:004",
+      "rank": 1,
+      "score": 0.5227059170018598,
+      "page": 283
+     },
+     {
+      "id": "openstax-sociology-3e:p0311:para:000",
+      "rank": 2,
+      "score": 0.46830061029462056,
+      "page": 311
+     },
+     {
+      "id": "openstax-sociology-3e:p0304:para:005",
+      "rank": 3,
+      "score": 0.4646431107168534,
+      "page": 304
+     }
+    ],
+    "context_ids": [
+     "openstax-sociology-3e:p0283:para:004"
+    ],
+    "context_chars": 731
+   },
+   {
+    "event": "abstain",
+    "reason": "The context provides poverty line thresholds for one individual, a couple, and a family of four in 2021, but does not include the threshold for a household of six people."
+   }
+  ],
+  "queries": [
+   "2021 U.S. poverty line threshold household of six people",
+   "2021 U.S. poverty line threshold household of six people",
+   "2021 U.S. poverty line threshold household of six people"
+  ],
+  "final_context": "[openstax-sociology-3e:p0283:para:004 | data/Introductory Sociology 3e.pdf | page 283]\nIn the United States, poverty is most often referred to as a relative rather than absolute measurement. Absolute poverty is an economic condition in which a family or individual cannot afford basic necessities, such as food and shelter, so that day-to-day survival is in jeopardy. Relative poverty is an economic condition in which a family or individuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021).",
+  "final_context_ids": [
+   "openstax-sociology-3e:p0283:para:004"
+  ],
+  "final_context_chars": 731,
+  "searches": 3,
+  "model_calls": 4,
+  "input_tokens": 2162,
+  "output_tokens": 122,
+  "llm_cost_usd": 0.00106,
+  "elapsed_s": 4.36,
+  "config": {
+   "name": "A0_baseline",
+   "method": "dense",
+   "top_k": 3,
+   "budget": 800,
+   "max_searches": 4,
+   "use_filter": false,
+   "dense_weight": 0.5,
+   "model": "gpt-4.1-mini-2025-04-14",
+   "temperature": 0.0,
+   "notes": "starter defaults on the Day 6 dense index",
+   "extra": {}
+  }
+ }
+]

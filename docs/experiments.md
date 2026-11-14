@@ -67,6 +67,27 @@ Test will run **A0_baseline** (baseline) and **A6_self_check** (chosen) once eac
 Caveat: A5/A6 were designed after reading dev failures, and only 2 unanswerable dev questions exist, so the test
 unanswerable questions (u03, u04) are the independent check of the abstention fix.
 
+## Test results (run once, after commit 6883da3 fixed the choice; nothing changed afterwards)
+
+Retrieval (original question as query, 5 answerable test questions):
+
+| Config | Hit@1 | Evidence Hit@3 | Context @800 | Context @2400 |
+|---|---|---|---|---|
+| R1_dense (A0's retrieval) | 4/5 | 5/5 | 0/5 | 5/5 |
+| R2_dense_filter (A6's retrieval) | 4/5 | 5/5 | 0/5 | 5/5 |
+
+Agent (5 answerable + 2 unanswerable, 0 errors; automatic metrics - manual grading pending):
+
+| Config | Tool use | Context Evidence Rate | Answered w/ valid citations | Unanswerable abstained | False abstention | Searches (n: count) | LLM cost (USD) | Median s |
+|---|---|---|---|---|---|---|---|---|
+| A0_baseline | 7/7 | 0/5 | 1/5 | 2/2 | 4/5 | 3:2, 4:5 | 0.0078 | 6.26 |
+| A6_self_check | 7/7 | 5/5 | 5/5 | 2/2 | 0/5 | 1:6, 4:1 | 0.0081 | 2.84 |
+
+Observations: A0 repeats the same query up to 4 times because the 800-char context never grows (the first long chunk
+does not fit), then abstains; its one answer (t02) was given **without** both evidence pieces in context. A6 answered
+every answerable test question after one search and abstained on u03 (4 searches) and u04 (1 search) through the
+`abstain` tool. Whether the answers are correct and whether each citation supports its sentence is graded manually.
+
 ## Selection rule (fixed before the runs)
 
 1. **Hard constraint:** no system errors and unanswerable abstention 2/2 on dev; a config that answers an

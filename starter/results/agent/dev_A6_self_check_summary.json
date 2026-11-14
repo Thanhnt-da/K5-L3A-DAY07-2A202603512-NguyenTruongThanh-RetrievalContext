@@ -1,0 +1,45 @@
+{
+  "config": "A6_self_check",
+  "split": "dev",
+  "questions": 22,
+  "errors": 0,
+  "status": {
+    "answered": 19,
+    "abstain": 3
+  },
+  "tool_use": "22/22",
+  "searches_distribution": {
+    "1": 19,
+    "2": 1,
+    "3": 2
+  },
+  "context_evidence_rate": "19/20",
+  "answered_answerable": "19/20",
+  "abstained_unanswerable": "2/2",
+  "false_abstention": "1/20",
+  "invalid_citation_events": 1,
+  "input_tokens": 42835,
+  "output_tokens": 3469,
+  "llm_cost_usd": 0.02268,
+  "median_elapsed_s": 2.6500000000000004,
+  "mean_context_chars": 2053.2,
+  "new_embedding_tokens": 54,
+  "config_detail": {
+    "name": "A6_self_check",
+    "method": "dense",
+    "top_k": 3,
+    "budget": 2400,
+    "max_searches": 4,
+    "use_filter": true,
+    "dense_weight": 0.5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "temperature": 0.0,
+    "notes": "A5 + required context_has_exact_item flag; false -> abstention by code",
+    "extra": {
+      "strict": true,
+      "self_check": true
+    }
+  },
+  "run_at": "2026-11-14T08:48:18+00:00",
+  "subset": "all"
+}

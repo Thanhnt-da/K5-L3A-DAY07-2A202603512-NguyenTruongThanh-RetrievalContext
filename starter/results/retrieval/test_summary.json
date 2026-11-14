@@ -1,0 +1,52 @@
+{
+  "split": "test",
+  "index": "Day 6 pgvector, strategy B (427 chunks)",
+  "embedding": "openai text-embedding-3-small (1536d), queries cached in Day 6 embedding_cache",
+  "new_embedding_tokens": 192,
+  "embedding_calls": 7,
+  "run_at": "2026-11-14T09:17:20+00:00",
+  "summaries": [
+    {
+      "config": "R1_dense",
+      "method": "dense",
+      "use_filter": false,
+      "top_k": 3,
+      "options": {},
+      "n_answerable": 5,
+      "hit1": 4,
+      "hit3": 5,
+      "median_ms": 331.1,
+      "unanswerable_top_scores": {
+        "u03": 0.6700890449824148,
+        "u04": 0.580342114837333
+      },
+      "answerable_top1_scores_median": 0.6533,
+      "context_hit_800": 0,
+      "mean_context_chunks_800": 1,
+      "context_hit_2400": 5,
+      "mean_context_chunks_2400": 2.8,
+      "filter_questions": 1
+    },
+    {
+      "config": "R2_dense_filter",
+      "method": "dense",
+      "use_filter": true,
+      "top_k": 3,
+      "options": {},
+      "n_answerable": 5,
+      "hit1": 4,
+      "hit3": 5,
+      "median_ms": 66.5,
+      "unanswerable_top_scores": {
+        "u03": 0.6700890449824148,
+        "u04": 0.580342114837333
+      },
+      "answerable_top1_scores_median": 0.6533,
+      "context_hit_800": 0,
+      "mean_context_chunks_800": 1,
+      "context_hit_2400": 5,
+      "mean_context_chunks_2400": 2.8,
+      "filter_questions": 1
+    }
+  ]
+}
