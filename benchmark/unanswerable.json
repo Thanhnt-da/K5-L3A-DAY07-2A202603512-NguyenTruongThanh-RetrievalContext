@@ -1,0 +1,38 @@
+[
+  {
+    "id": "u01",
+    "split": "dev",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "question": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+    "absence_reason": "Page 302 states that Walmart ($1 million) and The Children's Place ($450,000) pledged money to the Rana Plaza Trust Fund while 'fifteen other companies with clothing made in the building chose not to', but never names any of those fifteen companies.",
+    "absence_check_terms": ["Rana Plaza", "Trust Fund", "fifteen other companies"]
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "question": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+    "absence_reason": "Page 283 only gives the 2021 poverty line thresholds for a single individual ($12,880), a couple ($17,420), and a family of four ($26,500); it never states the dollar threshold for a family or household of six.",
+    "absence_check_terms": ["12,880", "26,500", "poverty line", "ASPE 2021"]
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "question": "According to the 2018 World Bank extreme poverty table in Chapter 10, what percentage of Mexico's population lived on less than $1.90 per day?",
+    "absence_reason": "Table 10.1 (pages 304-305) lists 2018 World Bank poverty percentages (<$1.90, <$3.90, <$5.50) for ten selected countries (Colombia, Costa Rica, Georgia, Kyrgyzstan, Sierra Leone, Angola, Lithuania, Ukraine, Vietnam, Indonesia). Although Mexico is discussed on pages 306-308 as a semi-peripheral and upper-middle-income nation, its poverty rate is not in Table 10.1 or anywhere else in the corpus.",
+    "absence_check_terms": ["Table 10.1", "1.90", "Mexico"]
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "question": "Which specific corporations among the world's 500 largest companies were led by female chief executives at the start of 2021?",
+    "absence_reason": "Page 388 states that at the beginning of 2021 a record 41 of the world's largest 500 companies (8%) were run by women, but never names any of those 41 corporations or their chief executives.",
+    "absence_check_terms": ["largest 500 companies", "41", "chief executives", "glass ceiling"]
+  }
+]

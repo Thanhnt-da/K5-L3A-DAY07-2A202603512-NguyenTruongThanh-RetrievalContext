@@ -1,0 +1,270 @@
+[
+  {
+    "question": "u01",
+    "split": "dev",
+    "text": "Which specific retail companies were among the fifteen brands that refused to contribute to the Rana Plaza Trust Fund after the 2013 factory collapse?",
+    "chunks_with_terms": [
+      {
+        "term": "Rana Plaza",
+        "chunk_id": "openstax-sociology-3e:p0302:para:001",
+        "page": 302,
+        "snippet": ".2 Global Wealth and Poverty 10.3 Theoretical Perspectives on Global Stratification  The April 24, 2013 collapse of the Rana Plaza in Dhaka, Bangladesh that killed over 1,100 people, was the deadliest garment factory accident in history, and it was p"
+      },
+      {
+        "term": "Rana Plaza",
+        "chunk_id": "openstax-sociology-3e:p0302:para:003",
+        "page": 302,
+        "snippet": "32 percent of the clothing made in the collapsed Rana Plaza building was intended for U.S., Canadian, and European stores. Walmart jeans were made on the fifth floor. Clothing for"
+      },
+      {
+        "term": "Rana Plaza",
+        "chunk_id": "openstax-sociology-3e:p0302:para:003",
+        "page": 302,
+        "snippet": "he building, as well. Afterward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour an"
+      },
+      {
+        "term": "Trust Fund",
+        "chunk_id": "openstax-sociology-3e:p0302:para:003",
+        "page": 302,
+        "snippet": ", as well. Afterward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour and Human Rig"
+      },
+      {
+        "term": "fifteen other companies",
+        "chunk_id": "openstax-sociology-3e:p0302:para:003",
+        "page": 302,
+        "snippet": "ward, Walmart and The Children’s Place pledged $1 million and $450,000 (respectively) to the Rana Plaza Trust Fund, but fifteen other companies with clothing made in the building chose not to (Institute for Global Labour and Human Rights 2014).  While you read th"
+      }
+    ]
+  },
+  {
+    "question": "u02",
+    "split": "dev",
+    "text": "What was the official 2021 U.S. poverty line threshold in dollars for a household of six people?",
+    "chunks_with_terms": [
+      {
+        "term": "12,880",
+        "chunk_id": "openstax-sociology-3e:p0283:para:004",
+        "page": 283,
+        "snippet": "mes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021)."
+      },
+      {
+        "term": "26,500",
+        "chunk_id": "openstax-sociology-3e:p0283:para:004",
+        "page": 283,
+        "snippet": "021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021)."
+      },
+      {
+        "term": "poverty line",
+        "chunk_id": "openstax-sociology-3e:p0281:para:002",
+        "page": 281,
+        "snippet": "quires employers pay a minimum wage that varies from state to state, and often leave individuals and families below the poverty line. In addition to low wages, the value of the wage has not kept pace with inflation. “The real value of the federal minim"
+      },
+      {
+        "term": "poverty line",
+        "chunk_id": "openstax-sociology-3e:p0283:para:004",
+        "page": 283,
+        "snippet": "dividuals have 50% income less than the average median income. This income is sometimes called the poverty level or the poverty line. In 2021, for example, the poverty for a single individual was set at $12,880 for one individual, $17,420 for a couple,"
+      },
+      {
+        "term": "poverty line",
+        "chunk_id": "openstax-sociology-3e:p0304:para:000",
+        "page": 304,
+        "snippet": "the percentage of a nation's population living on less than $1.90 per day, which is commonly known as the International Poverty Line. (Note that United States dollars are often used as a global standard in these types of measurement.) The table in the "
+      },
+      {
+        "term": "poverty line",
+        "chunk_id": "openstax-sociology-3e:p0312:para:005",
+        "page": 312,
+        "snippet": "The world's elderly below the poverty line are also more likely to be women (World Bank 2018).  Why is this happening? While myriad variables affect women's pover"
+      },
+      {
+        "term": "ASPE 2021",
+        "chunk_id": "openstax-sociology-3e:p0283:para:004",
+        "page": 283,
+        "snippet": " for a single individual was set at $12,880 for one individual, $17,420 for a couple, and $26,500 for a family of four (ASPE 2021)."
+      }
+    ]
+  },
+  {
+    "question": "u03",
+    "split": "test",
+    "text": "According to the 2018 World Bank extreme poverty table in Chapter 10, what percentage of Mexico's population lived on less than $1.90 per day?",
+    "chunks_with_terms": [
+      {
+        "term": "Table 10.1",
+        "chunk_id": "openstax-sociology-3e:p0304:para:006",
+        "page": 304,
+        "snippet": "Table 10.1: The differences among countries is clear when considering their extreme poverty rates. For the most part, the selected"
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0304:para:000",
+        "page": 304,
+        "snippet": "arious poverty thresholds. A common measure is to consider the percentage of a nation's population living on less than $1.90 per day, which is commonly known as the International Poverty Line. (Note that United States dollars are often used as "
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0304:para:005",
+        "page": 304,
+        "snippet": "ple are living in poverty, and particularly extreme poverty, which is often defined as needing to survive on less than $1.90 per day. Fortunately, until the COVID-19 pandemic impacted economies in 2020, the extreme poverty rate had been on a 20"
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0304:para:005",
+        "page": 304,
+        "snippet": "ntage point to 9.2 percent. While a positive, that 9.2 percent is equivalent to 689 million people living on less than $1.90 a day. The same year, 24.1 percent of the world lived on less than $3.20 per day and 43.6 percent on less than $5.50 pe"
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0304:para:007",
+        "page": 304,
+        "snippet": "Country Percentage of people living on less than $1.90  Percentage of people living on less than $3.90  Percentage of people living on less than $5.50  Colombia 4.1 10.9 27.8"
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0305:para:000",
+        "page": 305,
+        "snippet": "Country Percentage of people living on less than $1.90  Percentage of people living on less than $3.90  Percentage of people living on less than $5.50  Angola 51.8 73.2 89.3 "
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0310:para:002",
+        "page": 310,
+        "snippet": "quate food, clean water, safe housing, and access to healthcare. Extreme poverty occurs when someone lives on less than 1.90 U.S dollars per day."
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0311:para:000",
+        "page": 311,
+        "snippet": "that extreme poverty level of $1.90 per day. (The previous term was \"absolute poverty.\") In 2018, the World Bank added two more measures to consider: peopl"
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0311:para:000",
+        "page": 311,
+        "snippet": "gory continues to decline, these two new categories will be important to recognize the population that lives above the $1.90 line, but still remains vulnerable to extreme poverty. Someone who begins to earn enough to live on more than $1.90 is "
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0311:para:000",
+        "page": 311,
+        "snippet": "he $1.90 line, but still remains vulnerable to extreme poverty. Someone who begins to earn enough to live on more than $1.90 is still in severe poverty and should be considered as such (Schoch 2020).  If you were forced to live on $1.90 a day, "
+      },
+      {
+        "term": "1.90",
+        "chunk_id": "openstax-sociology-3e:p0311:para:000",
+        "page": 311,
+        "snippet": "e than $1.90 is still in severe poverty and should be considered as such (Schoch 2020).  If you were forced to live on $1.90 a day, or even $5.50, how would you do it? What would you deem worthy of spending money on, and what could you do witho"
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0306:para:003",
+        "page": 306,
+        "snippet": " for raw material and an expanding middle-class marketplace for core nations, while also exploiting peripheral nations. Mexico is an example, providing abundant cheap agricultural labor to the U.S., and supplying goods to the United States market"
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0307:para:000",
+        "page": 307,
+        "snippet": " nation to another, as when General Motors automotive company closed U.S. factories in Michigan and opened factories in Mexico."
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0308:para:001",
+        "page": 308,
+        "snippet": "f Congo, Tunisia, Philippines, El Salvador, and Nepal are are examples of lower-middle-income countries. And Argentina, Mexico, China, Iran, Turkey, and Namibia are examples of upper-middle-income nations (World Bank 2021)."
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0311:para:002",
+        "page": 311,
+        "snippet": "nlicensed hack cab in New York, a piecework seamstress working from her home in Mumbai, and a street tortilla vendor in Mexico City have in common? They are all members of the underground economy, a loosely defined unregulated market unhindered b"
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0333:para:004",
+        "page": 333,
+        "snippet": "ot refer to themselves as such when they visit extended family in Japan. In a similar manner, a grouping of people from Mexico, Central America and South America—often referred to as Latinx, Latina, or Latino—may be embraced by some and rejected "
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0348:para:001",
+        "page": 348,
+        "snippet": "waiians, Chamorros, and American Samoans), as well as persons from Canadian First Nations and Indigenous communities in Mexico and Central and South America who are U.S. residents (NCAI 2020, p. 11).” Native Americans once numbered in the million"
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0356:para:003",
+        "page": 356,
+        "snippet": "ensive agricultural labor. Mexican migration was often circular; workers would stay for a few years and then go back to Mexico with more money than they could have made in their country of origin. The length of Mexico’s shared border with the Uni"
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0356:para:003",
+        "page": 356,
+        "snippet": "ew years and then go back to Mexico with more money than they could have made in their country of origin. The length of Mexico’s shared border with the United States has made immigration easier than for many other immigrant groups."
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0356:para:005",
+        "page": 356,
+        "snippet": "h deported thousands of illegal Mexican workers. From these examples, we can see the U.S. treatment of immigration from Mexico has been ambivalent at best."
+      },
+      {
+        "term": "Mexico",
+        "chunk_id": "openstax-sociology-3e:p0356:para:006",
+        "page": 356,
+        "snippet": "Sociologist Douglas Massey (2006) suggests that although the average standard of living than in Mexico may be lower in the United States, it is not so low as to make permanent migration the goal of most Mexicans. However, "
+      }
+    ]
+  },
+  {
+    "question": "u04",
+    "split": "test",
+    "text": "Which specific corporations among the world's 500 largest companies were led by female chief executives at the start of 2021?",
+    "chunks_with_terms": [
+      {
+        "term": "largest 500 companies",
+        "chunk_id": "openstax-sociology-3e:p0388:para:001",
+        "page": 388,
+        "snippet": " trying to win jobs in the highest level of business. At the beginning of 2021, for example, a record 41 of the world’s largest 500 companies were run by women. While a vast improvement over the number twenty years earlier – where only two of the companies were"
+      },
+      {
+        "term": "41",
+        "chunk_id": "openstax-sociology-3e:p0387:para:000",
+        "page": 387,
+        "snippet": "Figure 12.10: In 2017 men’s overall median earnings were $52,146 and women’s were $41,977. This means that women earned 80.1% of what  men earned in the United States. (Credit: Women’s Bureau, U.S. Departm"
+      },
+      {
+        "term": "41",
+        "chunk_id": "openstax-sociology-3e:p0388:para:001",
+        "page": 388,
+        "snippet": "men encounter when trying to win jobs in the highest level of business. At the beginning of 2021, for example, a record 41 of the world’s largest 500 companies were run by women. While a vast improvement over the number twenty years earlier –"
+      },
+      {
+        "term": "41",
+        "chunk_id": "openstax-sociology-3e:p0388:para:001",
+        "page": 388,
+        "snippet": "ile a vast improvement over the number twenty years earlier – where only two of the companies were run by women – these 41 chief executives still only represent eight percent of those large companies (Newcomb 2020).  Why do women have a more "
+      },
+      {
+        "term": "chief executives",
+        "chunk_id": "openstax-sociology-3e:p0388:para:001",
+        "page": 388,
+        "snippet": " a vast improvement over the number twenty years earlier – where only two of the companies were run by women – these 41 chief executives still only represent eight percent of those large companies (Newcomb 2020).  Why do women have a more difficult time re"
+      },
+      {
+        "term": "glass ceiling",
+        "chunk_id": "openstax-sociology-3e:p0388:para:001",
+        "page": 388,
+        "snippet": "The Glass Ceiling  The idea that women are unable to reach the executive suite is known as the glass ceiling. It is an invisible barrier "
+      },
+      {
+        "term": "glass ceiling",
+        "chunk_id": "openstax-sociology-3e:p0388:para:001",
+        "page": 388,
+        "snippet": "The Glass Ceiling  The idea that women are unable to reach the executive suite is known as the glass ceiling. It is an invisible barrier that women encounter when trying to win jobs in the highest level of business. At the begin"
+      }
+    ]
+  }
+]
